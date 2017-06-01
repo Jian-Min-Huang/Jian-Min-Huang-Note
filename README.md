@@ -1,1 +1,1 @@
-# Technical Note
+# Jian-Min Huang Note
