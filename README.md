@@ -1,3 +1,4 @@
-# Jian-Min Huang Note
+**It is a web page which consist of Jian-Min Huang's personal note .**
 
-please refer http://note.jianminhuang.cc
+
+**Please refer http://note.jianminhuang.cc .**
