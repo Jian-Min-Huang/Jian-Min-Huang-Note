@@ -1,0 +1,22 @@
+telegram download
+mattermost download
+idea download
+jdk download
+git
+sourcetree
+eclipse
+	class decompiler
+sql developer
+sublime text 3
+	html pretty
+		node
+BTT
+Welly
+Chrome
+	Postman
+	Remote Desktop
+
+gitlab
+	ssh
+jenkins
+jira
