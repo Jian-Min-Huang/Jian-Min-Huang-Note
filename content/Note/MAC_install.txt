@@ -14,7 +14,7 @@ BTT
 Welly
 Chrome
 	Postman
-	Remote Desktop
+appcleaner
 
 gitlab
 	ssh
