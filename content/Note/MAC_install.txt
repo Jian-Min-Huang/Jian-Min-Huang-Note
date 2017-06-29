@@ -11,12 +11,13 @@ sublime text 3
 	html pretty
 		node
 BTT
+	setting
 Welly
 Chrome
-	Postman
+	Remote Desktop
 appcleaner
 
 gitlab
-	ssh
+	setting ssh
 jenkins
 jira
