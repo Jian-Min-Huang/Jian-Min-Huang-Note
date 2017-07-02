@@ -1,0 +1,2 @@
+Q : GitHub Credential 
+A : /Applications/Utilities/Keychain
