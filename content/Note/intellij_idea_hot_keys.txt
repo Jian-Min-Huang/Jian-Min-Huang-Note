@@ -1,29 +1,33 @@
 # Windows
 
-Ctrl + F9      Make
-Shift + F10    Run
-Shift + F9     Debug
-Shift + F6     Rename
-
-Alt + Enter    Suggesting Action
-
-Ctrl + Y  to remove a line 
-
-Ctrl + Shift + F Finding a piece of text in all the files within the specified path
-Ctrl + Q       Class Info
-
-Ctrl + F
-Ctrl + R
-
-
 # Mac
-next occurrence		command + F3
-last occurrecnce	F3
+Cut 							command + x
+Copy 							command + c
+Paste 							command + v
+Duplicate Line or Selection		command + d
+Remove Line 					command + y
 
-go to implement		command + alt + mouse
-go to class 		command + mouse
-search files 		ctrl + shift + F
-rename 				shift + F6
+Find 							command + f
+	Next Occurrence 			F3
+	Previous Occurrence.        shift + F3
+Find in Path 					ctrl + shift + f
 
+Rename 							shift + F6
 
-maven build before run on tomcat
+Search Everywhere 				double shift
+
+Project View 					command + 1
+Run View 						command + 4
+Debug View 						command + 5
+Version Control View 			command + 9
+
+Run 							shift + F10
+Debug 							shift + F9
+
+Show Intention Actions 			alt + enter
+
+Navigate Declaraion 			command + button1
+Navigate Implementation 		command + alt + button1
+Navigate Type Declaration 		command + shift + button1
+Navigate Back 					command + alt + <-
+Navigate Forward 				command + alt + ->
