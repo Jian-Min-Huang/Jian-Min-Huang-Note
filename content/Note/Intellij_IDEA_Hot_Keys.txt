@@ -1,11 +1,14 @@
 # Windows
 
 # Mac
+Select All 						command + a
 Cut 							command + x
 Copy 							command + c
 Paste 							command + v
 Duplicate Line or Selection		command + d
 Remove Line 					command + y
+Undo Typing 					command + z
+Redo 							command + shift + z
 
 Find 							command + f
 	Next Occurrence 			F3
@@ -29,5 +32,12 @@ Show Intention Actions 			alt + enter
 Navigate Declaraion 			command + button1
 Navigate Implementation 		command + alt + button1
 Navigate Type Declaration 		command + shift + button1
-Navigate Back 					command + alt + <-
-Navigate Forward 				command + alt + ->
+Navigate Back 					command + alt + left
+Navigate Forward 				command + alt + right
+
+Column Selection Mode 			command + shift + 8
+
+Move Line Up 					alt + shift + up
+Move Line Down 					alt + shift + down
+Move Statement Up 				command + shift + up
+Move Statement Down 			command + shift + down

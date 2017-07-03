@@ -1,1 +1,12 @@
-build artifact before deploy tomcat
+Q : build artifact explodeed before deploy tomcat
+A : 
+---
+on update action update classes and resources
+on frame deactivation update classes and resources
+---
+
+
+Q : close tab
+Q : Right margin
+Q : line seprator
+Q : maven settings
