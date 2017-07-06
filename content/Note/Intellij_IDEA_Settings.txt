@@ -10,3 +10,10 @@ Q : close tab
 Q : Right margin
 Q : line seprator
 Q : maven settings
+Q : keymap database, database console, maven project
+Q : Editor Inspections Serialization Issuess
+
+plugins
+	Scala
+	Live Edit Tool
+	NodeJS

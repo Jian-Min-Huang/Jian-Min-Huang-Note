@@ -34,10 +34,16 @@ Navigate Implementation 		command + alt + button1
 Navigate Type Declaration 		command + shift + button1
 Navigate Back 					command + alt + left
 Navigate Forward 				command + alt + right
+Recent Files 					command + e
 
 Column Selection Mode 			command + shift + 8
+ alt + shift
+ alt + alt + hold
 
 Move Line Up 					alt + shift + up
 Move Line Down 					alt + shift + down
 Move Statement Up 				command + shift + up
 Move Statement Down 			command + shift + down
+
+Extend Selection 				command + w
+Shrink Selection 				command + shift + w

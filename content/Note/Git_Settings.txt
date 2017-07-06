@@ -1,2 +1,3 @@
+# GitHub check name for calculating contributions
 git config user.name=Jian-Min-Huang
 git config user.email=yfr.huang@hotmail.com
