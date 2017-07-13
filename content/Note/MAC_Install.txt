@@ -9,7 +9,8 @@ eclipse
 sql developer
 sublime text 3
 	html pretty
-		node
+		nodejs
+			npm
 BTT
 	setting
 Welly
