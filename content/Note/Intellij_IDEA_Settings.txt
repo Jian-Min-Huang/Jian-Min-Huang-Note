@@ -17,3 +17,4 @@ plugins
 	Scala
 	Live Edit Tool
 	NodeJS
+	Lombok
