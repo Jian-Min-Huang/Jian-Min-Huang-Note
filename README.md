@@ -2,3 +2,8 @@
 
 
 **Please refer http://note.jianminhuang.cc .**
+
+
+```sh
+> gulp fileinclude
+```
