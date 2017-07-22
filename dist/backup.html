@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jian-Min Huang Note">
+    <meta name="author" content="Jian-Min Huang">
+
+    <title>Jian-Min Huang Note</title>
+
+    <link rel="icon" href="./img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="./vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="./dist/css/sb-admin-2.css" rel="stylesheet">
+    <!-- Morris Charts CSS -->
+    <link href="./vendor/morrisjs/morris.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="./vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="navbar-default sidebar" role="navigation" style="margin-top: 10px">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li>
+                        <a href="index.html"><i class="fa fa-pencil-square-o fa-fw"></i> Personal Note</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-book fa-fw"></i> Tutorials<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="">Offical</a>
+                            </li>
+                            <li>
+                                <a href="">3<sup>rd</sup> Party Website &amp; Blogs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-bookmark fa-fw"></i> Helper</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-th fa-fw"></i> Frameworks<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="">Frontend</a>
+                            </li>
+                            <li>
+                                <a href="">Backend</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-flag fa-fw"></i> Common<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="">Design Pattern</a>
+                            </li>
+                            <li>
+                                <a href="">HTTP</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-coffee fa-fw"></i> Java<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="">Common</a>
+                            </li>
+                            <li>
+                                <a href="">Web</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-heart fa-fw"></i> Scala</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-database fa-fw"></i> Database<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="">Cache</a>
+                            </li>
+                            <li>
+                                <a href="">SQL</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-paper-plane fa-fw"></i> DevOps<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="">Version Control</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-gavel fa-fw"></i> Tool</a>
+                    </li>
+                </ul>
+            </div><!-- /.sidebar-collapse -->
+        </div><!-- /.navbar-static-side -->
+    </div><!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="./vendor/metisMenu/metisMenu.min.js"></script>
+    <!-- Morris Charts JavaScript -->
+    <script src="./vendor/raphael/raphael.min.js"></script>
+    <script src="./vendor/morrisjs/morris.min.js"></script>
+    <script src="./data/morris-data.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="./dist/js/sb-admin-2.js"></script>
+
+    <!-- <h1>Official Tutorials</h1>
+    <ul>
+        <li><a href="https://docs.oracle.com/javase/tutorial/index.html">The Java&trade; Tutorials</a></li>
+    </ul>
+    <h1>Tutorial Pages &amp; Blogs</h1>
+    <ul>
+        <li><a href="https://www.w3schools.com">W3Schools</a></li>
+        <li><a href="https://openhome.cc/Gossip/index.html">良葛格學習筆記</a></li>
+        <li><a href="http://tutorials.jenkov.com/">Jenkov.com</a></li>
+        <li><a href="http://www.mkyong.com/">Mkyong.com</a></li>
+        <li><a href="http://www.journaldev.com/">JournalDev.com</a></li>
+        <li><a href="http://www.javaworld.com/">JavaWorld.com</a></li>
+        <li><a href="https://www.tutorialspoint.com/index.htm">tutorialspoint.com</a></li>
+        <li><a href="https://www.petrikainulainen.net">Petri Kainulainen</a></li>
+        <li><a href="http://www.coreservlets.com">coreservlets.com</a></li>
+        <li><a href="http://www.java2s.com">java2s</a></li>
+        <li><a href="www.studytrails.com">StudyTrails</a></li>
+        <li><a href="https://www.javatpoint.com">JavaTpoint</a></li>
+        <li><a href="http://www.codedata.com.tw">CodeData</a></li>
+        <li><a href="https://ihower.tw/blog/">ihower {blogging}</a></li>
+        <li><a href="http://highscalability.squarespace.com/">High Scalability</a></li>
+        <li><a href="https://blog.jason.party/">Jason Puzzle 中勝拼圖</a></li>
+        <li><a href="https://blog.gtwang.org">G. T. Wang</a></li>
+    </ul>
+    <h1>Tools</h1>
+    <ul>
+        <li><a href="https://www.codecademy.com">Codecademy</a></li>
+        <li><a href="https://www.codeschool.com">Code School</a></li>
+        <li><a href="http://regexr.com">RegExr</a></li>
+        <li><a href="https://jsbin.com/">JS BIN</a></li>
+        <li><a href="https://jsfiddle.net">JSFiddle</a></li>
+        <li><a href="http://sqlfiddle.com">SQL Fiddle</a></li>
+    </ul>
+    <h1>Frameworks</h1>
+    <ul>
+        <li>Frontend</li>
+        <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+        <li><a href="http://materializecss.com">Materialize</a></li>
+        <li><a href="https://www.highcharts.com/demo">Highcharts</a></li>
+        <li><a href="https://d3js.org">D3</a></li>
+        http://fontawesome.io/
+        <li>Http</li>
+        <li><a href="http://hc.apache.org/index.html">Apache HttpComponents</a></li>
+        <li><a href="http://freemarker.org">FreeMaker</a></li>
+        <li><a href="http://www.thymeleaf.org">Thymeleaf</a></li>
+        <li><a href="http://wiki.sitemesh.org/wiki/display/sitemesh/Home">SiteMesh</a></li>
+        <li><a href="http://wiki.fasterxml.com/JacksonHome">Jackson</a></li>
+        <li><a href="https://jersey.github.io">Jersey</a></li>
+        <li><a href="http://cxf.apache.org">Aapache CXF</a></li>
+        <li><a href="http://www.dropwizard.io/1.1.2/docs/">Dropwizard</a></li>
+        <li>Communicate</li>
+        <li><a href="https://mina.apache.org/">MINA</a></li>
+        <li><a href="https://netty.io/">Netty</a></li>
+        <li>Message Queue</li>
+        <li><a href="http://activemq.apache.org/">ActiveMQ</a></li>
+        <li><a href="https://www.rabbitmq.com/">RabbitMQ</a></li>
+        <li>Persist</li>
+        <li><a href="http://hibernate.org">Hibernate</a></li>
+        <li><a href="http://www.jdbi.org">JDBI</a></li>
+        <li><a href="http://www.liquibase.org/index.html">Liquibase</a></li>
+        <li>Web Container</li>
+        <li><a href="https://tomcat.apache.org/">Tomcat</a></li>
+        <li><a href="http://www.eclipse.org/jetty/">Jetty</a></li>
+        <li><a href="http://www.jboss.org/">JBoss</a></li>
+        <li>Logger</li>
+        <li><a href="http://logging.apache.org/log4j/1.2/">LOG4J</a></li>
+        <li><a href="https://logging.apache.org/log4j/2.x/">LOG4J2</a></li>
+        <li><a href="https://www.slf4j.org">SLF4J</a></li>
+        <li><a href="https://logback.qos.ch">LOGBACK</a></li>
+        <li>Common</li>
+        <li><a href="http://metrics.dropwizard.io/3.2.3/">Metrics</a></li>
+        <li><a href="http://www.joda.org">Joda</a></li>
+        <li><a href="https://github.com/google/guava/wiki">Guava</a></li>
+        <li><a href="https://projectlombok.org">Lombok</a></li>
+        <li><a href="http://commons.apache.org">Apache Commons</a></li>
+        <li>Project</li>
+        <li><a href="http://ant.apache.org/">Ant</a></li>
+        <li><a href="https://maven.apache.org/">Maven</a></li>
+        <li><a href="https://gradle.org/">Gradle</a></li>
+        <li>Scala</li>
+        <li><a href="http://akka.io/">akka</a></li>
+        <li><a href="http://www.scala-sbt.org/">sbt</a></li>
+    </ul>
+    <h1>Common</h1>
+    <ul>
+        <li><a href="content/Common/Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET.htm">Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET</a></li>
+        <li><a href="content/Common/Operating System Study Guide - Chapter 5 Deadlock.htm">Operating System Study Guide - Chapter 5 Deadlock</a></li>
+        <li><a href="content/Common/Dining philosophers problem - Wikipedia.htm">Dining philosophers problem - Wikipedia</a></li>
+        <li><a href="content/Common/Thread (computing) - Wikipedia.htm">Thread (computing) - Wikipedia</a></li>
+    </ul>
+    <h1>Design Pattern</h1>
+    <ul>
+        <li><a href="content/Design Pattern/Software design pattern - Wikipedia.htm">Software design pattern - Wikipedia</a></li>
+    </ul>
+    <h1>HTTP</h1>
+    <ul>
+        <li><a href="content/HTTP/Load balancing (computing) - Wikipedia.htm">Load balancing (computing) - Wikipedia</a></li>
+        <li><a href="content/HTTP/HTTP persistent connection - Wikipedia.htm">HTTP persistent connection - Wikipedia</a></li>
+        <li><a href="content/HTTP/request - Http client timeout and server timeout - Stack Overflow.htm">request - Http client timeout and server timeout - Stack Overflow</a></li>
+        <li>Common</li>
+        <li><a href="content/HTTP/Common/HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶.htm">HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶</a></li>
+        <li><a href="content/HTTP/Common/HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET.htm">HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET</a></li>
+        <li><a href="content/HTTP/Common/Seednet教室 = = HTTP運作原理介紹(一) = =.htm">Seednet教室 = = HTTP運作原理介紹(一) = =</a></li>
+        <li><a href="content/HTTP/Common/HTTP persistent connection - Wikipedia.htm">HTTP persistent connection - Wikipedia</a></li>
+        <li><a href="content/HTTP/Common/Rewrite engine - Wikipedia.htm">Rewrite engine - Wikipedia</a></li>
+        <li><a href="content/HTTP/Common/Transport Layer Security - Wikipedia.htm">Transport Layer Security - Wikipedia</a></li>
+        <li>RESTFul</li>
+        <li><a href="content/HTTP/RESTFul/程式設計 - 簡明RESTful API設計要點 - Twincl.htm">程式設計 - 簡明RESTful API設計要點 - Twincl</a></li>
+        <li><a href="content/HTTP/RESTFul/HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }.htm">HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }</a></li>
+        <li>Security</li>
+        <li><a href="content/HTTP/Security/SQL injection - Wikipedia.htm">SQL injection - Wikipedia</a></li>
+        <li><a href="content/HTTP/Security/Cross-site scripting - Wikipedia.htm">Cross-site scripting - Wikipedia</a></li>
+        <li><a href="content/HTTP/Security/Cross-site request forgery - Wikipedia.htm">Cross-site request forgery - Wikipedia</a></li>
+    </ul>
+    <h1>Java</h1>
+    <ul>
+        <li>Common</li>
+        <li><a href="content/Java/Common/虛有其表的介面.htm">虛有其表的介面</a></li>
+        <li><a href="content/Java/Common/Call by value？.htm">Call by value？</a></li>
+        <li><a href="content/Java/Common/Excelsior  [Java] 淺談 call by value 和 call by reference.htm">Excelsior  [Java] 淺談 call by value 和 call by reference</a></li>
+        <li>Servlet</li>
+        <li><a href="content/Java/Servlet/使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang.htm">使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang</a></li>
+        <li><a href="content/Java/Servlet/Asynchronous processing support in Servlet 3.0 _ JavaWorld.htm">Asynchronous processing support in Servlet 3.0 _ JavaWorld</a></li>
+        <li><a href="content/Java/Servlet/java - What is the difference between thread per connection vs thread per request  - Stack Overflow.htm">java - What is the difference between thread per connection vs thread per request  - Stack Overflow</a></li>
+        <li><a href="content/Java/Servlet/Servlet Life Cycle.jpg">Servlet Life Cycle</a></li>
+        <li><a href="content/Java/Servlet/Servlet Filter.png">Servlet Filter</a></li>
+        <li><a href="content/Java/Servlet/servlets - Difference between JSP forward and redirect - Stack Overflow.htm">servlets - Difference between JSP forward and redirect - Stack Overflow</a></li>
+        <li><a href="content/Java/Servlet/[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET.htm">[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET</a></li>
+        <li>Concurrent</li>
+        <li><a href="content/Java/Concurrent/ThreadPoolExecutor.htm">ThreadPoolExecutor</a></li>
+        <li><a href="content/Java/Concurrent/Executors.htm">Executors</a></li>
+        <li><a href="content/Java/Concurrent/ForkJoinPool · Java多執行緒的基本知識.htm">ForkJoinPool · Java多執行緒的基本知識</a></li>
+        <li><a href="content/Java/Concurrent/Thread Life Cycle.jpg">Thread Life Cycle</a></li>
+        <li>JMeter</li>
+        <li><a href="content/Java/JMeter/Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘.htm">Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘</a></li>
+        <li>JVM</li>
+        <li><a href="content/Java/JVM/【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特.htm">【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特</a></li>
+        <li>Maven</li>
+        <li><a href="content/Java/Maven/Maven &amp; Spring.pptx">Maven &amp; Spring</a></li>
+        <li>Spring</li>
+        <li><a href="content/Java/Spring/Spring bean scopes example.htm">Spring bean scopes example</a></li>
+        <li><a href="content/Java/Spring/Spring Bean Scopes.htm">Spring Bean Scopes</a></li>
+        <li><a href="content/Java/Spring/Spring Beans Auto-Wiring.htm">Spring Beans Auto-Wiring</a></li>
+        <li><a href="content/Java/Spring/Spring Java Based Configuration">Spring Java Based Configuration</a></li>
+        <li><a href="content/Java/Spring/Spring Bean Life Cycle.htm">Spring Bean Life Cycle</a></li>
+        <li><a href="content/Java/Spring/Spring Bean Definition.htm">Spring Bean Definition</a></li>
+        <li><a href="content/Java/Spring/Spring Annotation Based Configuration.htm">Spring Annotation Based Configuration</a></li>
+        <li><a href="content/Java/Spring/Spring @Required Annotation.htm">Spring @Required Annotation</a></li>
+        <li><a href="content/Java/Spring/Maven &amp; Spring.pptx">Maven &amp; Spring.pptx</a></li>
+        <li><a href="content/Java/Spring/java - @Resource vs @Autowired - Stack Overflow.htm">java - @Resource vs @Autowired - Stack Overflow</a></li>
+        <li><a href="content/Java/Spring/Inversion of Control.png">Inversion of Control</a></li>
+        <li><a href="content/Java/Spring/Aop Concept.png">Aop Concept</a></li>
+        <li><a href="content/Java/Spring/第一個 Spring MVC 程式.htm">第一個 Spring MVC 程式 (多個Bean定義檔來源設定)</a></li>
+    </ul>
+    <h1>Scala</h1>
+    <ul>
+        <li>Akka</li>
+        <li><a href="content/Scala/Akka/Actor Lifecycle.png">Actor Lifecycle</a></li>
+        <li><a href="content/Scala/Akka/Actor Dispatcher.png">Actor Dispatcher</a></li>
+    </ul>
+    <h1>Cache</h1>
+    <ul>
+        <li><a href="content/Database/Redis/資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格.htm">Redis 簡介及應用</a></li>
+    </ul>
+    <h1>Database</h1>
+    <ul>
+        <li>Normalization</li>
+        <li><a href="content/Database/Normalization/第一正規化 - 維基百科，自由的百科全書.htm">第一正規化 - 維基百科，自由的百科</a></li>
+        <li><a href="content/Database/Normalization/第二正規化 - 維基百科，自由的百科全書.htm">第二正規化 - 維基百科，自由的百科</a></li>
+        <li><a href="content/Database/Normalization/第三正規化 - 維基百科，自由的百科全書.htm">第三正規化 - 維基百科，自由的百科</a></li>
+        <li>Index</li>
+        <li><a href="content/Database/Common/Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan.htm">Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan</a></li>
+        <li>Join</li>
+        <li><a href="content/Database/Sql/[SQL] 5 types of SQL JOIN _ Programming blog.htm">[SQL] 5 types of SQL JOIN _ Programming blog</a></li>
+        <li><a href="content/Database/Sql/[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落.htm">[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落</a></li>
+        <li><a href="content/Database/Sql/sql - Full Outer Join in MySQL - Stack Overflow.htm">sql - Full Outer Join in MySQL - Stack Overflow</a></li>
+        <li>Normalize</li>
+        <li><a href="content/Database/Common/RDBMS Normal Form.pdf">RDBMS Normal Form</a></li>
+        <li>Oracle</li>
+        <li><a href="content/Database/Oracle/Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __.htm">Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __</a></li>
+    </ul>
+    <h1>DevOps</h1>
+    <ul>
+        <li><a href="content/DevOps/CI &amp; CD/Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊.htm">Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊</a></li>
+        <li><a href="content/DevOps/CI &amp; CD/持續整合 (Continuous Integration) 簡介與應用.docx">持續整合 (Continuous Integration) 簡介與應用</a></li>
+    </ul>
+    <h1>Version Control</h1>
+    <ul>
+        <li><a href="content/Version Control/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx">版本控管(Version Control)概念 以國票證券SVN版控為例</a></li>
+        <li><a href="content/Version Control/淺談Subversion(SVN) Hook Script及其應用.docx">淺談Subversion(SVN) Hook Script及其應用</a></li>
+    </ul>
+    <h1>Tools</h1>
+    <ul>
+        <li><a href="content/Tools/The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學.htm">The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學</a></li>
+        <li><a href="content/Tools/HTML-CSS-JS Prettify - Packages - Package Control.htm">HTML-CSS-JS Prettify - Packages - Package Control</a></li>
+    </ul>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/jquery-2.1.1.min.js"></script> -->
+    </body>
+
+</html>
