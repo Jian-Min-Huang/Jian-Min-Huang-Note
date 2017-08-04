@@ -5,5 +5,14 @@
 
 
 ```sh
-> gulp fileinclude
+$ sudo npm install -g gulp
+
+$ npm install gulp
+$ npm install gulp-file-include
+$ npm install gulp-less
+$ npm install gulp-concat
+$ npm install gulp-uglify
+$ npm install gulp-rename
+
+$ gulp
 ```
