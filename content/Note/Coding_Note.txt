@@ -1,0 +1,9 @@
+# MVC
+* @Controller
+ * validate argument, process auth, transfer request 
+* @Service
+ * invoke business logic, try catch error handling 
+* @Repository
+ * handle database operation
+
+# DTO Entity VO
