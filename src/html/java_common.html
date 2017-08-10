@@ -1,59 +1,66 @@
-@@include('./header.html')
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./header.html')
+</head>
+
 <body>
-    <div id="wrapper"> 
-@@include('./nav.html')
-        <div id="page-wrapper">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Common</h1>
-                </div>
-                <!-- /.col-lg-12 -->
+<div id="wrapper">
+    @@include('./nav.html')
+
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <input id="search-input" class="form-control" placeholder="Search Keywords...">
+                <i id="search-icon" class="fa fa-search"></i>
             </div>
-            <!-- /.row -->
-            <div class="main row">
-                <ul>
-                    <li>Common</li>
-                    <li><a href="../content/Java/Common/虛有其表的介面.htm">虛有其表的介面</a></li>
-                    <li><a href="../content/Java/Common/Call by value？.htm">Call by value？</a></li>
-                    <li><a href="../content/Java/Common/Excelsior  [Java] 淺談 call by value 和 call by reference.htm">Excelsior  [Java] 淺談 call by value 和 call by reference</a></li>
-                    <li>Servlet</li>
-                    <li><a href="../content/Java/Servlet/使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang.htm">使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang</a></li>
-                    <li><a href="../content/Java/Servlet/Asynchronous processing support in Servlet 3.0 _ JavaWorld.htm">Asynchronous processing support in Servlet 3.0 _ JavaWorld</a></li>
-                    <li><a href="../content/Java/Servlet/java - What is the difference between thread per connection vs thread per request  - Stack Overflow.htm">java - What is the difference between thread per connection vs thread per request  - Stack Overflow</a></li>
-                    <li><a href="../content/Java/Servlet/Servlet Life Cycle.jpg">Servlet Life Cycle</a></li>
-                    <li><a href="../content/Java/Servlet/Servlet Filter.png">Servlet Filter</a></li>
-                    <li><a href="../content/Java/Servlet/servlets - Difference between JSP forward and redirect - Stack Overflow.htm">servlets - Difference between JSP forward and redirect - Stack Overflow</a></li>
-                    <li><a href="../content/Java/Servlet/[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET.htm">[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET</a></li>
-                    <li>Concurrent</li>
-                    <li><a href="../content/Java/Concurrent/ThreadPoolExecutor.htm">ThreadPoolExecutor</a></li>
-                    <li><a href="../content/Java/Concurrent/Executors.htm">Executors</a></li>
-                    <li><a href="../content/Java/Concurrent/ForkJoinPool · Java多執行緒的基本知識.htm">ForkJoinPool · Java多執行緒的基本知識</a></li>
-                    <li><a href="../content/Java/Concurrent/Thread Life Cycle.jpg">Thread Life Cycle</a></li>
-                    <li>JMeter</li>
-                    <li><a href="../content/Java/JMeter/Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘.htm">Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘</a></li>
-                    <li>JVM</li>
-                    <li><a href="../content/Java/JVM/【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特.htm">【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特</a></li>
-                    <li>Maven</li>
-                    <li><a href="../content/Java/Maven/Maven &amp; Spring.pptx">Maven &amp; Spring</a></li>
-                    <li>Spring</li>
-                    <li><a href="../content/Java/Spring/Spring bean scopes example.htm">Spring bean scopes example</a></li>
-                    <li><a href="../content/Java/Spring/Spring Bean Scopes.htm">Spring Bean Scopes</a></li>
-                    <li><a href="../content/Java/Spring/Spring Beans Auto-Wiring.htm">Spring Beans Auto-Wiring</a></li>
-                    <li><a href="../content/Java/Spring/Spring Java Based Configuration">Spring Java Based Configuration</a></li>
-                    <li><a href="../content/Java/Spring/Spring Bean Life Cycle.htm">Spring Bean Life Cycle</a></li>
-                    <li><a href="../content/Java/Spring/Spring Bean Definition.htm">Spring Bean Definition</a></li>
-                    <li><a href="../content/Java/Spring/Spring Annotation Based Configuration.htm">Spring Annotation Based Configuration</a></li>
-                    <li><a href="../content/Java/Spring/Spring @Required Annotation.htm">Spring @Required Annotation</a></li>
-                    <li><a href="../content/Java/Spring/Maven &amp; Spring.pptx">Maven &amp; Spring.pptx</a></li>
-                    <li><a href="../content/Java/Spring/java - @Resource vs @Autowired - Stack Overflow.htm">java - @Resource vs @Autowired - Stack Overflow</a></li>
-                    <li><a href="../content/Java/Spring/Inversion of Control.png">Inversion of Control</a></li>
-                    <li><a href="../content/Java/Spring/Aop Concept.png">Aop Concept</a></li>
-                    <li><a href="../content/Java/Spring/第一個 Spring MVC 程式.htm">第一個 Spring MVC 程式 (多個Bean定義檔來源設定)</a></li>
-                </ul>
-            </div>
-            <!-- /.row -->
         </div>
-        <!-- /#page-wrapper -->
+        <div id="main" class="row">
+            <ul>
+                <li>Common</li>
+                <li><a href="../content/Java/Common/虛有其表的介面.htm">虛有其表的介面</a></li>
+                <li><a href="../content/Java/Common/Call by value？.htm">Call by value？</a></li>
+                <li><a href="../content/Java/Common/Excelsior  [Java] 淺談 call by value 和 call by reference.htm">Excelsior  [Java] 淺談 call by value 和 call by reference</a></li>
+                <li>Servlet</li>
+                <li><a href="../content/Java/Servlet/使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang.htm">使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang</a></li>
+                <li><a href="../content/Java/Servlet/Asynchronous processing support in Servlet 3.0 _ JavaWorld.htm">Asynchronous processing support in Servlet 3.0 _ JavaWorld</a></li>
+                <li><a href="../content/Java/Servlet/java - What is the difference between thread per connection vs thread per request  - Stack Overflow.htm">java - What is the difference between thread per connection vs thread per request  - Stack Overflow</a></li>
+                <li><a href="../content/Java/Servlet/Servlet Life Cycle.jpg">Servlet Life Cycle</a></li>
+                <li><a href="../content/Java/Servlet/Servlet Filter.png">Servlet Filter</a></li>
+                <li><a href="../content/Java/Servlet/servlets - Difference between JSP forward and redirect - Stack Overflow.htm">servlets - Difference between JSP forward and redirect - Stack Overflow</a></li>
+                <li><a href="../content/Java/Servlet/[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET.htm">[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET</a></li>
+                <li>Concurrent</li>
+                <li><a href="../content/Java/Concurrent/ThreadPoolExecutor.htm">ThreadPoolExecutor</a></li>
+                <li><a href="../content/Java/Concurrent/Executors.htm">Executors</a></li>
+                <li><a href="../content/Java/Concurrent/ForkJoinPool · Java多執行緒的基本知識.htm">ForkJoinPool · Java多執行緒的基本知識</a></li>
+                <li><a href="../content/Java/Concurrent/Thread Life Cycle.jpg">Thread Life Cycle</a></li>
+                <li>JMeter</li>
+                <li><a href="../content/Java/JMeter/Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘.htm">Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘</a></li>
+                <li>JVM</li>
+                <li><a href="../content/Java/JVM/【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特.htm">【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特</a></li>
+                <li>Maven</li>
+                <li><a href="../content/Java/Maven/Maven &amp; Spring.pptx">Maven &amp; Spring</a></li>
+                <li>Spring</li>
+                <li><a href="../content/Java/Spring/Spring bean scopes example.htm">Spring bean scopes example</a></li>
+                <li><a href="../content/Java/Spring/Spring Bean Scopes.htm">Spring Bean Scopes</a></li>
+                <li><a href="../content/Java/Spring/Spring Beans Auto-Wiring.htm">Spring Beans Auto-Wiring</a></li>
+                <li><a href="../content/Java/Spring/Spring Java Based Configuration">Spring Java Based Configuration</a></li>
+                <li><a href="../content/Java/Spring/Spring Bean Life Cycle.htm">Spring Bean Life Cycle</a></li>
+                <li><a href="../content/Java/Spring/Spring Bean Definition.htm">Spring Bean Definition</a></li>
+                <li><a href="../content/Java/Spring/Spring Annotation Based Configuration.htm">Spring Annotation Based Configuration</a></li>
+                <li><a href="../content/Java/Spring/Spring @Required Annotation.htm">Spring @Required Annotation</a></li>
+                <li><a href="../content/Java/Spring/Maven &amp; Spring.pptx">Maven &amp; Spring.pptx</a></li>
+                <li><a href="../content/Java/Spring/java - @Resource vs @Autowired - Stack Overflow.htm">java - @Resource vs @Autowired - Stack Overflow</a></li>
+                <li><a href="../content/Java/Spring/Inversion of Control.png">Inversion of Control</a></li>
+                <li><a href="../content/Java/Spring/Aop Concept.png">Aop Concept</a></li>
+                <li><a href="../content/Java/Spring/第一個 Spring MVC 程式.htm">第一個 Spring MVC 程式 (多個Bean定義檔來源設定)</a></li>
+            </ul>
+        </div>
     </div>
-    <!-- /#wrapper -->
+</div>
+
 @@include('./footer.html')
+</body>
+
+</html>

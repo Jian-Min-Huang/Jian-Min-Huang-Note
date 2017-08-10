@@ -1,4 +1,4 @@
-.main {
+#main {
   min-height: 800px;
 }
 .item {
@@ -7,4 +7,17 @@
   min-width: 100%;
   margin: 10px;
   background: #EEE;
+}
+#search-input {
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 23px;
+}
+#search-icon {
+  font-size: 18px;
+  position: relative;
+  top: -27px;
+  left: 10px;
 }

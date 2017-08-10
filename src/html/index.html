@@ -1,20 +1,28 @@
-@@include('./header.html')
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./header.html')
+</head>
+
 <body>
-    <div id="wrapper"> 
-@@include('./nav.html')
-	<div id="page-wrapper">
-            <div class="row">
-                <blockquote style="margin-top: 5px">
-                    <p>Programming always encounters many challenges, but still I love it. I put a lot of effort into learning and coding. Trying to be a powerful full-stack engineer and architecturer !</p>
-                    <footer>Jian Min Huang</footer>
-                </blockquote>
-            </div>
-            <div class="main row">
-                <img src="./img/mario.gif" class="img-rounded" style="width: 55%;display: block;margin: 0 auto;padding-top: 5px">
-            </div>
-            <!-- /.row -->
+<div id="wrapper">
+    @@include('./nav.html')
+
+    <div id="page-wrapper">
+        <div class="row">
+            <blockquote style="margin-top: 5px">
+                <p>Programming always encounters many challenges, but still I love it. I put a lot of effort into learning and coding. Trying to be a powerful full-stack engineer and architecturer !</p>
+                <footer>Jian Min Huang</footer>
+            </blockquote>
         </div>
-        <!-- /#page-wrapper -->
+        <div id="main" class="row">
+            <img src="./img/mario.gif" class="img-rounded" style="width: 55%;display: block;margin: 0 auto;padding-top: 5px">
+        </div>
     </div>
-    <!-- /#wrapper -->
+</div>
+
 @@include('./footer.html')
+</body>
+
+</html>
