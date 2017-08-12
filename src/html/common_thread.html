@@ -2,32 +2,19 @@
 <html lang="en">
 
 <head>
-    @@include('./header.html')
+    @@include("./header.html")
 </head>
 
 <body>
 <div id="wrapper">
-    @@include('./nav.html')
+    @@include("./nav.html")
 
     <div id="page-wrapper">
-        <div class="row">
-            <div class="col-lg-12">
-                <input id="search-input" class="form-control" placeholder="Search Keywords...">
-                <i id="search-icon" class="fa fa-search"></i>
-            </div>
-        </div>
-        <div id="main" class="row">
-            <ul>
-                <li><a href="../content/Common/Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET.htm">Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET</a></li>
-                <li><a href="../content/Common/Operating System Study Guide - Chapter 5 Deadlock.htm">Operating System Study Guide - Chapter 5 Deadlock</a></li>
-                <li><a href="../content/Common/Dining philosophers problem - Wikipedia.htm">Dining philosophers problem - Wikipedia</a></li>
-                <li><a href="../content/Common/Thread (computing) - Wikipedia.htm">Thread (computing) - Wikipedia</a></li>
-            </ul>
-        </div>
+        @@include("./content.html")
     </div>
 </div>
 
-@@include('./footer.html')
+@@include("./footer.html")
 </body>
 
 </html>

@@ -2,45 +2,19 @@
 <html lang="en">
 
 <head>
-    @@include('./header.html')
+    @@include("./header.html")
 </head>
 
 <body>
 <div id="wrapper">
-    @@include('./nav.html')
+    @@include("./nav.html")
 
     <div id="page-wrapper">
-        <div class="row">
-            <div class="col-lg-12">
-                <input id="search-input" class="form-control" placeholder="Search Keywords...">
-                <i id="search-icon" class="fa fa-search"></i>
-            </div>
-        </div>
-        <div id="main" class="row">
-            <ul>
-                <li><a href="../content/HTTP/Load balancing (computing) - Wikipedia.htm">Load balancing (computing) - Wikipedia</a></li>
-                <li><a href="../content/HTTP/HTTP persistent connection - Wikipedia.htm">HTTP persistent connection - Wikipedia</a></li>
-                <li><a href="../content/HTTP/request - Http client timeout and server timeout - Stack Overflow.htm">request - Http client timeout and server timeout - Stack Overflow</a></li>
-                <li>Common</li>
-                <li><a href="../content/HTTP/Common/HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶.htm">HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶</a></li>
-                <li><a href="../content/HTTP/Common/HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET.htm">HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET</a></li>
-                <li><a href="../content/HTTP/Common/Seednet教室 = = HTTP運作原理介紹(一) = =.htm">Seednet教室 = = HTTP運作原理介紹(一) = =</a></li>
-                <li><a href="../content/HTTP/Common/HTTP persistent connection - Wikipedia.htm">HTTP persistent connection - Wikipedia</a></li>
-                <li><a href="../content/HTTP/Common/Rewrite engine - Wikipedia.htm">Rewrite engine - Wikipedia</a></li>
-                <li><a href="../content/HTTP/Common/Transport Layer Security - Wikipedia.htm">Transport Layer Security - Wikipedia</a></li>
-                <li>RESTFul</li>
-                <li><a href="../content/HTTP/RESTFul/程式設計 - 簡明RESTful API設計要點 - Twincl.htm">程式設計 - 簡明RESTful API設計要點 - Twincl</a></li>
-                <li><a href="../content/HTTP/RESTFul/HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }.htm">HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }</a></li>
-                <li>Security</li>
-                <li><a href="../content/HTTP/Security/SQL injection - Wikipedia.htm">SQL injection - Wikipedia</a></li>
-                <li><a href="../content/HTTP/Security/Cross-site scripting - Wikipedia.htm">Cross-site scripting - Wikipedia</a></li>
-                <li><a href="../content/HTTP/Security/Cross-site request forgery - Wikipedia.htm">Cross-site request forgery - Wikipedia</a></li>
-            </ul>
-        </div>
+        @@include("./content.html")
     </div>
 </div>
 
-@@include('./footer.html')
+@@include("./footer.html")
 </body>
 
 </html>
