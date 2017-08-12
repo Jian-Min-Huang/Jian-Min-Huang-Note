@@ -1,13 +1,17 @@
 var notes = [];
-notes.push({title: "coding", href: "../content/Note/Coding_Note.txt", text: "Coding Note"});
-notes.push({title: "git", href: "../content/Note/Git_Settings.txt", text: "Git Settings"});
-notes.push({title: "mac", href: "../content/Note/MAC_Install.txt", text: "MAC Install"});
-notes.push({title: "mac", href: "../content/Note/MAC_Settings.txt", text: "MAC Settings"});
-notes.push({title: "oracle", href: "../content/Note/Oracle.txt", text: "Oracle"});
+notes.push({href: "../content/Notes/Coding_Note.txt", text: "Coding Note"});
+notes.push({href: "../content/Notes/Git_Settings.txt", text: "Git Settings"});
+notes.push({href: "../content/Notes/Intellij_IDEA_Hot_Keys.txt", text: "Intellij IDEA Hot Keys"});
+notes.push({href: "../content/Notes/Intellij_IDEA_Settings.txt", text: "Intellij IDEA Settings"});
+notes.push({href: "../content/Notes/MAC_Install.txt", text: "MAC Install"});
+notes.push({href: "../content/Notes/MAC_Settings.txt", text: "MAC Settings"});
+notes.push({href: "../content/Notes/Oracle.txt", text: "Oracle"});
+notes.push({href: "../content/Notes/Unix_Like_Terminal_Settings.txt", text: "Unix Like Terminal Settings"});
+notes.push({href: "../content/Notes/vim.txt", text: "vim"});
 
 $(function () {
-    $("#search-input").keyup(function () {
-        var keyword = $("#search-input").val().trim().toLowerCase();
+    var filterFunc = function() {
+        var keyword = $(this).val().trim().toLowerCase();
 
         if (keyword === "") {
             $(".item").each(function (index, element) {
@@ -22,15 +26,27 @@ $(function () {
                 }
             });
         }
+    };
+
+    $("#search-input").keyup(filterFunc);
+
+    $(".quick-tag").click(filterFunc);
+
+    $("#quick-tag-clear").click(function () {
+        $(".item").each(function (index, element) {
+            $(element).show();
+        });
     });
-    // $(".quick-tag").onclick(function () {
-    //
-    // });
+
+    var pathname = window.location.pathname;
+    var path = pathname.substring(pathname.indexOf("build/") + 6, pathname.indexOf(".html"));
+
+    var contents = eval(eval("path"));
 
     var html = "";
-    notes.forEach(function (element) {
-        html += "<div class=\"item\" title=\"" + element.title + "\"><a href=\"" + element.href + "\">" + element.text + "</a></div>";
+    contents.forEach(function (element) {
+        html += "<div class=\"item\"><a href=\"" + element.href + "\">" + element.text + "</a></div>";
     });
 
-    $("#main_t").append(html);
+    $("#main").append(html);
 });
