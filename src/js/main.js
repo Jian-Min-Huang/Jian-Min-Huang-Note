@@ -7,6 +7,8 @@ var notes = [
     {href: "../content/Notes/MAC_Settings.txt", text: "MAC Settings"},
     {href: "../content/Notes/Oracle.txt", text: "Oracle"},
     {href: "../content/Notes/Unix_Like_Terminal_Settings.txt", text: "Unix Like Terminal Settings"},
+    {href: "../content/Notes/bash.txt", text: "bash"},
+    {href: "../content/Notes/issues_and_concepts.txt", text: "Issues And Concepts"},
     {href: "../content/Notes/vim.txt", text: "vim"}
 ];
 
@@ -113,13 +115,19 @@ var frameworks_backend = [
     {href: "http://akka.io/", text: "akka"},
     {href: "http://www.scala-sbt.org/", text: "sbt"},
     {href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
+    // https://kafka.apache.org/
+    // https://spark.apache.org/
+    // http://storm.apache.org/
+    // https://rocketmq.apache.org/
+    // https://redis.io/
+    // http://cassandra.apache.org/
 ];
 
 var frameworks_system = [
+    {href: "https://nginx.org/", text: "NGINX"},
+    {href: "https://httpd.apache.org/", text: "Apache HTTP"},
+    {href: "https://www.docker.com/", text: "docker"},
     {href: "https://kubernetes.io/", text: "kubernetes"}
-    //docker
-    //nginx
-    //apache
 ];
 
 var common_thread = [

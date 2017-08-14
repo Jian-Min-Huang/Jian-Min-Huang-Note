@@ -1,3 +1,50 @@
+# 烏托邦
+好看 (漂亮的UI)
+好用	(良好的UX, 明確的需求)
+好寫	(適合的工具及函式庫)
+好讀	(清晰的架構，一致的 Coding Style)
+好改	(高內聚低耦合)
+好測	(易測的架構)
+
+>>> 系統結構 <<<
+負載平衡
+
+*|-表現層
+ | 控制層
+ | 服務層 *快取層 通訊層
+ |-持久層
+
+*資料庫
+
+# Naming Conversions
+com.${TEAM_NAME}.${PROJECT_NAME}.${LANGUAGE}.XXX
+org.${TEAM_NAME}.${PROJECT_NAME}.${LANGUAGE}.XXX
+simpleVariable
+simpleVariable_Unit
+xxxController
+xxxService
+xxxRepository
+    insert(xxxDto) : int
+    select(...) : int
+    select(...) : List[xxxEntity]
+    update(xxxDto) : int
+    delete(xxxDto) : int
+database-name
+table_name
+${COLUMN_TYPE}_COLUMN_NAME
+
+# Object member order
+fields
+constructors
+methods
+getter/setter
+private class
+
+# Style
+x Constant obey encapsulation rule, cause low cohesion and high coupling
+x xxxUtil obey delegation rule, cause high coupling and duplicate code
+o xxxDto as argument can decrease amount of arguments
+
 # MVC
 * @Controller
  * validate argument, process auth, transfer request 
@@ -7,3 +54,6 @@
  * handle database operation
 
 # DTO Entity VO
+xxxDto means this object transfer between each module
+xxxVo means this object don't have method
+xxxEntity represents database copy in memory
