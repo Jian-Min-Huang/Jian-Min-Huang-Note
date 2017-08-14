@@ -119,15 +119,42 @@ var frameworks_backend = [
     // https://spark.apache.org/
     // http://storm.apache.org/
     // https://rocketmq.apache.org/
-    // https://redis.io/
-    // http://cassandra.apache.org/
+    // spring
+    // quartz
+    // ehcache
+    // slick
+    // junit
+    // scalatest
+    // jmeter
+    // jamon
+    // spray
+    // play
+    // mapstruct
+    // drools
+    // scalajs
 ];
 
 var frameworks_system = [
+    // https://redis.io/
+    // rethinkdb
+    // mysql
+    // oracle
+    // http://cassandra.apache.org/
+    // ignite
+    // jenkins
+    // travis ci
     {href: "https://nginx.org/", text: "NGINX"},
     {href: "https://httpd.apache.org/", text: "Apache HTTP"},
     {href: "https://www.docker.com/", text: "docker"},
     {href: "https://kubernetes.io/", text: "kubernetes"}
+];
+
+var services = [
+    // aws
+    // gce
+    // heroku
+    // godaddy
+    {href: "", text: ""}
 ];
 
 var common_thread = [
@@ -245,6 +272,7 @@ var helpers_tags = [];
 var frameworks_frontend_tags = [];
 var frameworks_backend_tags = [];
 var frameworks_system_tags = [];
+var services_tags = [];
 var common_thread_tags = [];
 var common_design_pattern_tags = [];
 var common_http_tags = [];
