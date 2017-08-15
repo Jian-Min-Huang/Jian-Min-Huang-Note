@@ -16,7 +16,11 @@ BTT
 Welly
 Chrome
 	Remote Desktop
+	Postman
 appcleaner
+homebrew
+nginx
+
 
 gitlab
 	setting ssh

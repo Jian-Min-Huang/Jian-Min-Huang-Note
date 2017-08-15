@@ -57,3 +57,13 @@ o xxxDto as argument can decrease amount of arguments
 xxxDto means this object transfer between each module
 xxxVo means this object don't have method
 xxxEntity represents database copy in memory
+
+# Special Object
+* Bo
+* Dao
+* Vo
+* Dto
+* Entity
+
+vo 互轉的學問
+一個中心控全部 調配任務概念
