@@ -28,11 +28,15 @@ var notes = [
     {href: "../content/Notes/MAC_Settings.txt", text: "MAC Settings"},
     {href: "../content/Notes/Oracle.txt", text: "Oracle"},
     {href: "../content/Notes/Unix_Like_Terminal_Settings.txt", text: "Unix Like Terminal Settings"},
+    {href: "../content/Notes/bash.txt", text: "bash"},
+    {href: "../content/Notes/issues_and_concepts.txt", text: "Issues And Concepts"},
+    {href: "../content/Notes/Note_Why.txt", text: "Note Why"},
     {href: "../content/Notes/vim.txt", text: "vim"}
 ];
 
 var tutorials_official = [
     {href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"}
+    //https://docs.oracle.com/en/database/
 ];
 
 var tutorials_3rd_party = [
@@ -64,6 +68,7 @@ var helpers = [
     {href: "http://sqlfiddle.com", text: "SQL Fiddle"},
     {href: "http://bootstrap.hexschool.com", text: "Bootstrap Document"},
     {href: "https://swagger.io/", text: "Swagger"},
+    {href: "https://bootsnipp.com", text: "Bootsnipp"},
     {href: "https://developer.mozilla.org/", text: "MDN web docs"}
 ];
 
@@ -134,13 +139,47 @@ var frameworks_backend = [
     {href: "http://akka.io/", text: "akka"},
     {href: "http://www.scala-sbt.org/", text: "sbt"},
     {href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
+    // https://kafka.apache.org/
+    // https://spark.apache.org/
+    // http://storm.apache.org/
+    // https://rocketmq.apache.org/
+    // spring
+    // quartz
+    // ehcache
+    // slick
+    // junit
+    // scalatest
+    // jmeter
+    // jamon
+    // spray
+    // play
+    // mapstruct
+    // drools
+    // scalajs
 ];
 
 var frameworks_system = [
+    // https://redis.io/
+    // rethinkdb
+    // oracle
+    // mysql
+    // oracle
+    // http://cassandra.apache.org/
+    // ignite
+    // jenkins
+    // travis ci
+    {href: "https://nginx.org/", text: "NGINX"},
+    {href: "https://httpd.apache.org/", text: "Apache HTTP"},
+    {href: "https://www.docker.com/", text: "docker"},
     {href: "https://kubernetes.io/", text: "kubernetes"}
-    //docker
-    //nginx
-    //apache
+];
+
+var services = [
+    // aws
+    // gce
+    // heroku
+    // godaddy
+    {href: "", text: ""}
 ];
 
 var common_thread = [
@@ -258,6 +297,7 @@ var helpers_tags = [];
 var frameworks_frontend_tags = [];
 var frameworks_backend_tags = [];
 var frameworks_system_tags = [];
+var services_tags = [];
 var common_thread_tags = [];
 var common_design_pattern_tags = [];
 var common_http_tags = [];
