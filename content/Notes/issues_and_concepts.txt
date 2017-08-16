@@ -89,6 +89,7 @@ Referential Transparent
 Tail Recursion
 Higher Order Function
 diamond problem
+RAC
 
 # Famous Person & Organization
 Apache Software Foundation

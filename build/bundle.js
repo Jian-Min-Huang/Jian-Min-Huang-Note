@@ -69,7 +69,8 @@ var helpers = [
     {href: "http://bootstrap.hexschool.com", text: "Bootstrap Document"},
     {href: "https://swagger.io/", text: "Swagger"},
     {href: "https://bootsnipp.com", text: "Bootsnipp"},
-    {href: "https://developer.mozilla.org/", text: "MDN web docs"}
+    {href: "https://developer.mozilla.org/", text: "MDN web docs"},
+    {href: "https://start.spring.io", text: "SPRING INITIALIZR"}
 ];
 
 var frameworks_frontend = [
@@ -278,14 +279,19 @@ var devops_ci_cd = [
     {href: "../content/DevOps/CI &amp; CD/持續整合 (Continuous Integration) 簡介與應用.docx", text: "持續整合 (Continuous Integration) 簡介與應用"}
 ];
 
+var devops_docker = [
+    {href: "../content/DevOps/Docker/docker-note-book.pdf", text: "Docker Notebook"}
+];
+
 var devops_version_control = [
-    {href: "../content/Version Control/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例"},
-    {href: "../content/Version Control/淺談Subversion(SVN) Hook Script及其應用.docx", text: "淺談Subversion(SVN) Hook Script及其應用"}
+    {href: "../content/DevOps/Version Control/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例"},
+    {href: "../content/DevOps/Version Control/淺談Subversion(SVN) Hook Script及其應用.docx", text: "淺談Subversion(SVN) Hook Script及其應用"}
 ];
 
 var tools = [
     {href: "https://brew.sh/index_zh-tw.html", text: "Homebrew"},
     {href: "http://shields.io/", text: "Quality metadata badges for open source projects"},
+    {href: "../content/Tools/dev-notes.pdf", text: "dev-notes nginx"},
     {href: "../content/Tools/The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學.htm", text: "The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學"},
     {href: "../content/Tools/HTML-CSS-JS Prettify - Packages - Package Control.htm", text: "HTML-CSS-JS Prettify - Packages - Package Control"}
 ];
@@ -306,6 +312,7 @@ var scala_tags = [];
 var database_cache_tags = [];
 var database_sql_tags = [];
 var devops_ci_cd_tags = [];
+var devops_docker_tags = [];
 var devops_version_control_tags = [];
 var tools_tags = [];
 
