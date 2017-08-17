@@ -48,6 +48,7 @@ var helpers = [
     {href: "http://bootstrap.hexschool.com", text: "Bootstrap Document"},
     {href: "https://swagger.io/", text: "Swagger"},
     {href: "https://bootsnipp.com", text: "Bootsnipp"},
+    {href: "http://shields.io/", text: "Quality metadata badges for open source projects"},
     {href: "https://developer.mozilla.org/", text: "MDN web docs"},
     {href: "https://start.spring.io", text: "SPRING INITIALIZR"}
 ];
@@ -269,10 +270,12 @@ var devops_version_control = [
 
 var tools = [
     {href: "https://brew.sh/index_zh-tw.html", text: "Homebrew"},
-    {href: "http://shields.io/", text: "Quality metadata badges for open source projects"},
     {href: "../content/Tools/dev-notes.pdf", text: "dev-notes nginx"},
     {href: "../content/Tools/The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學.htm", text: "The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學"},
-    {href: "../content/Tools/HTML-CSS-JS Prettify - Packages - Package Control.htm", text: "HTML-CSS-JS Prettify - Packages - Package Control"}
+    {href: "../content/Tools/HTML-CSS-JS Prettify - Packages - Package Control.htm", text: "HTML-CSS-JS Prettify - Packages - Package Control"},
+    {href: "../content/Tools/Bit Twiddling Hacks.htm", text: "Bit Twiddling Hacks"},
+    {href: "../content/Tools/Intellij IDEA – Auto reload a web application (hot deploy).htm", text: "Intellij IDEA – Auto reload a web application (hot deploy)"},
+    {href: "../content/Tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm", text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm"}
 ];
 
 var notes_tags = ["coding", "mac"];
