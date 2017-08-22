@@ -16,7 +16,7 @@ BTT
 Welly
 Chrome
 	Remote Desktop
-	Postman
+	Postman # backup
 appcleaner
 homebrew
 nginx
