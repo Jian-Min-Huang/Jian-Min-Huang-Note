@@ -15,11 +15,11 @@ var JsFileDependency = [
     "./src/js/*.js"
 ];
 
-var CssFileDependency = [ 
-    "./vendors/bootstrap/css/bootstrap.min.css",
-    "./vendors/font-awesome/css/font-awesome.min.css",
-    "./vendors/metisMenu/metisMenu.min.css"
-];
+// var CssFileDependency = [
+//     "./vendors/bootstrap/css/bootstrap.min.css",
+//     "./vendors/font-awesome/css/font-awesome.min.css",
+//     "./vendors/metisMenu/metisMenu.min.css"
+// ];
 
 gulp.task("less", function() {
     gulp.src(SRC + "/less/*.less")
@@ -42,19 +42,10 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(DEST));
 });
 
-gulp.task('styles', function() {
-    gulp.src(CssFileDependency)
-        .pipe(concat('bundle.css'))
-        .pipe(gulp.dest(DEST));
-});
+// gulp.task('styles', function() {
+//     gulp.src(CssFileDependency)
+//         .pipe(concat('bundle.css'))
+//         .pipe(gulp.dest(DEST));
+// });
 
-gulp.task('scripts:build', function() {
-    gulp.src(jsFileDependency)
-        .pipe(concat('bundle.js'))
-        .pipe(gulp.dest(DEST))
-        .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest(DEST));
-});
-
-gulp.task("default",["less","fileinclude","scripts","styles"]);
-
+gulp.task("default",["less","fileinclude","scripts"]);

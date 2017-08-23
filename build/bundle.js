@@ -35,8 +35,8 @@ var notes = [
 ];
 
 var tutorials_official = [
-    {href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"}
-    //https://docs.oracle.com/en/database/
+    {href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"},
+    {href: "https://docs.oracle.com/en/database/", text: "ORACLE Help Center"}
 ];
 
 var tutorials_3rd_party = [
@@ -50,7 +50,7 @@ var tutorials_3rd_party = [
     {href: "https://www.petrikainulainen.net", text: "Petri Kainulainen"},
     {href: "http://www.coreservlets.com", text: "coreservlets.com"},
     {href: "http://www.java2s.com", text: "java2s"},
-    {href: "www.studytrails.com", text: "StudyTrails"},
+    {href: "http://www.studytrails.com", text: "StudyTrails"},
     {href: "https://www.javatpoint.com", text: "JavaTpoint"},
     {href: "http://www.codedata.com.tw", text: "CodeData"},
     {href: "https://ihower.tw/blog/", text: "ihower {blogging}"},
@@ -89,6 +89,7 @@ var frameworks_frontend = [
     {href: "https://jsx.github.io", text: "JSX"},
     {href: "https://babeljs.io", text: "BABEL"},
     {href: "http://getbootstrap.com/", text: "Bootstrap"},
+    {href: "https://purecss.io", text: "PURE"},
     {href: "http://materializecss.com", text: "Materialize"},
     {href: "http://fontawesome.io", text: "Font Awesome"},
     {href: "https://www.highcharts.com/demo", text: "Highcharts"},
@@ -140,11 +141,11 @@ var frameworks_backend = [
     {href: "https://gradle.org/", text: "Gradle"},
     {href: "http://akka.io/", text: "akka"},
     {href: "http://www.scala-sbt.org/", text: "sbt"},
+    {href: "https://kafka.apache.org/", text: "kafka"},
+    {href: "https://spark.apache.org/", text: "Spark"},
+    {href: "http://storm.apache.org/", text: "STORM"},
+    {href: "https://rocketmq.apache.org/", text: "RocketMQ"},
     {href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
-    // https://kafka.apache.org/
-    // https://spark.apache.org/
-    // http://storm.apache.org/
-    // https://rocketmq.apache.org/
     // spring
     // quartz
     // ehcache
@@ -161,17 +162,20 @@ var frameworks_backend = [
 ];
 
 var frameworks_system = [
-    // https://redis.io/
-    // rethinkdb
-    // oracle
-    // mysql
-    // oracle
-    // http://cassandra.apache.org/
-    // ignite
-    // jenkins
-    // travis ci
     {href: "https://nginx.org/", text: "NGINX"},
     {href: "https://httpd.apache.org/", text: "Apache HTTP"},
+    {href: "https://redis.io/", text: "redis"},
+    {href: "https://ignite.apache.org/", text: "Ignite"},
+    {href: "https://www.mysql.com/", text: "MySQL"},
+    {href: "https://www.oracle.com/database/index.html", text: "ORACLE"},
+    {href: "https://www.postgresql.org/", text: "PostgreSQL"},
+    {href: "http://cassandra.apache.org/", text: "CASSANDRA"},
+    {href: "https://www.rethinkdb.com/", text: "RethinkDB"},
+    {href: "http://www.h2database.com/html/main.html", text: "H2"},
+    {href: "http://hsqldb.org/", text: "HyperSQL"},
+    {href: "https://www.sqlite.org/", text: "SQLite"},
+    {href: "https://jenkins.io/", text: "Jenkins"},
+    {href: "https://travis-ci.org/", text: "Travis CI"},
     {href: "https://www.docker.com/", text: "docker"},
     {href: "https://kubernetes.io/", text: "kubernetes"}
 ];
