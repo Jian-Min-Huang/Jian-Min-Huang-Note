@@ -168,31 +168,39 @@ var services = [
 ];
 
 var common_thread = [
-    {href: "../content/Common/Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET.htm", text: "Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET"},
-    {href: "../content/Common/Operating System Study Guide - Chapter 5 Deadlock.htm", text: "Operating System Study Guide - Chapter 5 Deadlock"},
-    {href: "../content/Common/Dining philosophers problem - Wikipedia.htm", text: "Dining philosophers problem - Wikipedia"},
-    {href: "../content/Common/Thread (computing) - Wikipedia.htm", text: "Thread (computing) - Wikipedia"}
+    {href: "../content/Common/Thread/Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET.htm", text: "Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET"},
+    {href: "../content/Common/Thread/Operating System Study Guide - Chapter 5 Deadlock.htm", text: "Operating System Study Guide - Chapter 5 Deadlock"},
+    {href: "../content/Common/Thread/Dining philosophers problem - Wikipedia.htm", text: "Dining philosophers problem - Wikipedia"},
+    {href: "../content/Common/Thread/Thread (computing) - Wikipedia.htm", text: "Thread (computing) - Wikipedia"}
 ];
 
 var common_design_pattern = [
-    {href: "../content/Design Pattern/Software design pattern - Wikipedia.htm", text: "Software design pattern - Wikipedia"}
+    {href: "../content/Common/Design Pattern/Software design pattern - Wikipedia.htm", text: "Software design pattern - Wikipedia"}
 ];
 
 var common_http = [
-    {href: "../content/HTTP/Load balancing (computing) - Wikipedia.htm", text: "Load balancing (computing) - Wikipedia"},
-    {href: "../content/HTTP/HTTP persistent connection - Wikipedia.htm", text: "HTTP persistent connection - Wikipedia"},
-    {href: "../content/HTTP/request - Http client timeout and server timeout - Stack Overflow.htm", text: "request - Http client timeout and server timeout - Stack Overflow"},
-    {href: "../content/HTTP/Common/HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶.htm", text: "HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶"},
-    {href: "../content/HTTP/Common/HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET.htm", text: "HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET"},
-    {href: "../content/HTTP/Common/Seednet教室 = = HTTP運作原理介紹(一) = =.htm", text: "Seednet教室 = = HTTP運作原理介紹(一) = ="},
-    {href: "../content/HTTP/Common/HTTP persistent connection - Wikipedia.htm", text: "HTTP persistent connection - Wikipedia"},
-    {href: "../content/HTTP/Common/Rewrite engine - Wikipedia.htm", text: "Rewrite engine - Wikipedia"},
-    {href: "../content/HTTP/Common/Transport Layer Security - Wikipedia.htm", text: "Transport Layer Security - Wikipedia"},
-    {href: "../content/HTTP/RESTFul/程式設計 - 簡明RESTful API設計要點 - Twincl.htm", text: "程式設計 - 簡明RESTful API設計要點 - Twincl"},
-    {href: "../content/HTTP/RESTFul/HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }.htm", text: "HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }"},
-    {href: "../content/HTTP/Security/SQL injection - Wikipedia.htm", text: "SQL injection - Wikipedia"},
-    {href: "../content/HTTP/Security/Cross-site scripting - Wikipedia.htm", text: "Cross-site scripting - Wikipedia"},
-    {href: "../content/HTTP/Security/Cross-site request forgery - Wikipedia.htm", text: "Cross-site request forgery - Wikipedia"}
+    {href: "../content/Common/HTTP/Load balancing (computing) - Wikipedia.htm", text: "Load balancing (computing) - Wikipedia"},
+    {href: "../content/Common/HTTP/HTTP persistent connection - Wikipedia.htm", text: "HTTP persistent connection - Wikipedia"},
+    {href: "../content/Common/HTTP/request - Http client timeout and server timeout - Stack Overflow.htm", text: "request - Http client timeout and server timeout - Stack Overflow"},
+    {href: "../content/Common/HTTP/Common/HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶.htm", text: "HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶"},
+    {href: "../content/Common/HTTP/Common/HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET.htm", text: "HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET"},
+    {href: "../content/Common/HTTP/Common/Seednet教室 = = HTTP運作原理介紹(一) = =.htm", text: "Seednet教室 = = HTTP運作原理介紹(一) = ="},
+    {href: "../content/Common/HTTP/Common/HTTP persistent connection - Wikipedia.htm", text: "HTTP persistent connection - Wikipedia"},
+    {href: "../content/Common/HTTP/Common/Rewrite engine - Wikipedia.htm", text: "Rewrite engine - Wikipedia"},
+    {href: "../content/Common/HTTP/Common/Transport Layer Security - Wikipedia.htm", text: "Transport Layer Security - Wikipedia"},
+    {href: "../content/Common/HTTP/RESTFul/程式設計 - 簡明RESTful API設計要點 - Twincl.htm", text: "程式設計 - 簡明RESTful API設計要點 - Twincl"},
+    {href: "../content/Common/HTTP/RESTFul/HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }.htm", text: "HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }"},
+    {href: "../content/Common/HTTP/Security/SQL injection - Wikipedia.htm", text: "SQL injection - Wikipedia"},
+    {href: "../content/Common/HTTP/Security/Cross-site scripting - Wikipedia.htm", text: "Cross-site scripting - Wikipedia"},
+    {href: "../content/Common/HTTP/Security/Cross-site request forgery - Wikipedia.htm", text: "Cross-site request forgery - Wikipedia"}
+];
+
+var common_auth = [
+    {href: "../content/Common/Auth/解決問題的第一步_ Authentication vs. Authorization.htm", text: "解決問題的第一步_ Authentication vs. Authorization"}
+];
+
+var common_regular_expression = [
+    {href: "../content/Common/Regular Expression/正規表示式 Regular Expression _ 就是愛程式.htm", text: "正規表示式 Regular Expression _ 就是愛程式"}
 ];
 
 var java_common = [
@@ -219,6 +227,7 @@ var java_common = [
     {href: "../content/Java/Concurrent/Executors.htm", text: "Executors"},
     {href: "../content/Java/Concurrent/ForkJoinPool · Java多執行緒的基本知識.htm", text: "ForkJoinPool · Java多執行緒的基本知識"},
     {href: "../content/Java/Concurrent/Thread Life Cycle.jpg", text: "Thread Life Cycle"},
+    {href: "../content/Java/Concurrent/我是010_ volatile(揮發性) 在Java裡的概念與使用時機.htm", text: "我是010_ volatile(揮發性) 在Java裡的概念與使用時機"},
     {href: "../content/Java/JMeter/Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘.htm", text: "Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘"},
     {href: "../content/Java/JVM/【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特.htm", text: "【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特"},
     {href: "../content/Java/Maven/Maven &amp; Spring.pptx", text: "Maven &amp; Spring"},
@@ -242,20 +251,28 @@ var scala = [
     {href: "../content/Scala/Akka/Actor Dispatcher.png", text: "Actor Dispatcher"}
 ];
 
-var database_cache = [
+var database_common = [
+    {href: "../content/Database/Common/第一正規化 - 維基百科，自由的百科全書.htm", text: "第一正規化 - 維基百科，自由的百科"},
+    {href: "../content/Database/Common/第二正規化 - 維基百科，自由的百科全書.htm", text: "第二正規化 - 維基百科，自由的百科"},
+    {href: "../content/Database/Common/第三正規化 - 維基百科，自由的百科全書.htm", text: "第三正規化 - 維基百科，自由的百科"},
+    {href: "../content/Database/Common/Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan.htm", text: "Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan"},
+    {href: "../content/Database/Common/RDBMS Normal Form.pdf", text: "RDBMS Normal Form"}
+];
+
+var database_oracle = [
+    {href: "../content/Database/Oracle/Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落.htm", text: "Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落"},
+    {href: "../content/Database/Oracle/Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __.htm", text: "Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __"}
+];
+
+var database_redis = [
     {href: "../content/Database/Redis/資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格.htm", text: "Redis 簡介及應用"}
 ];
 
 var database_sql = [
-    {href: "../content/Database/Normalization/第一正規化 - 維基百科，自由的百科全書.htm", text: "第一正規化 - 維基百科，自由的百科"},
-    {href: "../content/Database/Normalization/第二正規化 - 維基百科，自由的百科全書.htm", text: "第二正規化 - 維基百科，自由的百科"},
-    {href: "../content/Database/Normalization/第三正規化 - 維基百科，自由的百科全書.htm", text: "第三正規化 - 維基百科，自由的百科"},
-    {href: "../content/Database/Common/Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan.htm", text: "Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan"},
     {href: "../content/Database/Sql/[SQL] 5 types of SQL JOIN _ Programming blog.htm", text: "[SQL] 5 types of SQL JOIN _ Programming blog"},
     {href: "../content/Database/Sql/[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落.htm", text: "[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落"},
     {href: "../content/Database/Sql/sql - Full Outer Join in MySQL - Stack Overflow.htm", text: "sql - Full Outer Join in MySQL - Stack Overflow"},
-    {href: "../content/Database/Common/RDBMS Normal Form.pdf", text: "RDBMS Normal Form"},
-    {href: "../content/Database/Oracle/Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __.htm", text: "Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __"}
+    {href: "../content/Database/Sql/SQL 找出欄位值重覆的記錄及刪除重複記錄.htm", text: "SQL 找出欄位值重覆的記錄及刪除重複記錄"}
 ];
 
 var devops_ci_cd = [
@@ -293,9 +310,13 @@ var services_tags = [];
 var common_thread_tags = [];
 var common_design_pattern_tags = [];
 var common_http_tags = [];
+var common_auth_tags = [];
+var common_regular_expression_tags = [];
 var java_common_tags = [];
 var scala_tags = [];
-var database_cache_tags = [];
+var database_common_tags = [];
+var database_oracle_tags = [];
+var database_redis_tags = [];
 var database_sql_tags = [];
 var devops_ci_cd_tags = [];
 var devops_docker_tags = [];
