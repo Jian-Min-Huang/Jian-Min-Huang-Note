@@ -1,14 +1,15 @@
-var gulp	= require("gulp"),
-    fileinclude	= require("gulp-file-include"),
-    less	= require("gulp-less"), 
-    concat	= require("gulp-concat"),
-    uglify	= require("gulp-uglify"),
-    rename	= require("gulp-rename");
+var gulp        = require("gulp"),
+    fileinclude = require("gulp-file-include"),
+    less        = require("gulp-less"),
+    concat      = require("gulp-concat"),
+    uglify      = require("gulp-uglify"),
+    rename      = require("gulp-rename"),
+    fs          = require("fs");
 
 var SRC = "./src";
 var DEST = "./build";
 
-var JsFileDependency = [ 
+var JsFileDependency = [
     "./vendors/jquery/jquery.min.js",
     "./vendors/bootstrap/js/bootstrap.min.js",
     "./vendors/metisMenu/metisMenu.min.js",
@@ -21,13 +22,11 @@ var JsFileDependency = [
 //     "./vendors/metisMenu/metisMenu.min.css"
 // ];
 
-gulp.task("less", function() {
-    gulp.src(SRC + "/less/*.less")
-        .pipe(less())
-        .pipe(gulp.dest(DEST + "/css"))
+gulp.task('versioning', function () {
+    fs.writeFileSync("./src/html/version.html", new Date().toLocaleString(), "");
 });
 
-gulp.task("fileinclude", function() {
+gulp.task("fileinclude", ["versioning"], function () {
     gulp.src(SRC + "/html/*.html")
         .pipe(fileinclude({
             prefix: "@@",
@@ -36,10 +35,16 @@ gulp.task("fileinclude", function() {
         .pipe(gulp.dest(DEST));
 });
 
-gulp.task('scripts', function() {
+gulp.task('scripts', function () {
     gulp.src(JsFileDependency)
         .pipe(concat('bundle.js'))
         .pipe(gulp.dest(DEST));
+});
+
+gulp.task("less", function () {
+    gulp.src(SRC + "css/less/*.less")
+        .pipe(less())
+        .pipe(gulp.dest(DEST + "/css"))
 });
 
 // gulp.task('styles', function() {
@@ -48,4 +53,4 @@ gulp.task('scripts', function() {
 //         .pipe(gulp.dest(DEST));
 // });
 
-gulp.task("default",["less","fileinclude","scripts"]);
+gulp.task("default", ["fileinclude", "scripts", "less"]);

@@ -13,6 +13,7 @@ $ npm install gulp-less
 $ npm install gulp-concat
 $ npm install gulp-uglify
 $ npm install gulp-rename
+$ npm install js
 ```
 
 ### run gulp after you update content

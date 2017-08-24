@@ -20,18 +20,18 @@ this.activeTarget=b,this.clear();var c=this.selector+'[data-target="'+b+'"],'+th
  */
 !function(a,b,c){function d(b,c){this.element=a(b),this.settings=a.extend({},f,c),this._defaults=f,this._name=e,this.init()}var e="metisMenu",f={toggle:!0,doubleTapToGo:!1};d.prototype={init:function(){var b=this.element,d=this.settings.toggle,f=this;this.isIE()<=9?(b.find("li.active").has("ul").children("ul").collapse("show"),b.find("li").not(".active").has("ul").children("ul").collapse("hide")):(b.find("li.active").has("ul").children("ul").addClass("collapse in"),b.find("li").not(".active").has("ul").children("ul").addClass("collapse")),f.settings.doubleTapToGo&&b.find("li.active").has("ul").children("a").addClass("doubleTapToGo"),b.find("li").has("ul").children("a").on("click."+e,function(b){return b.preventDefault(),f.settings.doubleTapToGo&&f.doubleTapToGo(a(this))&&"#"!==a(this).attr("href")&&""!==a(this).attr("href")?(b.stopPropagation(),void(c.location=a(this).attr("href"))):(a(this).parent("li").toggleClass("active").children("ul").collapse("toggle"),void(d&&a(this).parent("li").siblings().removeClass("active").children("ul.in").collapse("hide")))})},isIE:function(){for(var a,b=3,d=c.createElement("div"),e=d.getElementsByTagName("i");d.innerHTML="<!--[if gt IE "+ ++b+"]><i></i><![endif]-->",e[0];)return b>4?b:a},doubleTapToGo:function(a){var b=this.element;return a.hasClass("doubleTapToGo")?(a.removeClass("doubleTapToGo"),!0):a.parent().children("ul").length?(b.find(".doubleTapToGo").removeClass("doubleTapToGo"),a.addClass("doubleTapToGo"),!1):void 0},remove:function(){this.element.off("."+e),this.element.removeData(e)}},a.fn[e]=function(b){return this.each(function(){var c=a(this);c.data(e)&&c.data(e).remove(),c.data(e,new d(this,b))}),this}}(jQuery,window,document);
 var notes = [
-    {href: "../content/Notes/Coding_Note.txt", text: "Coding Note"},
-    {href: "../content/Notes/Git_Settings.txt", text: "Git Settings"},
-    {href: "../content/Notes/Intellij_IDEA_Hot_Keys.txt", text: "Intellij IDEA Hot Keys"},
-    {href: "../content/Notes/Intellij_IDEA_Settings.txt", text: "Intellij IDEA Settings"},
-    {href: "../content/Notes/MAC_Install.txt", text: "MAC Install"},
-    {href: "../content/Notes/MAC_Settings.txt", text: "MAC Settings"},
-    {href: "../content/Notes/Oracle.txt", text: "Oracle"},
-    {href: "../content/Notes/Unix_Like_Terminal_Settings.txt", text: "Unix Like Terminal Settings"},
-    {href: "../content/Notes/bash.txt", text: "bash"},
-    {href: "../content/Notes/issues_and_concepts.txt", text: "Issues And Concepts"},
-    {href: "../content/Notes/Note_Why.txt", text: "Note Why"},
-    {href: "../content/Notes/vim.txt", text: "vim"}
+    {href: "../content/notes/Coding Note.txt", text: "Coding Note"},
+    {href: "../content/notes/Git Settings.txt", text: "Git Settings"},
+    {href: "../content/notes/Intellij IDEA Hot Keys.txt", text: "Intellij IDEA Hot Keys"},
+    {href: "../content/notes/Intellij IDEA Settings.txt", text: "Intellij IDEA Settings"},
+    {href: "../content/notes/MAC Install.txt", text: "MAC Install"},
+    {href: "../content/notes/MAC Settings.txt", text: "MAC Settings"},
+    {href: "../content/notes/Oracle.txt", text: "Oracle"},
+    {href: "../content/notes/Unix Like Terminal Settings.txt", text: "Unix Like Terminal Settings"},
+    {href: "../content/notes/bash.txt", text: "bash"},
+    {href: "../content/notes/issues & concepts.txt", text: "Issues & Concepts"},
+    {href: "../content/notes/Note Why.txt", text: "Note Why"},
+    {href: "../content/notes/vim.txt", text: "vim"}
 ];
 
 var tutorials_official = [
@@ -180,48 +180,52 @@ var frameworks_system = [
     {href: "https://kubernetes.io/", text: "kubernetes"}
 ];
 
-var services = [
+// var services = [
     // aws
     // gce
     // heroku
     // godaddy
-    {href: "", text: ""}
-];
+    // {href: "", text: ""}
+// ];
 
-var common_thread = [
-    {href: "../content/Common/Thread/Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET.htm", text: "Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET"},
-    {href: "../content/Common/Thread/Operating System Study Guide - Chapter 5 Deadlock.htm", text: "Operating System Study Guide - Chapter 5 Deadlock"},
-    {href: "../content/Common/Thread/Dining philosophers problem - Wikipedia.htm", text: "Dining philosophers problem - Wikipedia"},
-    {href: "../content/Common/Thread/Thread (computing) - Wikipedia.htm", text: "Thread (computing) - Wikipedia"}
+var common_auth = [
+    {href: "../content/common/auth/解決問題的第一步_ Authentication vs. Authorization.htm", text: "解決問題的第一步_ Authentication vs. Authorization"}
 ];
 
 var common_design_pattern = [
-    {href: "../content/Common/Design Pattern/Software design pattern - Wikipedia.htm", text: "Software design pattern - Wikipedia"}
+    {href: "../content/common/design pattern/Software design pattern - Wikipedia.htm", text: "Software design pattern - Wikipedia"}
 ];
 
 var common_http = [
-    {href: "../content/Common/HTTP/Load balancing (computing) - Wikipedia.htm", text: "Load balancing (computing) - Wikipedia"},
-    {href: "../content/Common/HTTP/HTTP persistent connection - Wikipedia.htm", text: "HTTP persistent connection - Wikipedia"},
-    {href: "../content/Common/HTTP/request - Http client timeout and server timeout - Stack Overflow.htm", text: "request - Http client timeout and server timeout - Stack Overflow"},
-    {href: "../content/Common/HTTP/Common/HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶.htm", text: "HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶"},
-    {href: "../content/Common/HTTP/Common/HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET.htm", text: "HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET"},
-    {href: "../content/Common/HTTP/Common/Seednet教室 = = HTTP運作原理介紹(一) = =.htm", text: "Seednet教室 = = HTTP運作原理介紹(一) = ="},
-    {href: "../content/Common/HTTP/Common/HTTP persistent connection - Wikipedia.htm", text: "HTTP persistent connection - Wikipedia"},
-    {href: "../content/Common/HTTP/Common/Rewrite engine - Wikipedia.htm", text: "Rewrite engine - Wikipedia"},
-    {href: "../content/Common/HTTP/Common/Transport Layer Security - Wikipedia.htm", text: "Transport Layer Security - Wikipedia"},
-    {href: "../content/Common/HTTP/RESTFul/程式設計 - 簡明RESTful API設計要點 - Twincl.htm", text: "程式設計 - 簡明RESTful API設計要點 - Twincl"},
-    {href: "../content/Common/HTTP/RESTFul/HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }.htm", text: "HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }"},
-    {href: "../content/Common/HTTP/Security/SQL injection - Wikipedia.htm", text: "SQL injection - Wikipedia"},
-    {href: "../content/Common/HTTP/Security/Cross-site scripting - Wikipedia.htm", text: "Cross-site scripting - Wikipedia"},
-    {href: "../content/Common/HTTP/Security/Cross-site request forgery - Wikipedia.htm", text: "Cross-site request forgery - Wikipedia"}
-];
-
-var common_auth = [
-    {href: "../content/Common/Auth/解決問題的第一步_ Authentication vs. Authorization.htm", text: "解決問題的第一步_ Authentication vs. Authorization"}
+    {href: "../content/common/http/Load balancing (computing) - Wikipedia.htm", text: "Load balancing (computing) - Wikipedia"},
+    {href: "../content/common/http/HTTP persistent connection - Wikipedia.htm", text: "HTTP persistent connection - Wikipedia"},
+    {href: "../content/common/http/request - Http client timeout and server timeout - Stack Overflow.htm", text: "request - Http client timeout and server timeout - Stack Overflow"},
+    {href: "../content/common/http/HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶.htm", text: "HTTP Redirect 301, 302 區別及對SEO的影響 @ 符碼記憶"},
+    {href: "../content/common/http/HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET.htm", text: "HTTP 的認證模式 @ 藍色情懷   痞客邦 PIXNET"},
+    {href: "../content/common/http/Seednet教室 = = HTTP運作原理介紹(一) = =.htm", text: "Seednet教室 = = HTTP運作原理介紹(一) = ="},
+    {href: "../content/common/http/Rewrite engine - Wikipedia.htm", text: "Rewrite engine - Wikipedia"},
+    {href: "../content/common/http/Transport Layer Security - Wikipedia.htm", text: "Transport Layer Security - Wikipedia"},
+    {href: "../content/common/http/程式設計 - 簡明RESTful API設計要點 - Twincl.htm", text: "程式設計 - 簡明RESTful API設計要點 - Twincl"},
+    {href: "../content/common/http/HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }.htm", text: "HTTP Verbs  談 POST, PUT 和 PATCH 的應用 _ ihower { blogging }"},
+    {href: "../content/common/http/SQL injection - Wikipedia.htm", text: "SQL injection - Wikipedia"},
+    {href: "../content/common/http/Cross-site scripting - Wikipedia.htm", text: "Cross-site scripting - Wikipedia"},
+    {href: "../content/common/http/Cross-site request forgery - Wikipedia.htm", text: "Cross-site request forgery - Wikipedia"}
 ];
 
 var common_regular_expression = [
-    {href: "../content/Common/Regular Expression/正規表示式 Regular Expression _ 就是愛程式.htm", text: "正規表示式 Regular Expression _ 就是愛程式"}
+    {href: "../content/common/regular expression/正規表示式 Regular Expression _ 就是愛程式.htm", text: "正規表示式 Regular Expression _ 就是愛程式"}
+];
+
+var common_thread = [
+    {href: "../content/common/thread/Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET.htm", text: "Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET"},
+    {href: "../content/common/thread/Operating System Study Guide - Chapter 5 Deadlock.htm", text: "Operating System Study Guide - Chapter 5 Deadlock"},
+    {href: "../content/common/thread/Dining philosophers problem - Wikipedia.htm", text: "Dining philosophers problem - Wikipedia"},
+    {href: "../content/common/thread/Thread (computing) - Wikipedia.htm", text: "Thread (computing) - Wikipedia"}
+];
+
+var javascript = [
+    {href: "../content/javascript/【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB.htm", text: "【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB"},
+    {href: "../content/javascript/javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow.htm", text: "javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow"}
 ];
 
 var java_common = [
@@ -268,56 +272,58 @@ var java_common = [
 ];
 
 var scala = [
-    {href: "../content/Scala/Akka/Actor Lifecycle.png", text: "Actor Lifecycle"},
-    {href: "../content/Scala/Akka/Actor Dispatcher.png", text: "Actor Dispatcher"}
+    {href: "../content/scala/Scala vs Kotlin – Agilewombat.htm", text: "Scala vs Kotlin – Agilewombat"},
+    {href: "../content/scala/Actor Lifecycle.png", text: "Actor Lifecycle"},
+    {href: "../content/scala/Actor Dispatcher.png", text: "Actor Dispatcher"}
 ];
 
 var database_common = [
-    {href: "../content/Database/Common/第一正規化 - 維基百科，自由的百科全書.htm", text: "第一正規化 - 維基百科，自由的百科"},
-    {href: "../content/Database/Common/第二正規化 - 維基百科，自由的百科全書.htm", text: "第二正規化 - 維基百科，自由的百科"},
-    {href: "../content/Database/Common/第三正規化 - 維基百科，自由的百科全書.htm", text: "第三正規化 - 維基百科，自由的百科"},
-    {href: "../content/Database/Common/Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan.htm", text: "Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan"},
-    {href: "../content/Database/Common/RDBMS Normal Form.pdf", text: "RDBMS Normal Form"}
+    {href: "../content/database/common/第一正規化 - 維基百科，自由的百科全書.htm", text: "第一正規化 - 維基百科，自由的百科"},
+    {href: "../content/database/common/第二正規化 - 維基百科，自由的百科全書.htm", text: "第二正規化 - 維基百科，自由的百科"},
+    {href: "../content/database/common/第三正規化 - 維基百科，自由的百科全書.htm", text: "第三正規化 - 維基百科，自由的百科"},
+    {href: "../content/database/common/Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan.htm", text: "Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan"},
+    {href: "../content/database/common/RDBMS Normal Form.pdf", text: "RDBMS Normal Form"}
 ];
 
 var database_oracle = [
-    {href: "../content/Database/Oracle/Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落.htm", text: "Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落"},
-    {href: "../content/Database/Oracle/Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __.htm", text: "Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __"}
+    {href: "../content/database/oracle/Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落.htm", text: "Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落"},
+    {href: "../content/database/oracle/Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __.htm", text: "Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __"}
 ];
 
 var database_redis = [
-    {href: "../content/Database/Redis/資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格.htm", text: "Redis 簡介及應用"}
+    {href: "../content/database/redis/資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格.htm", text: "Redis 簡介及應用"}
 ];
 
 var database_sql = [
-    {href: "../content/Database/Sql/[SQL] 5 types of SQL JOIN _ Programming blog.htm", text: "[SQL] 5 types of SQL JOIN _ Programming blog"},
-    {href: "../content/Database/Sql/[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落.htm", text: "[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落"},
-    {href: "../content/Database/Sql/sql - Full Outer Join in MySQL - Stack Overflow.htm", text: "sql - Full Outer Join in MySQL - Stack Overflow"},
-    {href: "../content/Database/Sql/SQL 找出欄位值重覆的記錄及刪除重複記錄.htm", text: "SQL 找出欄位值重覆的記錄及刪除重複記錄"}
+    {href: "../content/database/sql/[SQL] 5 types of SQL JOIN _ Programming blog.htm", text: "[SQL] 5 types of SQL JOIN _ Programming blog"},
+    {href: "../content/database/sql/[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落.htm", text: "[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落"},
+    {href: "../content/database/sql/sql - Full Outer Join in MySQL - Stack Overflow.htm", text: "sql - Full Outer Join in MySQL - Stack Overflow"},
+    {href: "../content/database/sql/SQL 找出欄位值重覆的記錄及刪除重複記錄.htm", text: "SQL 找出欄位值重覆的記錄及刪除重複記錄"}
 ];
 
 var devops_ci_cd = [
-    {href: "../content/DevOps/CI &amp; CD/Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊.htm", text: "Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊"},
-    {href: "../content/DevOps/CI &amp; CD/持續整合 (Continuous Integration) 簡介與應用.docx", text: "持續整合 (Continuous Integration) 簡介與應用"}
+    {href: "../content/devops/ci & cd/Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊.htm", text: "Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊"},
+    {href: "../content/devops/ci & cd/持續整合 (Continuous Integration) 簡介與應用.docx", text: "持續整合 (Continuous Integration) 簡介與應用"}
 ];
 
 var devops_docker = [
-    {href: "../content/DevOps/Docker/docker-note-book.pdf", text: "Docker Notebook"}
+    {href: "../content/devops/docker/docker-note-book.pdf", text: "Docker Notebook"}
 ];
 
 var devops_version_control = [
-    {href: "../content/DevOps/Version Control/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例"},
-    {href: "../content/DevOps/Version Control/淺談Subversion(SVN) Hook Script及其應用.docx", text: "淺談Subversion(SVN) Hook Script及其應用"}
+    {href: "../content/devops/version control/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例"},
+    {href: "../content/devops/version control/淺談Subversion(SVN) Hook Script及其應用.docx", text: "淺談Subversion(SVN) Hook Script及其應用"}
 ];
 
 var tools = [
     {href: "https://brew.sh/index_zh-tw.html", text: "Homebrew"},
-    {href: "../content/Tools/dev-notes.pdf", text: "dev-notes nginx"},
-    {href: "../content/Tools/The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學.htm", text: "The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學"},
-    {href: "../content/Tools/HTML-CSS-JS Prettify - Packages - Package Control.htm", text: "HTML-CSS-JS Prettify - Packages - Package Control"},
-    {href: "../content/Tools/Bit Twiddling Hacks.htm", text: "Bit Twiddling Hacks"},
-    {href: "../content/Tools/Intellij IDEA – Auto reload a web application (hot deploy).htm", text: "Intellij IDEA – Auto reload a web application (hot deploy)"},
-    {href: "../content/Tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm", text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm"}
+    {href: "../content/tools/dev-notes.pdf", text: "dev-notes nginx"},
+    {href: "../content/tools/The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學.htm", text: "The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學"},
+    {href: "../content/tools/HTML-CSS-JS Prettify - Packages - Package Control.htm", text: "HTML-CSS-JS Prettify - Packages - Package Control"},
+    {href: "../content/tools/Travis CI build status badge on GitHub « Pymaster.htm", text: "Travis CI build status badge on GitHub « Pymaster"},
+    {href: "../content/tools/Bit Twiddling Hacks.htm", text: "Bit Twiddling Hacks"},
+    {href: "../content/tools/Intellij IDEA – Auto reload a web application (hot deploy).htm", text: "Intellij IDEA – Auto reload a web application (hot deploy)"},
+    {href: "../content/tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm", text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm"}
 ];
 
 var notes_tags = ["coding", "mac"];
@@ -328,11 +334,12 @@ var frameworks_frontend_tags = [];
 var frameworks_backend_tags = [];
 var frameworks_system_tags = [];
 var services_tags = [];
-var common_thread_tags = [];
+var common_auth_tags = [];
 var common_design_pattern_tags = [];
 var common_http_tags = [];
-var common_auth_tags = [];
 var common_regular_expression_tags = [];
+var common_thread_tags = [];
+var javascript_tags = [];
 var java_common_tags = [];
 var scala_tags = [];
 var database_common_tags = [];
