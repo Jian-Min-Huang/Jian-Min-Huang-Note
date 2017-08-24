@@ -298,6 +298,7 @@ var database_sql = [
     {href: "../content/database/sql/[SQL] 5 types of SQL JOIN _ Programming blog.htm", text: "[SQL] 5 types of SQL JOIN _ Programming blog"},
     {href: "../content/database/sql/[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落.htm", text: "[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落"},
     {href: "../content/database/sql/sql - Full Outer Join in MySQL - Stack Overflow.htm", text: "sql - Full Outer Join in MySQL - Stack Overflow"},
+    {href: "../content/database/sql/sql - Retrieving the last record in each group - Stack Overflow.htm", text: "sql - Retrieving the last record in each group - Stack Overflow"},
     {href: "../content/database/sql/SQL 找出欄位值重覆的記錄及刪除重複記錄.htm", text: "SQL 找出欄位值重覆的記錄及刪除重複記錄"}
 ];
 
