@@ -1,11 +1,19 @@
-Q : split large file
-A : split -b 50m top.txt "top"
+#### Q : split large file
+```sh
+$ split -b 50m top.txt top.part.
+```
 
-Q : search text forward and backward
-A : /keyward and ?keyword
+#### Q : search text forward and backward
+```sh
+/keyward and ?keyword
+```
 
-Q : move to next keyword and last keyword
-A : n and N
+#### Q : move to next keyword and last keyword
+```sh
+n and N
+```
 
-Q : jump to document head and bottom
-A : gg and G
+#### Q : jump to document head and bottom
+```sh
+gg and G
+```

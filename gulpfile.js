@@ -16,12 +16,6 @@ var JsFileDependency = [
     "./src/js/*.js"
 ];
 
-// var CssFileDependency = [
-//     "./vendors/bootstrap/css/bootstrap.min.css",
-//     "./vendors/font-awesome/css/font-awesome.min.css",
-//     "./vendors/metisMenu/metisMenu.min.css"
-// ];
-
 gulp.task('versioning', function () {
     fs.writeFileSync("./src/html/version.html", new Date().toLocaleString(), "");
 });
@@ -42,15 +36,9 @@ gulp.task('scripts', function () {
 });
 
 gulp.task("less", function () {
-    gulp.src(SRC + "css/less/*.less")
+    gulp.src(SRC + "/css/less/*.less")
         .pipe(less())
-        .pipe(gulp.dest(DEST + "/css"))
+        .pipe(gulp.dest(DEST + "/css"));
 });
-
-// gulp.task('styles', function() {
-//     gulp.src(CssFileDependency)
-//         .pipe(concat('bundle.css'))
-//         .pipe(gulp.dest(DEST));
-// });
 
 gulp.task("default", ["fileinclude", "scripts", "less"]);

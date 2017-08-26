@@ -1,3 +1,5 @@
+var index = [];
+
 var notes = [
     {href: "../content/notes/Coding Note.txt", text: "Coding Note"},
     {href: "../content/notes/Git Settings.txt", text: "Git Settings"},
@@ -306,6 +308,7 @@ var tools = [
     {href: "../content/tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm", text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm"}
 ];
 
+var index_tags = [];
 var notes_tags = ["coding", "mac"];
 var tutorials_official_tags = [];
 var tutorials_3rd_party_tags = [];

@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="./index.html">Jian-Min Huang Note  <sub>Last Update: 8/26/2017, 9:20:09 PM</sub></a>
+        <a class="navbar-brand" href="./index.html">Jian-Min Huang Note  <sub>Last Update: 8/26/2017, 10:55:39 PM</sub></a>
     </div>
     <!-- /.navbar-header -->
     <ul class="nav navbar-top-links navbar-right">
@@ -64,7 +64,7 @@
                             <a href="./tutorials_official.html">Official</a>
                         </li>
                         <li>
-                            <a href="./tutorials_3rd_party.html">3<sup>rd</sup> Party Website &amp; Blogs</a>
+                            <a href="./tutorials_3rd_party.html">3<sup>rd</sup> Party</a>
                         </li>
                     </ul>
                 </li>
@@ -174,7 +174,9 @@
         </div>
         <div class="row">
             <div id="main" class="col-md-2 col-lg-2"></div>
-            <div id="md-content" class="col-md-10 col-lg-10"></div>
+            <div id="md-content" class="col-md-10 col-lg-10">
+                12345678
+            </div>
         </div>
     </div>
 </div>
@@ -184,16 +186,16 @@
 <script>
     var converter = new showdown.Converter();
 
-    $.ajax({
-        url: "../content/notes/vim.txt",
-        method: "get",
-        success: function(data) {
-            console.log(data);
-
-            $("#md-content").empty();
-            $("#md-content").append(converter.makeHtml(data));
-        }
-    });
+//    $.ajax({
+//        url: "../content/notes/vim.txt",
+//        method: "get",
+//        success: function(data) {
+//            console.log(data);
+//
+//            $("#md-content").empty();
+//            $("#md-content").append(converter.makeHtml(data));
+//        }
+//    });
 </script>
 </body>
 

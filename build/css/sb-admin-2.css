@@ -3,6 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+/*!
+ * Jian-Min Huang Update 2017/08/26
+ * #page-wrapper margin-right 250px -> 200px
+ * .sidebar width 250px -> 200px
+ */
 body {
   background-color: #f8f8f8;
 }
@@ -17,7 +22,7 @@ body {
 @media (min-width: 768px) {
   #page-wrapper {
     position: inherit;
-    margin: 0 0 0 250px;
+    margin: 0 0 0 210px;
     padding: 0 30px;
     border-left: 1px solid #e7e7e7;
   }
@@ -103,7 +108,7 @@ body {
   .sidebar {
     z-index: 1;
     position: absolute;
-    width: 250px;
+    width: 210px;
     margin-top: 51px;
   }
   .navbar-top-links .dropdown-messages,
