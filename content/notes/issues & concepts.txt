@@ -1,28 +1,25 @@
-# Issue & Concept
+# Web
 SEO
+OWASP Top 10
+XSS
+CSRF
+DDOS
+Sql Injection
+Load Balance (Round-robin DNS)
+GA
+Box Model
+Forward proxy
+Reverse proxy
+Web Service
+
+# Transaction
 Two Phase Commit Protocol
 Three Phase Commit Protocol
 Paxos
 Message Topic in Transcation
-OWASP Top 10
-Sql Injection
+
+# Database
 Sql Joins(Cross, Inner, Left, Right, Full)
-XSS
-CSRF
-DDOS
-ORM
-SOA
-ESB
-MicroService
-Backward Compatibility
-Forward Compatibility
-CAP Theorem
-	all user can get same data at same time
-	save data on many node, cluster can work well when a node fail
-	each node can keep working when network is error
-BASE
-Load Balance (Round-robin DNS)
-Master Slave
 Database Partitioning
 	Horizontal (1 table to many table)
 		Pros
@@ -34,10 +31,44 @@ Database Sharding
 Separate Read Write Action
 	Application
 	Database
+RAC
+ACID
+
+# Architecture
+SOA
+ESB
+MicroService
+Master Slave
+Active Standby
+Active Active
 Cluster
+Finite Status Machine
+    init
+    processing
+    done
+    error
+    change
+    save
+    redo
+    monitor
 Centralized and Decentralized
 Publish Subscribe
 Producer Consumer
+3-tier architechure
+CAP Theorem
+ C all user can get same data at same time
+ A save data on many node, cluster can work well when a node fail
+ P each node can keep working when network is error
+BASE Theorem
+ Basically Available
+ Soft State
+ Eventual Consistency
+Synchronous
+Asynchronous
+Event Driven
+Centralized Control System
+
+# Cloud
 IAAS
 	GCP, AWS EC2
 PAAS
@@ -48,36 +79,24 @@ BAAS
 	Firebase
 FAAS
 	AWS Lambda
+
+# Software
+ORM
+Backward Compatibility
+Forward Compatibility
+Agile
+Waterfall
 Garbage Collection
 Period(thread sleep, crontab, java timer, Quartz)
 Versioning
 Consistent hashing
 Distributed Hash Tables
 Hot & Cold Depolyment
-Iterative and incremental
-Agile
-Waterfall
+Iterative and incremental Devlopment
 DevOps
-3-tier architechure
 Continuous Integration
 Continuous Delivery
 Message-oriented middleware
-Forward proxy
-Reverse proxy
-Synchronous
-Asynchronous
-Event Driven
-Dependency Hell
-Domain Driven Development
-Test Driven Development
-ACID
-Web Service
-Encapsulation
-Inheritance
-Polymorphism
-Anemic domain model
-GRASP
-Box Model
 Software transactional memory
 Actor
 C10K Problem
@@ -89,7 +108,16 @@ Referential Transparent
 Tail Recursion
 Higher Order Function
 diamond problem
-RAC
+Dependency Hell
+Callback Hell
+Domain Driven Development
+Test Driven Development
+Encapsulation
+Inheritance
+Polymorphism
+Anemic domain model
+GRASP
+Object transformation
 
 # Famous Person & Organization
 Apache Software Foundation

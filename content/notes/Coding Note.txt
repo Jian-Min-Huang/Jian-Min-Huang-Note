@@ -1,10 +1,14 @@
 # 烏托邦
-好看 (漂亮的UI)
-好用	(良好的UX, 明確的需求)
-好寫	(適合的工具及函式庫)
-好讀	(清晰的架構，一致的 Coding Style)
-好改	(高內聚低耦合)
-好測	(易測的架構)
+漂亮的UI
+良好的UX
+適合的工具及函式庫
+一致的 Coding Style
+高內聚低耦合的架構
+水平伸縮
+快速佈署
+易於測試
+方便監控
+無狀態或強健的狀態流程
 
 >>> 系統結構 <<<
 負載平衡
@@ -45,25 +49,29 @@ x Constant obey encapsulation rule, cause low cohesion and high coupling
 x xxxUtil obey delegation rule, cause high coupling and duplicate code
 o xxxDto as argument can decrease amount of arguments
 
-# MVC
+# Spring MVC
+* @Component
+ * java bean control by Spring
 * @Controller
- * validate argument, process auth, transfer request 
+ * validate argument, check auth, transfer request, process response
 * @Service
- * invoke business logic, try catch error handling 
+ * invoke business logic, try catch error handling
 * @Repository
  * handle database operation
 
-# DTO Entity VO
-xxxDto means this object transfer between each module
-xxxVo means this object don't have method
-xxxEntity represents database copy in memory
-
 # Special Object
-* Bo
-* Dao
-* Vo
-* Dto
-* Entity
-
-vo 互轉的學問
-一個中心控全部 調配任務概念
+* Pojo
+* JavaBean
+* Bo (business)
+* Dao (data access)
+* Vo (value)
+* Do (domain)
+* Qo (query)
+* To (transfer)
+* Dto (data transfer)
+* Po (persistant)
+* Session Bean
+ * Stateless Session Bean
+ * Stateful Session Bean
+* Entity Bean
+* Message Driven Bean

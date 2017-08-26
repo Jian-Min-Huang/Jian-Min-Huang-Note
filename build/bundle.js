@@ -386,7 +386,7 @@ $(function () {
 
     var mainHtml = "";
     contents.forEach(function (element) {
-        mainHtml += "<div class=\"item\"><a href=\"" + element.href + "\">" + element.text + "</a></div>";
+        mainHtml += "<a class=\"item\" href=\"" + element.href + "\">" + element.text + "</a>";
     });
     $("#main").append(mainHtml);
 

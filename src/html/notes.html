@@ -10,11 +10,37 @@
     @@include("./nav.html")
 
     <div id="page-wrapper">
-        @@include("./content.html")
+        <!--@@include("./content.html")-->
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <i id="search-icon" class="fa fa-search"></i>
+                <input id="search-input" class="form-control" placeholder="Search Keywords...">
+            </div>
+            <div id="tags" class="col-md-12 col-lg-12"></div>
+        </div>
+        <div class="row">
+            <div id="main" class="col-md-2 col-lg-2"></div>
+            <div id="md-content" class="col-md-10 col-lg-10"></div>
+        </div>
     </div>
 </div>
 
 @@include("./footer.html")
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.7.3/showdown.min.js"></script>
+<script>
+    var converter = new showdown.Converter();
+
+    $.ajax({
+        url: "../content/notes/vim.txt",
+        method: "get",
+        success: function(data) {
+            console.log(data);
+
+            $("#md-content").empty();
+            $("#md-content").append(converter.makeHtml(data));
+        }
+    });
+</script>
 </body>
 
 </html>
