@@ -396,7 +396,7 @@ $(function () {
         var converter = new showdown.Converter();
 
         $.ajax({
-            url: arrayName[idx],
+            url: arrayName[idx].href,
             method: "GET",
             success: function (data) {
                 $("#md-content").empty();
