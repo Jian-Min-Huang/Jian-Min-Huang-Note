@@ -13,6 +13,7 @@ var JsFileDependency = [
     "./vendors/jquery/jquery.min.js",
     "./vendors/bootstrap/js/bootstrap.min.js",
     "./vendors/metisMenu/metisMenu.min.js",
+    "./vendors/showdown/showdown.min.js",
     "./src/js/*.js"
 ];
 
