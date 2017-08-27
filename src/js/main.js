@@ -351,7 +351,7 @@ $(function () {
             });
         } else {
             $(".item").each(function (index, element) {
-                if ($(element).find("a").text().toLowerCase().indexOf(keyword) != -1) {
+                if ($(element).find("button").text().toLowerCase().indexOf(keyword) != -1) {
                     $(element).show();
                 } else {
                     $(element).hide();
