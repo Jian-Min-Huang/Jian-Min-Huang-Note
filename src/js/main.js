@@ -391,7 +391,7 @@ $(function () {
         var name = idNameIdx.split(":")[0];
         var idx = idNameIdx.split(":")[1];
 
-        var arrayName = eval("name");
+        var arrayName = eval(eval("name"));
 
         var converter = new showdown.Converter();
 
