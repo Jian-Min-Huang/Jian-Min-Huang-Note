@@ -1,14 +1,16 @@
-@main-div-height: 800px;
+@main-div-height: 100px;
 
 #main {
   min-height: @main-div-height;
 }
 
 .item {
-  display: block;
+  float: left;
   min-height: 20px;
   min-width: 20px;
-  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  background: #EEE;
 }
 
 #search-icon {
@@ -29,4 +31,6 @@
   font-size: 16px;
 }
 
-.btn-tag:focus { outline: none; }
+.btn-tag:focus {
+  outline: none;
+}

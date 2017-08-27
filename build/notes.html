@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="./index.html">Jian-Min Huang Note  <sub>Last Update: 8/26/2017, 11:13:31 PM</sub></a>
+        <a class="navbar-brand" href="./index.html">Jian-Min Huang Note  <sub>Last Update: 8/27/2017, 9:26:15 PM</sub></a>
     </div>
     <!-- /.navbar-header -->
     <ul class="nav navbar-top-links navbar-right">
@@ -164,37 +164,22 @@
 </nav>
 
     <div id="page-wrapper">
-        
         <div class="row">
-            <div class="col-md-12 col-lg-12">
-                <i id="search-icon" class="fa fa-search"></i>
-                <input id="search-input" class="form-control" placeholder="Search Keywords...">
-            </div>
-            <div id="tags" class="col-md-12 col-lg-12"></div>
-        </div>
+    <div class="col-md-12 col-lg-12">
+        <i id="search-icon" class="fa fa-search"></i>
+        <input id="search-input" class="form-control" placeholder="Search Keywords...">
+    </div>
+    <div id="tags" class="col-md-12 col-lg-12"></div>
+</div>
+<div id="main" class="row"></div>
         <div class="row">
-            <div id="main" class="col-md-2 col-lg-2"></div>
-            <div id="md-content" class="col-md-10 col-lg-10"></div>
+            <div id="md-content" class="col-md-12 col-lg-12" style="height: 800px; background: #00a7dd">Test Content</div>
         </div>
     </div>
 </div>
 
-<script src="./bundle.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.7.3/showdown.min.js"></script>
-<script>
-    var converter = new showdown.Converter();
-
-    $.ajax({
-        url: "../content/notes/vim.txt",
-        method: "GET",
-        success: function(data) {
-            console.log(data);
-
-            $("#md-content").empty();
-            $("#md-content").append(converter.makeHtml(data));
-        }
-    });
-</script>
+<script src="./bundle.js"></script>
 </body>
 
 </html>

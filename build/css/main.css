@@ -1,11 +1,13 @@
 #main {
-  min-height: 800px;
+  min-height: 100px;
 }
 .item {
-  display: block;
+  float: left;
   min-height: 20px;
   min-width: 20px;
-  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  background: #EEE;
 }
 #search-icon {
   font-size: 18px;

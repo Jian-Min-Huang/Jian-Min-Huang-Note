@@ -183,11 +183,11 @@ var frameworks_system = [
 ];
 
 // var services = [
-    // aws
-    // gce
-    // heroku
-    // godaddy
-    // {href: "", text: ""}
+// aws
+// gce
+// heroku
+// godaddy
+// {href: "", text: ""}
 // ];
 
 var common_auth = [
@@ -227,7 +227,10 @@ var common_thread = [
 
 var javascript = [
     {href: "../content/javascript/【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB.htm", text: "【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB"},
-    {href: "../content/javascript/javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow.htm", text: "javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow"}
+    {
+        href: "../content/javascript/javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow.htm",
+        text: "javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow"
+    }
 ];
 
 var java_common = [
@@ -388,9 +391,10 @@ $(function () {
     $("#tags").append(tagsHtml);
 
     var mainHtml = "";
-    contents.forEach(function (element) {
-        mainHtml += "<a class=\"item\" href=\"" + element.href + "\">" + element.text + "</a>";
-    });
+    for (var i = 0; i < contents.length; i++) {
+        mainHtml += "<button id=\"" + path + ":" + i + "\" class=\"item btn-link\">" + contents[i].text + "</button>";
+    }
+
     $("#main").append(mainHtml);
 
     $("#search-input").keyup(filterFunc);
@@ -400,6 +404,25 @@ $(function () {
     $("#tag-clear").click(function () {
         $(".item").each(function (index, element) {
             $(element).show();
+        });
+    });
+
+    $(".item").click(function () {
+        var idNameIdx = $(this).attr("id");
+        var name = idNameIdx.split(":")[0];
+        var idx = idNameIdx.split(":")[1];
+
+        var arrayName = eval("name");
+
+        var converter = new showdown.Converter();
+
+        $.ajax({
+            url: arrayName[idx],
+            method: "GET",
+            success: function (data) {
+                $("#md-content").empty();
+                $("#md-content").append(converter.makeHtml(data));
+            }
         });
     });
 });
