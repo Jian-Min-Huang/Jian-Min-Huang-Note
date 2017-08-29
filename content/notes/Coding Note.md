@@ -1,26 +1,26 @@
-# 烏托邦
-漂亮的UI
-良好的UX
-適合的工具及函式庫
-一致的 Coding Style
-高內聚低耦合的架構
-水平伸縮
-快速佈署
-易於測試
-方便監控
-無狀態或強健的狀態流程
+##### 烏托邦
+* 漂亮的UI
+* 良好的UX
+* 適合的工具及函式庫
+* 一致的 Coding Style
+* 高內聚低耦合的架構
+* 水平伸縮
+* 快速佈署
+* 易於測試
+* 方便監控
+* 無狀態或強健的狀態流程
 
->>> 系統結構 <<<
-負載平衡
+##### 系統結構
+* 負載平衡
+  * 表現層
+  * 控制層 檢查引數, 驗證權限, 派發請求, 處理回應
+    * 快取層
+  * 服務層 撰寫邏輯, 異常處理 
+    * 通訊層
+  * 持久層 數據保存
+* 資料庫
 
-*|-表現層
- | 控制層
- | 服務層 *快取層 通訊層
- |-持久層
-
-*資料庫
-
-# Naming Conversions
+##### Naming Conversions
 com.${TEAM_NAME}.${PROJECT_NAME}.${LANGUAGE}.XXX
 org.${TEAM_NAME}.${PROJECT_NAME}.${LANGUAGE}.XXX
 simpleVariable
@@ -48,16 +48,6 @@ private class
 x Constant obey encapsulation rule, cause low cohesion and high coupling
 x xxxUtil obey delegation rule, cause high coupling and duplicate code
 o xxxDto as argument can decrease amount of arguments
-
-# Spring MVC
-* @Component
- * java bean control by Spring
-* @Controller
- * validate argument, check auth, transfer request, process response
-* @Service
- * invoke business logic, try catch error handling
-* @Repository
- * handle database operation
 
 # Special Object
 * Pojo
