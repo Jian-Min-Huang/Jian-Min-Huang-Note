@@ -27,18 +27,19 @@ var a='<input type="checkbox" disabled style="margin: 0px 0.35em 0.25em -1.6em; 
 var index = [];
 
 var notes = [
-    {type: "md", href: "../content/notes/Coding Note.txt", text: "Coding Note"},
-    {type: "md", href: "../content/notes/Git Settings.txt", text: "Git Settings"},
-    {type: "md", href: "../content/notes/Intellij IDEA Hot Keys.txt", text: "Intellij IDEA Hot Keys"},
-    {type: "md", href: "../content/notes/Intellij IDEA Settings.txt", text: "Intellij IDEA Settings"},
-    {type: "md", href: "../content/notes/MAC Install.txt", text: "MAC Install"},
-    {type: "md", href: "../content/notes/MAC Settings.txt", text: "MAC Settings"},
-    {type: "md", href: "../content/notes/Oracle.txt", text: "Oracle"},
-    {type: "md", href: "../content/notes/Unix Like Terminal Settings.txt", text: "Unix Like Terminal Settings"},
-    {type: "md", href: "../content/notes/bash.txt", text: "bash"},
-    {type: "md", href: "../content/notes/issues & concepts.txt", text: "Issues & Concepts"},
-    {type: "md", href: "../content/notes/Note Why.txt", text: "Note Why"},
-    {type: "md", href: "../content/notes/vim.txt", text: "vim"}
+    {type: "md", href: "../content/notes/bash.md", text: "bash"},
+    {type: "md", href: "../content/notes/Coding Note.md", text: "Coding Note"},
+    {type: "md", href: "../content/notes/Git Settings.md", text: "Git Settings"},
+    {type: "md", href: "../content/notes/Intellij IDEA Hot Keys.md", text: "Intellij IDEA Hot Keys"},
+    {type: "md", href: "../content/notes/Intellij IDEA Settings.md", text: "Intellij IDEA Settings"},
+    {type: "md", href: "../content/notes/issues & concepts.md", text: "Issues & Concepts"},
+    {type: "md", href: "../content/notes/MAC Install.md", text: "MAC Install"},
+    {type: "md", href: "../content/notes/MAC Settings.md", text: "MAC Settings"},
+    {type: "md", href: "../content/notes/Note Why.md", text: "Note Why"},
+    {type: "md", href: "../content/notes/Oracle.md", text: "Oracle"},
+    {type: "md", href: "../content/notes/SQL.md", text: "SQL"},
+    {type: "md", href: "../content/notes/Unix Like Terminal Settings.md", text: "Unix Like Terminal Settings"},
+    {type: "md", href: "../content/notes/vim.md", text: "vim"}
 ];
 
 var tutorials_official = [
