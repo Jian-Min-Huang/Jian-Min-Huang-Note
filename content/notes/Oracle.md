@@ -1,6 +1,19 @@
-##### date function
+##### date format
 ```sql
 sql> SELECT TO_CHAR(SYSDATE,'YYYY/MM/DD HH24:MI:SS') FROM DUAL;
+```
+
+##### decode
+```sql
+sql> SELECT DECODE(STATUS, 0, 'PREPARE', 1, 'DOING', 2, 'DONE', 'UNDEFINED') FROM LOTTERY_ISSUE;
+```
+
+##### case
+```sql
+sql> SELECT CASE WHEN ACTUAL_BONUS < 100000 THEN 'LOW'
+            WHEN ACTUAL_BONUS < 1000000 THEN 'MEDIUM'
+            ELSE 'HIGH' END 
+     FROM GAME_AWARD;
 ```
 
 ##### top n record

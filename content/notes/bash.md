@@ -20,8 +20,12 @@ $ scp dev1:~/log.tar.gz .
 $ scp ROOT.war dev1:~
 ```
 
-##### Q : list process and kill it
+##### Q : kill process in one command
 ```sh
-$ ps aux | grep java | grep catch
-$ kill -9 xxx
+$ kill -9 $(ps aux | grep java | grep catch | awk {'print $2'})
+```
+
+##### other
+```
+head, tail, sed, top
 ```

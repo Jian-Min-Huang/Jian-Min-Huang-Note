@@ -22,6 +22,9 @@
 * homebrew
 * nginx
 
+##### homebrew
+* gawk
+
 ##### service
 * gitlab
   * setting ssh
