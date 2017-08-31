@@ -2,8 +2,9 @@
 ```
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+
+PS1="\D{{%Y-%m-%d %H:%M:%S}}[\w]\\$ "
 ```
-PS1="[\D{%Y-%m-%d %H:%M:%S}][\w]\\$ "
 
 ###### .vimrc
 ```
