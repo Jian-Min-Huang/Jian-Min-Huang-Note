@@ -9,6 +9,7 @@ var notes = [
     {type: "md", href: "../content/notes/issues & concepts.md", text: "Issues & Concepts"},
     {type: "md", href: "../content/notes/MAC Install.md", text: "MAC Install"},
     {type: "md", href: "../content/notes/MAC Settings.md", text: "MAC Settings"},
+    {type: "md", href: "../content/notes/NGINX Note.md", text: "NGINX Note"},
     {type: "md", href: "../content/notes/Note Why.md", text: "Note Why"},
     {type: "md", href: "../content/notes/Oracle.md", text: "Oracle"},
     {type: "md", href: "../content/notes/SQL.md", text: "SQL"},
@@ -57,6 +58,7 @@ var helpers = [
 ];
 
 var frameworks_frontend = [
+    {type: "iframe", href: "https://jwt.io", text: "JWT"},
     {type: "iframe", href: "https://jquery.com", text: "jQuery"},
     {type: "iframe", href: "https://jqueryui.com", text: "jQuery UI"},
     {type: "iframe", href: "https://facebook.github.io/react/", text: "React"},
@@ -76,6 +78,7 @@ var frameworks_frontend = [
     {type: "iframe", href: "http://fontawesome.io", text: "Font Awesome"},
     {type: "iframe", href: "https://www.highcharts.com/demo", text: "Highcharts"},
     {type: "iframe", href: "https://d3js.org", text: "D3"},
+    {type: "iframe", href: "http://www.daterangepicker.com", text: "Data Range Picker"},
     {type: "iframe", href: "http://requirejs.org", text: "RequireJS"},
     {type: "iframe", href: "http://browserify.org", text: "Browserify"},
     {type: "iframe", href: "https://webpack.js.org", text: "webpack"},
@@ -129,20 +132,19 @@ var frameworks_backend = [
     {type: "iframe", href: "http://storm.apache.org/", text: "STORM"},
     {type: "iframe", href: "https://rocketmq.apache.org/", text: "RocketMQ"},
     {type: "iframe", href: "http://koajs.com/", text: "koa"},
+    {type: "iframe", href: "http://www.ehcache.org/", text: "EHCACHE"},
+    {type: "iframe", href: "http://www.quartz-scheduler.org/", text: "QUARTZ"},
+    {type: "iframe", href: "http://mapstruct.org/", text: "MapStruct"},
+    {type: "iframe", href: "https://www.drools.org/", text: "Drools"},
+    {type: "iframe", href: "https://www.lightbend.com/", text: "Lightbend"},
+    {type: "iframe", href: "http://slick.lightbend.com/", text: "Slick"},
+    {type: "iframe", href: "https://www.playframework.com/", text: "play"},
+    {type: "iframe", href: "http://www.scalatest.org/", text: "ScalaTest"},
+    {type: "iframe", href: "https://spring.io/", text: "spring"},
+    {type: "iframe", href: "http://junit.org/", text: "JUnit"},
+    {type: "iframe", href: "http://jmeter.apache.org/", text: "JMeter"},
+    {type: "iframe", href: "http://jamonapi.sourceforge.net/", text: "JAMon"},
     {type: "iframe", href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
-    // spring
-    // quartz
-    // ehcache
-    // slick
-    // junit
-    // scalatest
-    // jmeter
-    // jamon
-    // spray
-    // play
-    // mapstruct
-    // drools
-    // scalajs
 ];
 
 var frameworks_system = [

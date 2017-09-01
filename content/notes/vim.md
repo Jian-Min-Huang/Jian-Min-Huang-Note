@@ -32,5 +32,5 @@ nyy, ndd and p
 ```
 :s/old/new
 :10,20s/old/new/g
-:s/old/new/g
+:%s/old/new/g
 ```

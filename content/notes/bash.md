@@ -25,6 +25,11 @@ $ scp ROOT.war dev1:~
 $ kill -9 $(ps aux | grep java | grep catch | awk {'print $2'})
 ```
 
+##### Q : service location
+```
+$ /etc/init.d/xxx
+```
+
 ##### other
 ```
 head, tail, sed, top
