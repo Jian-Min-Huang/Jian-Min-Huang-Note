@@ -9,6 +9,7 @@ var notes = [
     {type: "md", href: "../content/notes/issues & concepts.md", text: "Issues & Concepts"},
     {type: "md", href: "../content/notes/MAC Install.md", text: "MAC Install"},
     {type: "md", href: "../content/notes/MAC Settings.md", text: "MAC Settings"},
+    {type: "md", href: "../content/notes/Maven Note.md", text: "Maven Note"},
     {type: "md", href: "../content/notes/NGINX Note.md", text: "NGINX Note"},
     {type: "md", href: "../content/notes/Note Why.md", text: "Note Why"},
     {type: "md", href: "../content/notes/Oracle.md", text: "Oracle"},
@@ -91,6 +92,7 @@ var frameworks_frontend = [
     {type: "iframe", href: "http://www.jslint.com", text: "JSLint"},
     {type: "iframe", href: "http://eslint.org", text: "ESLint"},
     {type: "iframe", href: "https://github.com/mzabriskie/axios", text: "axios"},
+    {type: "iframe", href: "https://momentjs.com", text: "MOMENT"},
     {type: "iframe", href: "http://yeoman.io", text: "YEOMAN"}
 ];
 
