@@ -43,6 +43,11 @@ var tutorials_3rd_party = [
     {type: "iframe", href: "https://blog.gtwang.org", text: "G. T. Wang"}
 ];
 
+var tutorials_ithome = [
+    {type: "iframe", href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"},
+    {type: "iframe", href: "https://docs.oracle.com/en/database/", text: "ORACLE Help Center"}
+];
+
 var helpers = [
     {type: "iframe", href: "https://www.codecademy.com", text: "Codecademy"},
     {type: "iframe", href: "https://www.codeschool.com", text: "Code School"},
@@ -168,13 +173,12 @@ var frameworks_system = [
     {type: "iframe", href: "https://kubernetes.io/", text: "kubernetes"}
 ];
 
-// var services = [
-// aws
-// gce
-// heroku
-// godaddy
-// {type: "iframe", href: "", text: ""}
-// ];
+var services = [
+    {type: "iframe", href: "https://aws.amazon.com/", text: "amazon web services"},
+    {type: "iframe", href: "https://cloud.google.com/", text: "Google Cloud Platform"},
+    {type: "iframe", href: "https://www.heroku.com", text: "HEROKU"},
+    {type: "iframe", href: "https://www.godaddy.com", text: "GoDaddy"}
+];
 
 var common_auth = [
     {type: "iframe", href: "../content/common/auth/解決問題的第一步_ Authentication vs. Authorization.htm", text: "解決問題的第一步_ Authentication vs. Authorization"}
@@ -326,6 +330,7 @@ var index_tags = [];
 var notes_tags = ["coding", "mac"];
 var tutorials_official_tags = [];
 var tutorials_3rd_party_tags = [];
+var tutorials_ithome_tags = [];
 var helpers_tags = [];
 var frameworks_frontend_tags = [];
 var frameworks_backend_tags = [];
