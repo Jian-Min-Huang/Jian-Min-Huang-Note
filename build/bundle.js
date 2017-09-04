@@ -440,7 +440,7 @@ $(function () {
         if (arrayName[idx].type === "md") {
             $.ajax({
                 url: arrayName[idx].href,
-                method: "GET",
+                type: "GET",
                 success: function (data) {
                     $("#md-content").empty();
                     $("#iframe-content").empty();
@@ -448,11 +448,19 @@ $(function () {
                 }
             });
         } else if (arrayName[idx].type === "iframe") {
-            var iframeHtml = "<iframe src=\"" + arrayName[idx].href + "\" width=\"100%\" height=\"800px\" frameborder=\"0\"></iframe>";
+            $.ajax({
+                url: arrayName[idx].href,
+                type: "HEAD",
+                success: function (data) {
+                    console.log(data);
+                }
+            });
 
-            $("#md-content").empty();
-            $("#iframe-content").empty();
-            $("#iframe-content").append(iframeHtml);
+            // var iframeHtml = "<iframe src=\"" + arrayName[idx].href + "\" width=\"100%\" height=\"800px\" frameborder=\"0\"></iframe>";
+            //
+            // $("#md-content").empty();
+            // $("#iframe-content").empty();
+            // $("#iframe-content").append(iframeHtml);
         } else {
             console.log("match error !");
         }
