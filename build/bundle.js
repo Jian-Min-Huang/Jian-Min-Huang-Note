@@ -30,6 +30,7 @@ var notes = [
     {type: "md", href: "../content/notes/bash.md", text: "bash"},
     {type: "md", href: "../content/notes/Coding Note.md", text: "Coding Note"},
     {type: "md", href: "../content/notes/Git Settings.md", text: "Git Settings"},
+    {type: "md", href: "../content/notes/Docker Note.md", text: "Docker Note"},
     {type: "md", href: "../content/notes/Intellij IDEA Hot Keys.md", text: "Intellij IDEA Hot Keys"},
     {type: "md", href: "../content/notes/Intellij IDEA Settings.md", text: "Intellij IDEA Settings"},
     {type: "md", href: "../content/notes/issues & concepts.md", text: "Issues & Concepts"},
@@ -86,7 +87,8 @@ var helpers = [
     {type: "iframe", href: "https://bootsnipp.com", text: "Bootsnipp"},
     {type: "iframe", href: "http://shields.io/", text: "Quality metadata badges for open source projects"},
     {type: "iframe", href: "https://developer.mozilla.org/", text: "MDN web docs"},
-    {type: "iframe", href: "https://start.spring.io", text: "SPRING INITIALIZR"}
+    {type: "iframe", href: "https://start.spring.io", text: "SPRING INITIALIZR"},
+    {type: "iframe", href: "https://www.wolframalpha.com/", text: "WolframaAlpha"}
 ];
 
 var frameworks_frontend = [
@@ -448,24 +450,23 @@ $(function () {
                 }
             });
         } else if (arrayName[idx].type === "iframe") {
-            $.ajax({
-                url: arrayName[idx].href,
-                type: "HEAD",
-                success: function (data) {
-                    console.log(data);
-                }
-            });
+            var iframeHtml = "<iframe src=\"" + arrayName[idx].href + "\" width=\"100%\" height=\"800px\" onload=\"load\" onerror=\"error\" frameborder=\"0\"></iframe>";
 
-            // var iframeHtml = "<iframe src=\"" + arrayName[idx].href + "\" width=\"100%\" height=\"800px\" frameborder=\"0\"></iframe>";
-            //
-            // $("#md-content").empty();
-            // $("#iframe-content").empty();
-            // $("#iframe-content").append(iframeHtml);
+            $("#md-content").empty();
+            $("#iframe-content").empty();
+            $("#iframe-content").append(iframeHtml);
         } else {
             console.log("match error !");
         }
     });
 });
+
+var load = function () {
+    console.log("load");
+};
+var error = function () {
+    console.log("error");
+};
 $(function() {
     $('#side-menu').metisMenu();
 });

@@ -246,3 +246,6 @@ servlet 也是這樣設計，這有其歷史，請GOOGLE
 service 需要回傳值是因為方便單元測試的MOCK
 
 JSON.stringify() 有類似於Serializable的功能
+
+always stupid bug, 順序錯
+手動清掉, 下次重拉

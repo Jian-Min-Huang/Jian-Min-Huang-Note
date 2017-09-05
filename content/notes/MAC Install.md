@@ -21,6 +21,7 @@
 * appcleaner
 * homebrew
 * nginx
+* docker for mac
 
 ##### homebrew
 * gawk
