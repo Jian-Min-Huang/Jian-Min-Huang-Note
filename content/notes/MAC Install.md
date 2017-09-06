@@ -22,6 +22,7 @@
 * homebrew
 * nginx
 * docker for mac
+* Dropbox
 
 ##### homebrew
 * gawk

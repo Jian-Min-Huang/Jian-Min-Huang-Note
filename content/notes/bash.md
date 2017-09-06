@@ -1,6 +1,11 @@
 ##### Q : split large file
 ```sh
-$ split -b 50m top.txt top.part.
+$ split -b 50m catalina.out log.part.
+```
+
+##### Q : fetch last 100 line and dump to file
+```sh
+$ tail -n 100 catalina.out > log
 ```
 
 ##### Q : mkdir recusively

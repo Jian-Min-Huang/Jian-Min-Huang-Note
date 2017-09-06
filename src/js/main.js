@@ -3,7 +3,7 @@ var index = [];
 var notes = [
     {type: "md", href: "../content/notes/bash.md", text: "bash"},
     {type: "md", href: "../content/notes/Coding Note.md", text: "Coding Note"},
-    {type: "md", href: "../content/notes/Git Settings.md", text: "Git Settings"},
+    {type: "md", href: "../content/notes/Git Note.md", text: "Git Note"},
     {type: "md", href: "../content/notes/Docker Note.md", text: "Docker Note"},
     {type: "md", href: "../content/notes/Intellij IDEA Hot Keys.md", text: "Intellij IDEA Hot Keys"},
     {type: "md", href: "../content/notes/Intellij IDEA Settings.md", text: "Intellij IDEA Settings"},
@@ -151,6 +151,7 @@ var frameworks_backend = [
     {type: "iframe", href: "http://www.scalatest.org/", text: "ScalaTest"},
     {type: "iframe", href: "https://spring.io/", text: "spring"},
     {type: "iframe", href: "http://junit.org/", text: "JUnit"},
+    {type: "iframe", href: "https://www.getpostman.com/", text: "POSTMAN"},
     {type: "iframe", href: "http://jmeter.apache.org/", text: "JMeter"},
     {type: "iframe", href: "http://jamonapi.sourceforge.net/", text: "JAMon"},
     {type: "iframe", href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
@@ -172,6 +173,7 @@ var frameworks_system = [
     {type: "iframe", href: "https://jenkins.io/", text: "Jenkins"},
     {type: "iframe", href: "https://travis-ci.org/", text: "Travis CI"},
     {type: "iframe", href: "https://www.docker.com/", text: "docker"},
+    {type: "iframe", href: "https://kitematic.com", text: "KITEMATIC"},
     {type: "iframe", href: "https://kubernetes.io/", text: "kubernetes"}
 ];
 
