@@ -47,7 +47,8 @@ var notes = [
 
 var tutorials_official = [
     {type: "iframe", href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"},
-    {type: "iframe", href: "https://docs.oracle.com/en/database/", text: "ORACLE Help Center"}
+    {type: "iframe", href: "https://docs.oracle.com/en/database/", text: "ORACLE Help Center"},
+    {type: "iframe", href: "https://git-scm.com/docs", text: "git Documentation"}
 ];
 
 var tutorials_3rd_party = [
@@ -91,7 +92,7 @@ var helpers = [
     {type: "iframe", href: "https://www.wolframalpha.com/", text: "WolframaAlpha"}
 ];
 
-var frameworks_frontend = [
+var frameworks_tools_frontend = [
     {type: "iframe", href: "https://jwt.io", text: "JWT"},
     {type: "iframe", href: "https://jquery.com", text: "jQuery"},
     {type: "iframe", href: "https://jqueryui.com", text: "jQuery UI"},
@@ -129,7 +130,7 @@ var frameworks_frontend = [
     {type: "iframe", href: "http://yeoman.io", text: "YEOMAN"}
 ];
 
-var frameworks_backend = [
+var frameworks_tools_backend = [
     {type: "iframe", href: "http://hc.apache.org/index.html", text: "Apache HttpComponents"},
     {type: "iframe", href: "http://freemarker.org", text: "FreeMaker"},
     {type: "iframe", href: "http://www.thymeleaf.org", text: "Thymeleaf"},
@@ -183,7 +184,7 @@ var frameworks_backend = [
     {type: "iframe", href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
 ];
 
-var frameworks_system = [
+var frameworks_tools_system = [
     {type: "iframe", href: "https://nginx.org/", text: "NGINX"},
     {type: "iframe", href: "https://httpd.apache.org/", text: "Apache HTTP"},
     {type: "iframe", href: "https://redis.io/", text: "redis"},
@@ -203,7 +204,7 @@ var frameworks_system = [
     {type: "iframe", href: "https://kubernetes.io/", text: "kubernetes"}
 ];
 
-var services = [
+var frameworks_tools_service = [
     {type: "iframe", href: "https://aws.amazon.com/", text: "amazon web services"},
     {type: "iframe", href: "https://cloud.google.com/", text: "Google Cloud Platform"},
     {type: "iframe", href: "https://www.heroku.com", text: "HEROKU"},
@@ -362,10 +363,10 @@ var tutorials_official_tags = [];
 var tutorials_3rd_party_tags = [];
 var tutorials_ithome_tags = [];
 var helpers_tags = [];
-var frameworks_frontend_tags = [];
-var frameworks_backend_tags = [];
-var frameworks_system_tags = [];
-var services_tags = [];
+var frameworks_tools_frontend_tags = [];
+var frameworks_tools_backend_tags = [];
+var frameworks_tools_system_tags = [];
+var frameworks_tools_service_tags = [];
 var common_auth_tags = [];
 var common_design_pattern_tags = [];
 var common_http_tags = [];
@@ -452,23 +453,12 @@ $(function () {
                 }
             });
         } else if (arrayName[idx].type === "iframe") {
-            var iframeHtml = "<iframe src=\"" + arrayName[idx].href + "\" width=\"100%\" height=\"800px\" onload=\"load\" onerror=\"error\" frameborder=\"0\"></iframe>";
-
-            $("#md-content").empty();
-            $("#iframe-content").empty();
-            $("#iframe-content").append(iframeHtml);
+            window.open(arrayName[idx].href);
         } else {
             console.log("match error !");
         }
     });
 });
-
-var load = function () {
-    console.log("load");
-};
-var error = function () {
-    console.log("error");
-};
 $(function() {
     $('#side-menu').metisMenu();
 });

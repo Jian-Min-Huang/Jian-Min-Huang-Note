@@ -427,20 +427,9 @@ $(function () {
                 }
             });
         } else if (arrayName[idx].type === "iframe") {
-            var iframeHtml = "<iframe src=\"" + arrayName[idx].href + "\" width=\"100%\" height=\"800px\" onload=\"load\" onerror=\"error\" frameborder=\"0\"></iframe>";
-
-            $("#md-content").empty();
-            $("#iframe-content").empty();
-            $("#iframe-content").append(iframeHtml);
+            window.open(arrayName[idx].href);
         } else {
             console.log("match error !");
         }
     });
 });
-
-var load = function () {
-    console.log("load");
-};
-var error = function () {
-    console.log("error");
-};
