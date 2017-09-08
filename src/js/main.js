@@ -66,7 +66,7 @@ var helpers = [
     {type: "iframe", href: "https://www.wolframalpha.com/", text: "WolframaAlpha"}
 ];
 
-var frameworks_tools_frontend = [
+var solutions_tools_frontend = [
     {type: "iframe", href: "https://jwt.io", text: "JWT"},
     {type: "iframe", href: "https://jquery.com", text: "jQuery"},
     {type: "iframe", href: "https://jqueryui.com", text: "jQuery UI"},
@@ -104,7 +104,7 @@ var frameworks_tools_frontend = [
     {type: "iframe", href: "http://yeoman.io", text: "YEOMAN"}
 ];
 
-var frameworks_tools_backend = [
+var solutions_tools_backend = [
     {type: "iframe", href: "http://hc.apache.org/index.html", text: "Apache HttpComponents"},
     {type: "iframe", href: "http://freemarker.org", text: "FreeMaker"},
     {type: "iframe", href: "http://www.thymeleaf.org", text: "Thymeleaf"},
@@ -158,7 +158,7 @@ var frameworks_tools_backend = [
     {type: "iframe", href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
 ];
 
-var frameworks_tools_system = [
+var solutions_tools_system = [
     {type: "iframe", href: "https://nginx.org/", text: "NGINX"},
     {type: "iframe", href: "https://httpd.apache.org/", text: "Apache HTTP"},
     {type: "iframe", href: "https://redis.io/", text: "redis"},
@@ -178,7 +178,7 @@ var frameworks_tools_system = [
     {type: "iframe", href: "https://kubernetes.io/", text: "kubernetes"}
 ];
 
-var frameworks_tools_service = [
+var solutions_tools_service = [
     {type: "iframe", href: "https://aws.amazon.com/", text: "amazon web services"},
     {type: "iframe", href: "https://cloud.google.com/", text: "Google Cloud Platform"},
     {type: "iframe", href: "https://www.heroku.com", text: "HEROKU"},
@@ -337,10 +337,10 @@ var tutorials_official_tags = [];
 var tutorials_3rd_party_tags = [];
 var tutorials_ithome_tags = [];
 var helpers_tags = [];
-var frameworks_tools_frontend_tags = [];
-var frameworks_tools_backend_tags = [];
-var frameworks_tools_system_tags = [];
-var frameworks_tools_service_tags = [];
+var solutions_tools_frontend_tags = [];
+var solutions_tools_backend_tags = [];
+var solutions_tools_system_tags = [];
+var solutions_tools_service_tags = [];
 var common_auth_tags = [];
 var common_design_pattern_tags = [];
 var common_http_tags = [];
