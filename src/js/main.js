@@ -368,7 +368,7 @@ $(function () {
             });
         } else {
             $(".item").each(function (index, element) {
-                if ($(element).text().toLowerCase().indexOf(keyword) != -1) {
+                if ($(element).text().toLowerCase().indexOf(keyword) !== -1) {
                     $(element).show();
                 } else {
                     $(element).hide();
@@ -421,9 +421,10 @@ $(function () {
                 url: arrayName[idx].href,
                 type: "GET",
                 success: function (data) {
-                    $("#md-content").empty();
+                    var content = $("#md-content");
+                    content.empty();
                     $("#iframe-content").empty();
-                    $("#md-content").append(converter.makeHtml(data));
+                    content.append(converter.makeHtml(data));
                 }
             });
         } else if (arrayName[idx].type === "iframe") {

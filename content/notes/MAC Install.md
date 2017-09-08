@@ -22,6 +22,7 @@
 * homebrew
 * nginx
 * docker for mac
+* Kitematic
 * Dropbox
 
 ##### homebrew
