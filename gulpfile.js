@@ -2,8 +2,6 @@ var gulp        = require("gulp"),
     fileinclude = require("gulp-file-include"),
     less        = require("gulp-less"),
     concat      = require("gulp-concat"),
-    uglify      = require("gulp-uglify"),
-    rename      = require("gulp-rename"),
     fs          = require("fs");
 
 var SRC = "./src";

@@ -1,0 +1,26 @@
+{
+  "name": "jian-min-huang-note",
+  "version": "1.0.0",
+  "description": "Jian-Min Huang's Note",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-file-include": "latest",
+    "gulp-less": "latest",
+    "gulp-concat": "latest",
+    "fs": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jian-Min-Huang/Jian-Min-Huang-Note.git"
+  },
+  "author": "Jian-Min Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jian-Min-Huang/Jian-Min-Huang-Note/issues"
+  },
+  "homepage": "https://github.com/Jian-Min-Huang/Jian-Min-Huang-Note#readme"
+}
