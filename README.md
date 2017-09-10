@@ -4,20 +4,7 @@
 
 **Please refer http://note.jianminhuang.cc .**
 
-### install gulp with npm
-```sh
-$ sudo npm install -g gulp
-```
-### npm install in project
-```sh
-$ npm install
-```
-### run gulp after you update content
-```sh
-$ gulp
-```
-
-### project description
+## project structure
 ```sh
 build/    build result after run gulp
 content/  notes content
@@ -26,4 +13,10 @@ src/
  - html/  html page prototype (contains template)
  - js/    custom javascirpt file
 vendors/  3rd party libraries
+```
+## settings
+```sh
+$ sudo npm install -g gulp
+$ npm install
+$ gulp
 ```
