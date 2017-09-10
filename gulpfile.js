@@ -1,8 +1,8 @@
-var gulp        = require("gulp"),
-    fileinclude = require("gulp-file-include"),
-    less        = require("gulp-less"),
-    concat      = require("gulp-concat"),
-    fs          = require("fs");
+var gulp = require("gulp");
+var fileinclude = require("gulp-file-include");
+var less = require("gulp-less");
+var concat = require("gulp-concat");
+var fs = require("fs");
 
 var SRC = "./src";
 var DEST = "./build";
@@ -15,7 +15,7 @@ var JsFileDependency = [
     "./src/js/*.js"
 ];
 
-gulp.task('versioning', function () {
+gulp.task("versioning", function () {
     fs.writeFileSync("./src/html/version.html", new Date().toLocaleString(), "");
 });
 
@@ -28,7 +28,7 @@ gulp.task("fileinclude", ["versioning"], function () {
         .pipe(gulp.dest(DEST));
 });
 
-gulp.task('scripts', function () {
+gulp.task("scripts", function () {
     gulp.src(JsFileDependency)
         .pipe(concat('bundle.js'))
         .pipe(gulp.dest(DEST));
