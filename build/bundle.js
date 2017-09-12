@@ -90,7 +90,8 @@ var helpers = [
     {type: "iframe", href: "http://shields.io/", text: "Quality metadata badges for open source projects"},
     {type: "iframe", href: "https://developer.mozilla.org/", text: "MDN web docs"},
     {type: "iframe", href: "https://start.spring.io", text: "SPRING INITIALIZR"},
-    {type: "iframe", href: "https://www.wolframalpha.com/", text: "WolframaAlpha"}
+    {type: "iframe", href: "https://www.wolframalpha.com/", text: "WolframaAlpha"},
+    {type: "iframe", href: "https://www.webpagefx.com/tools/emoji-cheat-sheet/", text: "EMOJI CHEAT SHEET"}
 ];
 
 var solutions_tools_frontend = [
