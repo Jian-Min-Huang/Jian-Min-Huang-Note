@@ -41,3 +41,7 @@ gulp.task("less", function () {
 });
 
 gulp.task("default", ["fileinclude", "scripts", "less"]);
+
+gulp.task('watch', function () {
+    gulp.watch('src/**', ["default"]);
+});

@@ -33,11 +33,15 @@ Separate Read Write Action
 	Database
 RAC
 ACID
+    Atomicity
+    Consistency
+    Isolation
+    Durability
 
 # Architecture
-SOA
-ESB
-MicroService
+Service Oriented Architecture
+Enterprise Service Bus
+Microservice and API Gateway
 Master Slave
 Active Standby
 Active Active
@@ -56,17 +60,19 @@ Publish Subscribe
 Producer Consumer
 3-tier architechure
 CAP Theorem
- C all user can get same data at same time
- A save data on many node, cluster can work well when a node fail
- P each node can keep working when network is error
+    Consistence, all user can get same data at same time
+    Availability, save data on many node, cluster can work well when a node fail
+    Partition-tolerant each node can keep working when network is error
 BASE Theorem
- Basically Available
- Soft State
- Eventual Consistency
+    BA,  Basically Available
+    S, Soft state
+    E, Eventual consistency
 Synchronous
 Asynchronous
 Event Driven
 Centralized Control System
+Business Horizontal and Vertical Split
+Pull and Push
 
 # Cloud
 IAAS
@@ -118,6 +124,14 @@ Polymorphism
 Anemic domain model
 GRASP
 Object transformation
+Message Queue
+    at least once
+    at most once
+    exact once
+inviting code
+service discover
+keep alive
+
 
 # Famous Person & Organization
 Apache Software Foundation

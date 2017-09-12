@@ -10,4 +10,6 @@ $ npm update -g
 $ npm update
 $ npm init
 $ npm search
+$ npm install module-name --save
+$ npm install module-name --save-dev
 ```

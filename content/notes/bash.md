@@ -42,5 +42,10 @@ $ /etc/init.d/xxx
 
 ##### other
 ```
-head, tail, sed, top
+sed, top
 ```
+
+##### find top 10 large file in directory
+ ```sh
+ $ du -a /var | sort -n -r | head -n 10
+ ```

@@ -3,8 +3,8 @@ var index = [];
 var notes = [
     {type: "md", href: "../content/notes/bash.md", text: "bash"},
     {type: "md", href: "../content/notes/Coding Note.md", text: "Coding Note"},
-    {type: "md", href: "../content/notes/Git Note.md", text: "Git Note"},
     {type: "md", href: "../content/notes/Docker Note.md", text: "Docker Note"},
+    {type: "md", href: "../content/notes/Git Note.md", text: "Git Note"},
     {type: "md", href: "../content/notes/Intellij IDEA Hot Keys.md", text: "Intellij IDEA Hot Keys"},
     {type: "md", href: "../content/notes/Intellij IDEA Settings.md", text: "Intellij IDEA Settings"},
     {type: "md", href: "../content/notes/issues & concepts.md", text: "Issues & Concepts"},
@@ -13,6 +13,7 @@ var notes = [
     {type: "md", href: "../content/notes/Maven Note.md", text: "Maven Note"},
     {type: "md", href: "../content/notes/NGINX Note.md", text: "NGINX Note"},
     {type: "md", href: "../content/notes/Note Why.md", text: "Note Why"},
+    {type: "md", href: "../content/notes/NPM Note.md", text: "NPM Note"},
     {type: "md", href: "../content/notes/Oracle.md", text: "Oracle"},
     {type: "md", href: "../content/notes/SQL.md", text: "SQL"},
     {type: "md", href: "../content/notes/Unix Like Terminal Settings.md", text: "Unix Like Terminal Settings"},

@@ -60,7 +60,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * Qo (query)
 * To (transfer)
 * Dto (data transfer)
-* Po (persistant)
+* Po (persistent)
 * Session Bean
  * Stateless Session Bean
  * Stateful Session Bean
