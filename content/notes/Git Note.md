@@ -21,3 +21,8 @@ $ git push -f
 $ git reset --soft SHA
 $ git commit -m "message"
 ```
+
+##### clean git remote branch
+```sh
+$ git remote update origin --prune
+```

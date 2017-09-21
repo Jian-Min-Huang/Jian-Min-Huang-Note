@@ -18,6 +18,7 @@
   * Remote Desktop
   * Postman 
     * backup
+  * Wappalyzer
 * appcleaner
 * homebrew
 * nginx
