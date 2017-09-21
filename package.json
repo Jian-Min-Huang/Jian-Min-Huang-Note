@@ -7,11 +7,14 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-file-include": "^1.2.0",
-    "gulp-less": "^3.3.2"
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
     "build": "gulp",
+    "watch": "gulp watch",
     "test": "echo \"no test specified\" && exit 0"
   },
   "repository": {

@@ -28,3 +28,6 @@ $ vim idea.vmoptions
 * line separator
 * maven settings
 * editor inspections serialization issues
+
+##### clean project
+* File -> Invalidate Caches

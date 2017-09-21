@@ -1,13 +1,15 @@
-var gulp = require("gulp");
-var fileinclude = require("gulp-file-include");
-var less = require("gulp-less");
-var concat = require("gulp-concat");
-var fs = require("fs");
+const gulp = require("gulp");
+const fileinclude = require("gulp-file-include");
+const less = require("gulp-less");
+const concat = require("gulp-concat");
+const uglify = require("gulp-uglify");
+const rename = require("gulp-rename");
+const fs = require("fs");
 
-var SRC = "./src";
-var DEST = "./build";
+const SRC = "./src";
+const DEST = "./build";
 
-var JsFileDependency = [
+const JsFileDependencies = [
     "./vendors/jquery/jquery.min.js",
     "./vendors/bootstrap/js/bootstrap.min.js",
     "./vendors/metisMenu/metisMenu.min.js",
@@ -28,9 +30,14 @@ gulp.task("fileinclude", ["versioning"], function () {
         .pipe(gulp.dest(DEST));
 });
 
-gulp.task("scripts", function () {
-    gulp.src(JsFileDependency)
-        .pipe(concat('bundle.js'))
+gulp.task("script", function () {
+    gulp.src(JsFileDependencies)
+        .pipe(concat("bundle.js"))
+        .pipe(uglify())
+        .pipe(rename(function (path) {
+            path.basename += ".min";
+            path.extname = ".js";
+        }))
         .pipe(gulp.dest(DEST));
 });
 
@@ -40,8 +47,8 @@ gulp.task("less", function () {
         .pipe(gulp.dest(DEST + "/css"));
 });
 
-gulp.task("default", ["fileinclude", "scripts", "less"]);
+gulp.task("default", ["fileinclude", "script", "less"]);
 
-gulp.task('watch', function () {
-    gulp.watch('src/**', ["default"]);
+gulp.task("watch", function () {
+    gulp.watch("src/**", ["default"]);
 });

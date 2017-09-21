@@ -18,5 +18,5 @@ vendors/  3rd party libraries
 ```sh
 $ sudo npm install -g gulp
 $ npm install
-$ gulp
+$ npm run build
 ```
