@@ -235,49 +235,103 @@ var javascript = [
 ];
 
 var java_common = [
-    {type: "iframe", href: "../content/Java/Common/虛有其表的介面.htm", text: "虛有其表的介面"},
-    {type: "iframe", href: "../content/Java/Common/Call by value？.htm", text: "Call by value？"},
-    {type: "iframe", href: "../content/Java/Common/Excelsior  [Java] 淺談 call by value 和 call by reference.htm", text: "Excelsior  [Java] 淺談 call by value 和 call by reference"},
+    {type: "iframe", href: "../content/java/common/虛有其表的介面.htm", text: "虛有其表的介面"},
+    {type: "iframe", href: "../content/java/common/Call by value？.htm", text: "Call by value？"},
     {
         type: "iframe",
-        href: "../content/Java/Servlet/使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang.htm",
+        href: "../content/java/common/Excelsior  [Java] 淺談 call by value 和 call by reference.htm",
+        text: "Excelsior  [Java] 淺談 call by value 和 call by reference"
+    }
+];
+
+var java_concurrent = [
+    {type: "iframe", href: "../content/java/concurrent/ThreadPoolExecutor.htm", text: "ThreadPoolExecutor"},
+    {type: "iframe", href: "../content/java/concurrent/Executors.htm", text: "Executors"},
+    {
+        type: "iframe",
+        href: "../content/java/concurrent/ForkJoinPool · Java多執行緒的基本知識.htm",
+        text: "ForkJoinPool · Java多執行緒的基本知識"
+    },
+    {type: "iframe", href: "../content/java/concurrent/Thread Life Cycle.jpg", text: "Thread Life Cycle"},
+    {
+        type: "iframe",
+        href: "../content/java/concurrent/我是010_ volatile(揮發性) 在Java裡的概念與使用時機.htm",
+        text: "我是010_ volatile(揮發性) 在Java裡的概念與使用時機"
+    }
+];
+
+var java_jvm = [
+    {
+        type: "iframe",
+        href: "../content/java/jvm/【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特.htm",
+        text: "【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特"
+    }
+];
+
+var java_spring = [
+    {type: "iframe", href: "../content/java/spring/Spring bean scopes example.htm", text: "Spring bean scopes example"},
+    {type: "iframe", href: "../content/java/spring/Spring Bean Scopes.htm", text: "Spring Bean Scopes"},
+    {type: "iframe", href: "../content/java/spring/Spring Beans Auto-Wiring.htm", text: "Spring Beans Auto-Wiring"},
+    {
+        type: "iframe",
+        href: "../content/java/spring/Spring Java Based Configuration",
+        text: "Spring Java Based Configuration"
+    },
+    {type: "iframe", href: "../content/java/spring/Spring Bean Life Cycle.htm", text: "Spring Bean Life Cycle"},
+    {type: "iframe", href: "../content/java/spring/Spring Bean Definition.htm", text: "Spring Bean Definition"},
+    {
+        type: "iframe",
+        href: "../content/java/spring/Spring Annotation Based Configuration.htm",
+        text: "Spring Annotation Based Configuration"
+    },
+    {
+        type: "iframe",
+        href: "../content/java/spring/Spring @Required Annotation.htm",
+        text: "Spring @Required Annotation"
+    },
+    {type: "iframe", href: "../content/java/spring/Maven &amp; Spring.pptx", text: "Maven &amp; Spring.pptx"},
+    {
+        type: "iframe",
+        href: "../content/java/spring/java - @Resource vs @Autowired - Stack Overflow.htm",
+        text: "java - @Resource vs @Autowired - Stack Overflow"
+    },
+    {type: "iframe", href: "../content/java/spring/Inversion of Control.png", text: "Inversion of Control"},
+    {type: "iframe", href: "../content/java/spring/Aop Concept.png", text: "Aop Concept"},
+    {type: "iframe", href: "../content/java/spring/第一個 Spring MVC 程式.htm", text: "第一個 Spring MVC 程式 (多個Bean定義檔來源設定)"}
+];
+
+var java_servlet = [
+    {
+        type: "iframe",
+        href: "../content/java/servlet/使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang.htm",
         text: "使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang"
     },
-    {type: "iframe", href: "../content/Java/Servlet/Asynchronous processing support in Servlet 3.0 _ JavaWorld.htm", text: "Asynchronous processing support in Servlet 3.0 _ JavaWorld"},
     {
         type: "iframe",
-        href: "../content/Java/Servlet/java - What is the difference between thread per connection vs thread per request  - Stack Overflow.htm",
+        href: "../content/java/servlet/Asynchronous processing support in Servlet 3.0 _ JavaWorld.htm",
+        text: "Asynchronous processing support in Servlet 3.0 _ JavaWorld"
+    },
+    {
+        type: "iframe",
+        href: "../content/java/servlet/java - What is the difference between thread per connection vs thread per request  - Stack Overflow.htm",
         text: "java - What is the difference between thread per connection vs thread per request  - Stack Overflow"
     },
-    {type: "iframe", href: "../content/Java/Servlet/Servlet Life Cycle.jpg", text: "Servlet Life Cycle"},
-    {type: "iframe", href: "../content/Java/Servlet/Servlet Filter.png", text: "Servlet Filter"},
+    {type: "iframe", href: "../content/java/servlet/Servlet Life Cycle.jpg", text: "Servlet Life Cycle"},
+    {type: "iframe", href: "../content/java/servlet/Servlet Filter.png", text: "Servlet Filter"},
     {
         type: "iframe",
-        href: "../content/Java/Servlet/servlets - Difference between JSP forward and redirect - Stack Overflow.htm",
+        href: "../content/java/servlet/servlets - Difference between JSP forward and redirect - Stack Overflow.htm",
         text: "servlets - Difference between JSP forward and redirect - Stack Overflow"
     },
-    {type: "iframe", href: "../content/Java/Servlet/[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET.htm", text: "[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET"},
-    {type: "iframe", href: "../content/Java/Concurrent/ThreadPoolExecutor.htm", text: "ThreadPoolExecutor"},
-    {type: "iframe", href: "../content/Java/Concurrent/Executors.htm", text: "Executors"},
-    {type: "iframe", href: "../content/Java/Concurrent/ForkJoinPool · Java多執行緒的基本知識.htm", text: "ForkJoinPool · Java多執行緒的基本知識"},
-    {type: "iframe", href: "../content/Java/Concurrent/Thread Life Cycle.jpg", text: "Thread Life Cycle"},
-    {type: "iframe", href: "../content/Java/Concurrent/我是010_ volatile(揮發性) 在Java裡的概念與使用時機.htm", text: "我是010_ volatile(揮發性) 在Java裡的概念與使用時機"},
-    {type: "iframe", href: "../content/Java/JMeter/Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘.htm", text: "Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘"},
-    {type: "iframe", href: "../content/Java/JVM/【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特.htm", text: "【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特"},
-    {type: "iframe", href: "../content/Java/Maven/Maven &amp; Spring.pptx", text: "Maven &amp; Spring"},
-    {type: "iframe", href: "../content/Java/Spring/Spring bean scopes example.htm", text: "Spring bean scopes example"},
-    {type: "iframe", href: "../content/Java/Spring/Spring Bean Scopes.htm", text: "Spring Bean Scopes"},
-    {type: "iframe", href: "../content/Java/Spring/Spring Beans Auto-Wiring.htm", text: "Spring Beans Auto-Wiring"},
-    {type: "iframe", href: "../content/Java/Spring/Spring Java Based Configuration", text: "Spring Java Based Configuration"},
-    {type: "iframe", href: "../content/Java/Spring/Spring Bean Life Cycle.htm", text: "Spring Bean Life Cycle"},
-    {type: "iframe", href: "../content/Java/Spring/Spring Bean Definition.htm", text: "Spring Bean Definition"},
-    {type: "iframe", href: "../content/Java/Spring/Spring Annotation Based Configuration.htm", text: "Spring Annotation Based Configuration"},
-    {type: "iframe", href: "../content/Java/Spring/Spring @Required Annotation.htm", text: "Spring @Required Annotation"},
-    {type: "iframe", href: "../content/Java/Spring/Maven &amp; Spring.pptx", text: "Maven &amp; Spring.pptx"},
-    {type: "iframe", href: "../content/Java/Spring/java - @Resource vs @Autowired - Stack Overflow.htm", text: "java - @Resource vs @Autowired - Stack Overflow"},
-    {type: "iframe", href: "../content/Java/Spring/Inversion of Control.png", text: "Inversion of Control"},
-    {type: "iframe", href: "../content/Java/Spring/Aop Concept.png", text: "Aop Concept"},
-    {type: "iframe", href: "../content/Java/Spring/第一個 Spring MVC 程式.htm", text: "第一個 Spring MVC 程式 (多個Bean定義檔來源設定)"}
+    {
+        type: "iframe",
+        href: "../content/java/servlet/[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET.htm",
+        text: "[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET"
+    }
+];
+
+var java_maven = [
+    {type: "iframe", href: "../content/java/maven/Maven &amp; Spring.pptx", text: "Maven &amp; Spring"}
 ];
 
 var scala = [
@@ -317,7 +371,12 @@ var devops_ci_cd = [
 ];
 
 var devops_docker = [
-    {type: "iframe", href: "../content/devops/docker/docker-note-book.pdf", text: "Docker Notebook"}
+    {type: "iframe", href: "../content/devops/docker/docker-note-book.pdf", text: "Docker Notebook"},
+    {
+        type: "iframe",
+        href: "../content/devops/docker/[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記.htm",
+        text: "[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記"
+    }
 ];
 
 var devops_version_control = [
@@ -333,7 +392,16 @@ var tools = [
     {type: "iframe", href: "../content/tools/Travis CI build status badge on GitHub « Pymaster.htm", text: "Travis CI build status badge on GitHub « Pymaster"},
     {type: "iframe", href: "../content/tools/Bit Twiddling Hacks.htm", text: "Bit Twiddling Hacks"},
     {type: "iframe", href: "../content/tools/Intellij IDEA – Auto reload a web application (hot deploy).htm", text: "Intellij IDEA – Auto reload a web application (hot deploy)"},
-    {type: "iframe", href: "../content/tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm", text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm"}
+    {
+        type: "iframe",
+        href: "../content/tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm",
+        text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm"
+    },
+    {
+        type: "iframe",
+        href: "../content/tools/Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘.htm",
+        text: "Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘"
+    }
 ];
 
 var index_tags = [];
@@ -353,6 +421,11 @@ var common_regular_expression_tags = [];
 var common_thread_tags = [];
 var javascript_tags = [];
 var java_common_tags = [];
+var java_concurrent_tags = [];
+var java_jvm_tags = [];
+var java_spring_tags = [];
+var java_servlet_tags = [];
+var java_maven_tags = [];
 var scala_tags = [];
 var database_common_tags = [];
 var database_oracle_tags = [];
