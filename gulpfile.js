@@ -6,6 +6,7 @@ const uglify = require("gulp-uglify");
 const rename = require("gulp-rename");
 const minifyCSS = require("gulp-minify-css");
 const fs = require("fs");
+const recursiveList = require("./src/js/recursive-list.js");
 
 const SRC = "./src";
 const DEST = "./build";
@@ -15,7 +16,8 @@ const JsFileDependencies = [
     "./vendors/bootstrap/js/bootstrap.min.js",
     "./vendors/metisMenu/metisMenu.min.js",
     "./vendors/showdown/showdown.min.js",
-    "./src/js/*.js"
+    "./src/js/sb-admin-2.js",
+    "./src/js/main.js"
 ];
 
 const CssFileDependencies = [
@@ -41,7 +43,15 @@ gulp.task("html", ["versioning"], function () {
         .pipe(gulp.dest(DEST));
 });
 
-gulp.task("js", function () {
+gulp.task("dynamic-content", function () {
+    recursiveList.generateDynamicContent("./content", "./src/js");
+
+    gulp.src(["./src/js/dynamic-content", "./src/js/main-part.js"])
+        .pipe(concat("main.js"))
+        .pipe(gulp.dest("./src/js"));
+});
+
+gulp.task("js", ["dynamic-content"], function () {
     gulp.src(JsFileDependencies)
         .pipe(concat("bundle.js"))
         .pipe(uglify())

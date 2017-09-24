@@ -1,2 +1,3 @@
 node_modules/*
-*.iml
+src/js/dynamic-content
+src/js/main.js
