@@ -1,12 +1,14 @@
-const gulp = require("gulp");
-const fs = require("fs");
-const fileinclude = require("gulp-file-include");
-const recursiveList = require("./src/js/recursive-list.js");
-const concat = require("gulp-concat");
-const uglify = require("gulp-uglify");
-const rename = require("gulp-rename");
-const less = require("gulp-less");
-const minifyCSS = require("gulp-minify-css");
+'use strict';
+
+import gulp from "gulp";
+import fs from "fs";
+import fileinclude from "gulp-file-include";
+import recursiveList from "./src/js/recursive-list.js";
+import concat from "gulp-concat";
+import uglify from "gulp-uglify";
+import rename from "gulp-rename";
+import less from "gulp-less";
+import minifyCSS from "gulp-minify-css";
 
 const SRC = "./src";
 const DEST = "./build";

@@ -1,12 +1,12 @@
-var index = [];
+let index = [];
 
-var tutorials_official = [
+let tutorials_official = [
     {type: "iframe", href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"},
     {type: "iframe", href: "https://docs.oracle.com/en/database/", text: "ORACLE Help Center"},
     {type: "iframe", href: "https://git-scm.com/docs", text: "git Documentation"}
 ];
 
-var tutorials_3rd_party = [
+let tutorials_3rd_party = [
     {type: "iframe", href: "https://www.w3schools.com", text: "W3Schools"},
     {type: "iframe", href: "https://openhome.cc/Gossip/index.html", text: "良葛格學習筆記"},
     {type: "iframe", href: "http://tutorials.jenkov.com/", text: "Jenkov.com"},
@@ -26,12 +26,12 @@ var tutorials_3rd_party = [
     {type: "iframe", href: "https://blog.gtwang.org", text: "G. T. Wang"}
 ];
 
-var tutorials_ithome = [
+let tutorials_ithome = [
     {type: "iframe", href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"},
     {type: "iframe", href: "https://docs.oracle.com/en/database/", text: "ORACLE Help Center"}
 ];
 
-var helpers = [
+let helpers = [
     {type: "iframe", href: "https://www.codecademy.com", text: "Codecademy"},
     {type: "iframe", href: "https://www.codeschool.com", text: "Code School"},
     {type: "iframe", href: "http://regexr.com", text: "RegExr"},
@@ -48,7 +48,7 @@ var helpers = [
     {type: "iframe", href: "https://www.webpagefx.com/tools/emoji-cheat-sheet/", text: "EMOJI CHEAT SHEET"}
 ];
 
-var solutions_tools_frontend = [
+let solutions_tools_frontend = [
     {type: "iframe", href: "https://jwt.io", text: "JWT"},
     {type: "iframe", href: "https://jquery.com", text: "jQuery"},
     {type: "iframe", href: "https://jqueryui.com", text: "jQuery UI"},
@@ -86,7 +86,7 @@ var solutions_tools_frontend = [
     {type: "iframe", href: "http://yeoman.io", text: "YEOMAN"}
 ];
 
-var solutions_tools_backend = [
+let solutions_tools_backend = [
     {type: "iframe", href: "http://hc.apache.org/index.html", text: "Apache HttpComponents"},
     {type: "iframe", href: "http://freemarker.org", text: "FreeMaker"},
     {type: "iframe", href: "http://www.thymeleaf.org", text: "Thymeleaf"},
@@ -141,7 +141,7 @@ var solutions_tools_backend = [
     {type: "iframe", href: "https://nodejs.org/en/", text: "Node.js"}
 ];
 
-var solutions_tools_system = [
+let solutions_tools_system = [
     {type: "iframe", href: "https://nginx.org/", text: "NGINX"},
     {type: "iframe", href: "https://httpd.apache.org/", text: "Apache HTTP"},
     {type: "iframe", href: "https://redis.io/", text: "redis"},
@@ -161,26 +161,26 @@ var solutions_tools_system = [
     {type: "iframe", href: "https://kubernetes.io/", text: "kubernetes"}
 ];
 
-var solutions_tools_service = [
+let solutions_tools_service = [
     {type: "iframe", href: "https://aws.amazon.com/", text: "amazon web services"},
     {type: "iframe", href: "https://cloud.google.com/", text: "Google Cloud Platform"},
     {type: "iframe", href: "https://www.heroku.com", text: "HEROKU"},
     {type: "iframe", href: "https://www.godaddy.com", text: "GoDaddy"}
 ];
 
-var index_tags = [];
-var tutorials_official_tags = ["oracle"];
-var tutorials_3rd_party_tags = [];
-var tutorials_ithome_tags = [];
-var helpers_tags = [];
-var solutions_tools_frontend_tags = [];
-var solutions_tools_backend_tags = [];
-var solutions_tools_system_tags = [];
-var solutions_tools_service_tags = [];
+let index_tags = [];
+let tutorials_official_tags = ["oracle"];
+let tutorials_3rd_party_tags = [];
+let tutorials_ithome_tags = [];
+let helpers_tags = [];
+let solutions_tools_frontend_tags = [];
+let solutions_tools_backend_tags = [];
+let solutions_tools_system_tags = [];
+let solutions_tools_service_tags = [];
 
 $(function () {
-    var filterFunc = function () {
-        var keyword = $(this).val().trim().toLowerCase();
+    let filterFunc = function () {
+        let keyword = $(this).val().trim().toLowerCase();
 
         if (keyword === "") {
             $(".item").each(function (index, element) {
@@ -197,21 +197,21 @@ $(function () {
         }
     };
 
-    var pathname = window.location.pathname;
-    var path = pathname.substring(pathname.indexOf("build/") + 6, pathname.indexOf(".html"));
+    let pathname = window.location.pathname;
+    let path = pathname.substring(pathname.indexOf("build/") + 6, pathname.indexOf(".html"));
 
-    var tagContents = eval(eval("path") + "_tags");
-    var contents = eval(eval("path"));
+    let tagContents = eval(eval("path") + "_tags");
+    let contents = eval(eval("path"));
 
-    var tagsHtml = "";
+    let tagsHtml = "";
     tagContents.forEach(function (element) {
         tagsHtml += "<button type=\"button\" class=\"btn btn-link btn-tag tag\" value=\"" + element + "\">#" + element + "</button>";
     });
     tagsHtml += "<button type=\"button\" class=\"btn btn-link btn-tag\" id=\"tag-clear\" value=\"clear\">clear</button>";
     $("#tags").append(tagsHtml);
 
-    var mainHtml = "";
-    for (var i = 0; i < contents.length; i++) {
+    let mainHtml = "";
+    for (let i = 0; i < contents.length; i++) {
         mainHtml += "<button id=\"" + path + ":" + i + "\" class=\"item btn-link\">" + contents[i].text + "</button>";
     }
 
@@ -228,20 +228,20 @@ $(function () {
     });
 
     $(".item").click(function () {
-        var idNameIdx = $(this).attr("id");
-        var name = idNameIdx.split(":")[0];
-        var idx = idNameIdx.split(":")[1];
+        let idNameIdx = $(this).attr("id");
+        let name = idNameIdx.split(":")[0];
+        let idx = idNameIdx.split(":")[1];
 
-        var arrayName = eval(name);
+        let arrayName = eval(name);
 
-        var converter = new showdown.Converter();
+        let converter = new showdown.Converter();
 
         if (arrayName[idx].type === "md") {
             $.ajax({
                 url: arrayName[idx].href,
                 type: "GET",
                 success: function (data) {
-                    var content = $("#md-content");
+                    let content = $("#md-content");
                     content.empty();
                     $("#iframe-content").empty();
                     content.append(converter.makeHtml(data));

@@ -35,7 +35,7 @@ function generateDynamicContent(contentPath, distPath) {
     let outputTag = "";
 
     for (let key of pathMap.keys()) {
-        outputArray += `var ${key.replace("content/", "").replace(/\//g, "_")} = [\n`;
+        outputArray += `let ${key.replace("content/", "").replace(/\//g, "_")} = [\n`;
 
         for (let i = 0; i < pathMap.get(key).length; i++) {
             if (key.replace("content/", "").replace(/\//g, "_") === "notes") {
@@ -52,7 +52,7 @@ function generateDynamicContent(contentPath, distPath) {
 
         outputArray += "\n];\n\n";
 
-        outputTag += `var ${key.replace("content/", "").replace(/\//g, "_")}_tags = [];\n`;
+        outputTag += `let ${key.replace("content/", "").replace(/\//g, "_")}_tags = [];\n`;
     }
 
     fs.writeFileSync(`${distPath}/dynamic-content`, outputArray + outputTag);
