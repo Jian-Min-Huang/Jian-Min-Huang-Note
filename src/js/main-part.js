@@ -3,7 +3,8 @@ let index = [];
 let tutorials_official = [
     {type: "iframe", href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"},
     {type: "iframe", href: "https://docs.oracle.com/en/database/", text: "ORACLE Help Center"},
-    {type: "iframe", href: "https://git-scm.com/docs", text: "git Documentation"}
+    {type: "iframe", href: "https://git-scm.com/docs", text: "git Documentation"},
+    {type: "iframe", href: "https://nodejs.org/en/docs/", text: "Doc | Node.js"}
 ];
 
 let tutorials_3rd_party = [
@@ -45,7 +46,8 @@ let helpers = [
     {type: "iframe", href: "https://developer.mozilla.org/", text: "MDN web docs"},
     {type: "iframe", href: "https://start.spring.io", text: "SPRING INITIALIZR"},
     {type: "iframe", href: "https://www.wolframalpha.com/", text: "WolframaAlpha"},
-    {type: "iframe", href: "https://www.webpagefx.com/tools/emoji-cheat-sheet/", text: "EMOJI CHEAT SHEET"}
+    {type: "iframe", href: "https://www.webpagefx.com/tools/emoji-cheat-sheet/", text: "EMOJI CHEAT SHEET"},
+    {type: "iframe", href: "https://github.com/explore", text: "Explore GitHub"}
 ];
 
 let solutions_tools_frontend = [
