@@ -3,6 +3,7 @@
 import gulp from "gulp";
 import fs from "fs";
 import fileinclude from "gulp-file-include";
+import del from "del";
 import recursiveList from "./src/js/recursive-list.js";
 import concat from "gulp-concat";
 import uglify from "gulp-uglify";
@@ -45,7 +46,11 @@ gulp.task("html", ["versioning"], function () {
         .pipe(gulp.dest(DEST));
 });
 
-gulp.task("dynamic-content", function () {
+gulp.task("clean", function () {
+    del.sync(["./src/js/dynamic-content", "./src/js/main.js"]);
+});
+
+gulp.task("dynamic-content", ["clean"], function () {
     recursiveList.generateDynamicContent("./content", "./src/js");
 
     gulp.src(["./src/js/dynamic-content", "./src/js/main-part.js"])
