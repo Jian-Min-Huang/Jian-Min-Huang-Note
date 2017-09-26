@@ -26,3 +26,7 @@ $ git commit -m "message"
 ```sh
 $ git remote update origin --prune
 ```
+
+##### SourceTree Setting on MAC
+* General -> x Check default remotes for updates every 10 minutes
+* SourceTree -> Preferences -> Git -> Use System Git

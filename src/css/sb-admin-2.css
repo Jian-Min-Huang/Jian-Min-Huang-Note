@@ -101,7 +101,6 @@ body {
     width: 250px;
     margin-top: 51px;
   }
-
   .navbar-top-links .dropdown-messages,
   .navbar-top-links .dropdown-tasks,
   .navbar-top-links .dropdown-alerts {
@@ -402,30 +401,25 @@ table.dataTable thead .sorting:after {
   ul.timeline:before {
     left: 40px;
   }
-
   ul.timeline > li > .timeline-panel {
     width: calc(10%);
     width: -moz-calc(10%);
     width: -webkit-calc(10%);
   }
-
   ul.timeline > li > .timeline-badge {
     top: 16px;
     left: 15px;
     margin-left: 0;
   }
-
   ul.timeline > li > .timeline-panel {
     float: right;
   }
-
   ul.timeline > li > .timeline-panel:before {
     right: auto;
     left: -15px;
     border-right-width: 15px;
     border-left-width: 0;
   }
-
   ul.timeline > li > .timeline-panel:after {
     right: auto;
     left: -14px;
