@@ -19,7 +19,7 @@ const JsFileDependencies = [
     "./vendors/bootstrap/js/bootstrap.min.js",
     "./vendors/metisMenu/metisMenu.min.js",
     "./vendors/showdown/showdown.min.js",
-    "./src/js/sb-admin-2.js",
+    "./vendors/startbootstrap-sb-admin-2/js/sb-admin-2.js",
     "./src/js/dynamic-content.js",
     "./src/js/main.js"
 ];
@@ -28,9 +28,7 @@ const CssFileDependencies = [
     "./vendors/bootstrap/css/bootstrap.min.css",
     "./vendors/font-awesome/css/font-awesome.min.css",
     "./vendors/metisMenu/metisMenu.min.css",
-    "./src/css/sb-admin-2.css",
-    "./src/css/mixins.css",
-    "./src/css/variables.css",
+    "./vendors/startbootstrap-sb-admin-2/css/sb-admin-2.css",
     "./src/css/main.css" // main.css put last override anything custom css
 ];
 
