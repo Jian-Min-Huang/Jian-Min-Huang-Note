@@ -55,7 +55,7 @@ function generateDynamicContent(contentPath, distPath) {
         outputTag += `let ${key.replace("content/", "").replace(/\//g, "_")}_tags = [];\n`;
     }
 
-    fs.writeFileSync(`${distPath}/dynamic-content`, outputArray + outputTag);
+    fs.writeFileSync(`${distPath}/es6/dynamic-content.js`, outputArray + outputTag);
 }
 
 exports.generateDynamicContent = generateDynamicContent;

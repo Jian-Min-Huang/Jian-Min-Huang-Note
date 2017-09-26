@@ -3,13 +3,13 @@
 import gulp from "gulp";
 import fs from "fs";
 import fileinclude from "gulp-file-include";
-import del from "del";
 import recursiveList from "./src/js/recursive-list.js";
 import concat from "gulp-concat";
+import babel from "gulp-babel";
 import uglify from "gulp-uglify";
 import rename from "gulp-rename";
 import less from "gulp-less";
-import minifyCSS from "gulp-minify-css";
+import minifyCSS from "gulp-csso";
 
 const SRC = "./src";
 const DEST = "./build";
@@ -20,6 +20,7 @@ const JsFileDependencies = [
     "./vendors/metisMenu/metisMenu.min.js",
     "./vendors/showdown/showdown.min.js",
     "./src/js/sb-admin-2.js",
+    "./src/js/dynamic-content.js",
     "./src/js/main.js"
 ];
 
@@ -46,19 +47,21 @@ gulp.task("html", ["versioning"], function () {
         .pipe(gulp.dest(DEST));
 });
 
-gulp.task("clean", function () {
-    del.sync(["./src/js/dynamic-content", "./src/js/main.js"]);
-});
-
-gulp.task("dynamic-content", ["clean"], function () {
+gulp.task("dynamic-content", function () {
     recursiveList.generateDynamicContent("./content", "./src/js");
-
-    gulp.src(["./src/js/dynamic-content", "./src/js/main-part.js"])
-        .pipe(concat("main.js"))
-        .pipe(gulp.dest("./src/js"));
 });
 
-gulp.task("js", ["dynamic-content"], function () {
+gulp.task("babel", ["dynamic-content"], function () {
+    gulp.src(["./src/js/es6/dynamic-content.js", "./src/js/es6/main.js"])
+        .pipe(babel({
+            "presets": [
+                "es2015"
+            ]
+        }))
+        .pipe(gulp.dest(SRC + "/js"));
+});
+
+gulp.task("js", ["babel"], function () {
     gulp.src(JsFileDependencies)
         .pipe(concat("bundle.js"))
         .pipe(uglify())
@@ -72,13 +75,13 @@ gulp.task("js", ["dynamic-content"], function () {
 gulp.task("less", function () {
     gulp.src(SRC + "/css/less/*.less")
         .pipe(less())
-        .pipe(minifyCSS())
         .pipe(gulp.dest(SRC + "/css"));
 });
 
 gulp.task("css", ["less"], function () {
     gulp.src(CssFileDependencies)
         .pipe(concat("bundle.css"))
+        .pipe(minifyCSS())
         .pipe(rename(function (path) {
             path.basename += ".min";
             path.extname = ".css";

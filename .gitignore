@@ -1,4 +1,4 @@
 node_modules/*
-src/js/dynamic-content
+src/js/dynamic-content.js
 src/js/main.js
 npm-debug.log
