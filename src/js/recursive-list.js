@@ -35,15 +35,16 @@ function generateDynamicContent(contentPath, distPath) {
     let outputTag = "";
 
     for (let key of pathMap.keys()) {
-        outputArray += `let ${key.replace("content/", "").replace(/\//g, "_")} = [\n`;
+        let arrayName = key.replace("content/", "").replace(/\//g, "_");
+
+        outputArray += `let ${arrayName} = [\n`;
 
         for (let i = 0; i < pathMap.get(key).length; i++) {
-            if (key.replace("content/", "").replace(/\//g, "_") === "notes") {
+            if (arrayName === "notes") {
                 outputArray += `\t{type: "md", href: "../${pathMap.get(key)[i]}", text: "${fileMap.get(key)[i].replace(".md", "")}"}`;
             } else {
                 outputArray += `\t{type: "iframe", href: "../${pathMap.get(key)[i]}", text: "${fileMap.get(key)[i].replace(".htm", "")}"}`;
             }
-
 
             if (i !== pathMap.get(key).length - 1) {
                 outputArray += ",\n";
