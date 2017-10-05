@@ -24,7 +24,8 @@ let tutorials_3rd_party = [
     {type: "tab", href: "https://ihower.tw/blog/", text: "ihower {blogging}"},
     {type: "tab", href: "http://highscalability.squarespace.com/", text: "High Scalability"},
     {type: "tab", href: "https://blog.jason.party/", text: "Jason Puzzle 中勝拼圖"},
-    {type: "tab", href: "https://blog.gtwang.org", text: "G. T. Wang"}
+    {type: "tab", href: "https://blog.gtwang.org", text: "G. T. Wang"},
+    {type: "tab", href: "https://backlogtool.com/git-tutorial/tw/contents/", text: "連猴子都能懂的Git入門指南"}
 ];
 
 let tutorials_ithome = [
