@@ -9,8 +9,10 @@
 * 易於測試
 * 方便監控
 * 無狀態或強健的狀態流程
+* 快速響應
 
 ##### 系統結構
+* CDN
 * 負載平衡
   * 表現層
   * 控制層 檢查引數, 驗證權限, 派發請求, 處理回應
@@ -115,4 +117,5 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 				 資料庫備份
 (瑞豪) 正視物件導向，使用class(OOP、資料跟行為在一起、封裝資料、善用委派)
 (瑞豪) 設計分散式系統
+(伯牙) 更多的DB操作(SEQ 階層 JOIN) 前端操作(JQUERY) 效能調教(HTTP POOL) 後端操作(Nginx Redis) Build Team流程
 ```

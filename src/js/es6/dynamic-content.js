@@ -438,6 +438,11 @@ let tools = [
     {type: "iframe", href: "../content/tools/dev-notes.pdf", text: "dev-notes.pdf"},
     {
         type: "iframe",
+        href: "../content/tools/一看就懂的前端開發環境建置入門教學 - Startup Engineering 新創工程師的筆記.htm",
+        text: "一看就懂的前端開發環境建置入門教學 - Startup Engineering 新創工程師的筆記"
+    },
+    {
+        type: "iframe",
         href: "../content/tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm",
         text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE"
     }

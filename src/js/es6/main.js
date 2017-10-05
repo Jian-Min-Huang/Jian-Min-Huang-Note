@@ -25,7 +25,8 @@ let tutorials_3rd_party = [
     {type: "tab", href: "http://highscalability.squarespace.com/", text: "High Scalability"},
     {type: "tab", href: "https://blog.jason.party/", text: "Jason Puzzle 中勝拼圖"},
     {type: "tab", href: "https://blog.gtwang.org", text: "G. T. Wang"},
-    {type: "tab", href: "https://backlogtool.com/git-tutorial/tw/contents/", text: "連猴子都能懂的Git入門指南"}
+    {type: "tab", href: "https://backlogtool.com/git-tutorial/tw/contents/", text: "連猴子都能懂的Git入門指南"},
+    {type: "tab", href: "https://blog.miniasp.com/", text: "The Will Will Web"}
 ];
 
 let tutorials_ithome = [
@@ -86,7 +87,8 @@ let solutions_tools_frontend = [
     {type: "tab", href: "http://eslint.org", text: "ESLint"},
     {type: "tab", href: "https://github.com/mzabriskie/axios", text: "axios"},
     {type: "tab", href: "https://momentjs.com", text: "MOMENT"},
-    {type: "tab", href: "http://yeoman.io", text: "YEOMAN"}
+    {type: "tab", href: "http://yeoman.io", text: "YEOMAN"},
+    {type: "tab", href: "http://www.embeddedjs.com/", text: "EJS"}
 ];
 
 let solutions_tools_backend = [
