@@ -2,6 +2,7 @@
 
 > It is a web page which consist of Jian-Min Huang's personal note .
 > Base on template of https://github.com/BlackrockDigital/startbootstrap-sb-admin-2 .
+
 > Please visit http://note.jianminhuang.cc .
 
 ## Requirements
