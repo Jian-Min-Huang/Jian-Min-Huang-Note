@@ -117,6 +117,6 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 				 資料庫備份
 (瑞豪) 正視物件導向，使用class(OOP、資料跟行為在一起、封裝資料、善用委派)
 (瑞豪) 設計分散式系統
-(伯牙) 更多的DB操作(SEQ 階層 JOIN VIEW STORED PROCEDURE) 前端操作(JQUERY) 效能調教(HTTP POOL) AA模組 MyBatis(Paging) 後端操作(Nginx Redis)
+(伯牙) 更多的DB操作(SEQ 階層 JOIN VIEW STORED PROCEDURE) 前端操作(JQUERY) 效能調教(HTTP POOL) AA模組 MyBatis(Paging) 後端操作(Nginx Redis) 架構 Infra(CDN) 前後端合作技巧(static domain thymeleaf api init setting)
 (伯牙) 學習當主管 Build Team (member, jira, trello, wiki, issue for meeting)
 ```
