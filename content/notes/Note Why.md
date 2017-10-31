@@ -249,3 +249,11 @@ JSON.stringify() 有類似於Serializable的功能
 
 always stupid bug, 順序錯
 手動清掉, 下次重拉
+
+前後溝通招數
+寫html
+cookie
+session
+header
+
+用spring profile在啟動參數在帶進去完成解耦

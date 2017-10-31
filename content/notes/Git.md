@@ -16,6 +16,9 @@ remote
 $ git push -f
 ```
 
+#### reverse single commit 
+* SourceTree -> find commit -> right click -> Reverse commit...
+
 ##### modify commit message
 ```sh
 $ git reset --soft SHA

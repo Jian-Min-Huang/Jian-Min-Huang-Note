@@ -19,6 +19,7 @@
   * Postman 
     * backup
   * Wappalyzer
+  * Ptt
 * appcleaner
 * homebrew
 * nginx
