@@ -108,19 +108,22 @@ Actor
 C10K Problem
 Reactor pattern (netty)
 Proactor pattern
-Function side effect
-Pure function
-Referential Transparent
+
 Tail Recursion
-Higher Order Function
+
 diamond problem
+
 Dependency Hell
 Callback Hell
-Domain Driven Development
-Test Driven Development
+
+(BDD) Behavior Driven Development
+(DDD) Domain Driven Development
+(TDD) Test Driven Development
+
 Encapsulation
 Inheritance
 Polymorphism
+
 Anemic domain model
 GRASP
 Object transformation
@@ -132,6 +135,21 @@ inviting code
 service discover
 keep alive
 
+
+Function side effect
+Pure function
+Referential Transparent
+immutable
+first-class function
+higher-order function
+
+MVC
+MVVM
+MVP
+
+Single Page Application
+Client Render
+Server Render
 
 # Famous Person & Organization
 Apache Software Foundation

@@ -88,7 +88,9 @@ let solutions_tools_frontend = [
     {type: "tab", href: "https://github.com/mzabriskie/axios", text: "axios"},
     {type: "tab", href: "https://momentjs.com", text: "MOMENT"},
     {type: "tab", href: "http://yeoman.io", text: "YEOMAN"},
-    {type: "tab", href: "http://www.embeddedjs.com/", text: "EJS"}
+    {type: "tab", href: "http://www.embeddedjs.com/", text: "EJS"},
+    {type: "tab", href: "http://mathjs.org/index.html", text: "mathjs"},
+    {type: "tab", href: "http://www.chartjs.org/", text: "Chart.js"}
 ];
 
 let solutions_tools_backend = [

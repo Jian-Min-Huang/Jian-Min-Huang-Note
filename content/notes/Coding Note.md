@@ -10,6 +10,7 @@
 * 方便監控
 * 無狀態或強健的狀態流程
 * 快速響應
+* 異常回復
 
 ##### 系統結構
 * CDN
@@ -40,11 +41,13 @@ table_name
 ${COLUMN_TYPE}_COLUMN_NAME
 
 # Object member order
+```
 fields
 constructors
 methods
 getter/setter
 private class
+```
 
 # Style
 x Constant obey encapsulation rule, cause low cohesion and high coupling
@@ -64,8 +67,8 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * Dto (data transfer)
 * Po (persistent)
 * Session Bean
- * Stateless Session Bean
- * Stateful Session Bean
+  * Stateless Session Bean
+  * Stateful Session Bean
 * Entity Bean
 * Message Driven Bean
 
@@ -79,6 +82,41 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * merge branch
 * integration test
 * close issue
+
+##### 經驗&技巧
+* 空間換時間
+* 快取 > 硬碟
+* 省流量 差異 > 全部
+* method inline (例如 logger isDebugEnabled)
+* 用多型代替if else
+* 封裝行為與使用委派原則 (例如不要用xxxUtil)
+* 用String來表示狀態會更有意義
+* 用Int則是方便數學計算，程式碼更簡潔
+* 避免子函數互相呼叫(放到主流程邏輯會比較清晰)
+* 10Mbps = 10 * 1024K bits = 10 * 1024 / 8 KBs = 1250 KB/s = 1.25 MB/s
+* POC經驗
+  * 小型範例與測試
+  * 寫下來
+  * 圖形化
+  * 創意
+  * 簡化變因
+  * divide and conquer
+* 盡量寫成純函數(輸入輸出資料串流全是顯式 Explicit 的)，無狀態、執行緒安全，任意組合後還是純函數，可對運算結果快取
+  * 只能操作輸入的final argument
+  * 不能讀寫全域變數、IO(否則便是非純函數)
+  * 不能更改argument的內容(否則便是非純函數)
+  * 再透過回傳新物件傳遞給外部
+
+##### 坑
+* 編碼(HTTP, JAVA COMPILE, LOG, DB)
+* 執行緒安全
+* 轉型及相等性
+* 非同步
+* 變數生命週期
+* Dead Lock
+* 資源釋放 (try catch finally)
+* scala函數明確return
+* 浮點數進位計算
 
 ##### 寫程式的演進
 ```
@@ -117,7 +155,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 				 資料庫備份
 (瑞豪) 正視物件導向，使用class(OOP、資料跟行為在一起、封裝資料、善用委派)
 (瑞豪) 設計分散式系統
-(伯牙) 更多的DB操作(SEQ 階層 JOIN VIEW STORED PROCEDURE) 前端操作(JQUERY) 效能調教(HTTP POOL) AA模組 MyBatis(Paging) 後端操作(Nginx Redis) 架構 Infra(CDN) 前後端合作技巧(static domain thymeleaf api init setting)
-        QA(順序 速度 步驟
+(伯牙) 更多的DB操作(SEQ 階層 JOIN VIEW STORED PROCEDURE) 前端操作(JQUERY REACT) 效能調教(HTTP POOL) AA模組 MyBatis(Paging) 後端操作(Nginx Redis) 架構 Infra(CDN) 前後端合作技巧(static domain thymeleaf api init setting QA(順序 速度 步驟)
 (伯牙) 學習當主管 Build Team (member, jira, trello, wiki, issue for meeting, 跨部門合作)
+(自學) 語言特性的本質 (例如純函數 FP method invoke chain 其實也能透過java+dp完成 是看寫的人的態度)
 ```

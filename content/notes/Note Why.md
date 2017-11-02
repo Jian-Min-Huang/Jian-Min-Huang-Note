@@ -255,5 +255,7 @@ always stupid bug, 順序錯
 cookie
 session
 header
+url帶參數
+
 
 用spring profile在啟動參數在帶進去完成解耦
