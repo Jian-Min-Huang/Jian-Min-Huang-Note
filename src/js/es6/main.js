@@ -54,43 +54,15 @@ let helpers = [
 
 let solutions_tools_frontend = [
     {type: "tab", href: "https://jwt.io", text: "JWT"},
-    {type: "tab", href: "https://jquery.com", text: "jQuery"},
-    {type: "tab", href: "https://jqueryui.com", text: "jQuery UI"},
-    {type: "tab", href: "https://facebook.github.io/react/", text: "React"},
-    {type: "tab", href: "https://angularjs.org", text: "ANGULARJS"},
-    {type: "tab", href: "https://vuejs.org", text: "Vue.js"},
     {type: "tab", href: "http://sass-lang.com", text: "Sass"},
     {type: "tab", href: "http://compass-style.org", text: "compass"},
     {type: "tab", href: "http://lesshat.madebysource.com", text: "LESS"},
     {type: "tab", href: "http://stylus-lang.com", text: "stylus"},
-    {type: "tab", href: "https://www.typescriptlang.org", text: "TypeScript"},
-    {type: "tab", href: "http://coffeescript.org", text: "CoffeeScript"},
-    {type: "tab", href: "https://jsx.github.io", text: "JSX"},
-    {type: "tab", href: "https://babeljs.io", text: "BABEL"},
     {type: "tab", href: "http://getbootstrap.com/", text: "Bootstrap"},
     {type: "tab", href: "https://purecss.io", text: "PURE"},
     {type: "tab", href: "http://materializecss.com", text: "Materialize"},
     {type: "tab", href: "http://fontawesome.io", text: "Font Awesome"},
-    {type: "tab", href: "https://www.highcharts.com/demo", text: "Highcharts"},
-    {type: "tab", href: "https://d3js.org", text: "D3"},
-    {type: "tab", href: "http://www.daterangepicker.com", text: "Data Range Picker"},
-    {type: "tab", href: "http://requirejs.org", text: "RequireJS"},
-    {type: "tab", href: "http://browserify.org", text: "Browserify"},
-    {type: "tab", href: "https://webpack.js.org", text: "webpack"},
-    {type: "tab", href: "https://gruntjs.com", text: "Grunt"},
-    {type: "tab", href: "http://gulpjs.com", text: "Gulp"},
-    {type: "tab", href: "https://bower.io", text: "Bower"},
-    {type: "tab", href: "https://www.npmjs.com", text: "npm"},
-    {type: "tab", href: "https://yarnpkg.com/en/", text: "yarn"},
-    {type: "tab", href: "http://jshint.com", text: "JSHint"},
-    {type: "tab", href: "http://www.jslint.com", text: "JSLint"},
-    {type: "tab", href: "http://eslint.org", text: "ESLint"},
-    {type: "tab", href: "https://github.com/mzabriskie/axios", text: "axios"},
-    {type: "tab", href: "https://momentjs.com", text: "MOMENT"},
-    {type: "tab", href: "http://yeoman.io", text: "YEOMAN"},
-    {type: "tab", href: "http://www.embeddedjs.com/", text: "EJS"},
-    {type: "tab", href: "http://mathjs.org/index.html", text: "mathjs"},
-    {type: "tab", href: "http://www.chartjs.org/", text: "Chart.js"}
+    {type: "tab", href: "http://yeoman.io", text: "YEOMAN"}
 ];
 
 let solutions_tools_backend = [
@@ -144,7 +116,39 @@ let solutions_tools_backend = [
     {type: "tab", href: "https://www.getpostman.com/", text: "POSTMAN"},
     {type: "tab", href: "http://jmeter.apache.org/", text: "JMeter"},
     {type: "tab", href: "http://jamonapi.sourceforge.net/", text: "JAMon"},
-    {type: "tab", href: "http://springfox.github.io/springfox/", text: "Spring Fox"},
+    {type: "tab", href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
+];
+
+let solutions_tools_javascript = [
+    {type: "tab", href: "https://jquery.com", text: "jQuery"},
+    {type: "tab", href: "https://jqueryui.com", text: "jQuery UI"},
+    {type: "tab", href: "https://facebook.github.io/react/", text: "React"},
+    {type: "tab", href: "https://angularjs.org", text: "ANGULARJS"},
+    {type: "tab", href: "https://vuejs.org", text: "Vue.js"},
+    {type: "tab", href: "https://www.typescriptlang.org", text: "TypeScript"},
+    {type: "tab", href: "http://coffeescript.org", text: "CoffeeScript"},
+    {type: "tab", href: "https://jsx.github.io", text: "JSX"},
+    {type: "tab", href: "https://babeljs.io", text: "BABEL"},
+    {type: "tab", href: "https://www.highcharts.com/demo", text: "Highcharts"},
+    {type: "tab", href: "https://d3js.org", text: "D3"},
+    {type: "tab", href: "http://www.daterangepicker.com", text: "Data Range Picker"},
+    {type: "tab", href: "http://requirejs.org", text: "RequireJS"},
+    {type: "tab", href: "http://browserify.org", text: "Browserify"},
+    {type: "tab", href: "https://webpack.js.org", text: "webpack"},
+    {type: "tab", href: "https://gruntjs.com", text: "Grunt"},
+    {type: "tab", href: "http://gulpjs.com", text: "Gulp"},
+    {type: "tab", href: "https://bower.io", text: "Bower"},
+    {type: "tab", href: "https://www.npmjs.com", text: "npm"},
+    {type: "tab", href: "https://yarnpkg.com/en/", text: "yarn"},
+    {type: "tab", href: "http://jshint.com", text: "JSHint"},
+    {type: "tab", href: "http://www.jslint.com", text: "JSLint"},
+    {type: "tab", href: "http://eslint.org", text: "ESLint"},
+    {type: "tab", href: "https://github.com/mzabriskie/axios", text: "axios"},
+    {type: "tab", href: "https://momentjs.com", text: "MOMENT"},
+    {type: "tab", href: "http://www.embeddedjs.com/", text: "EJS"},
+    {type: "tab", href: "http://jade-lang.com/", text: "Jade"},
+    {type: "tab", href: "http://mathjs.org/index.html", text: "mathjs"},
+    {type: "tab", href: "http://www.chartjs.org/", text: "Chart.js"},
     {type: "tab", href: "https://nodejs.org/en/", text: "Node.js"}
 ];
 
@@ -182,6 +186,7 @@ let tutorials_ithome_tags = [];
 let helpers_tags = [];
 let solutions_tools_frontend_tags = [];
 let solutions_tools_backend_tags = [];
+let solutions_tools_javascript_tags = [];
 let solutions_tools_system_tags = [];
 let solutions_tools_service_tags = [];
 

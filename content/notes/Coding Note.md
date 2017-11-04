@@ -1,3 +1,30 @@
+##### 外功
+* Frontend
+  * Html
+  * Css
+    * LESS
+  * Javascript
+    * Jquery
+* Java & Scala
+  * Java SDK (J2SE, J2EE)
+  * Scala SDK
+  * Comprehensive (Spring)
+  * Http (Spray)
+  * Network (Netty, Akka)
+  * Message-Oriented Middleware ((ActiveMQ), (RabbitMQ))
+  * Persistence (Hibernate, MyBatis, Slick)
+  * Test (JUnit, JMH, ScalaTest)
+  * Other (Quartz, (Ehcache))
+* Database [Redis, MySQL, Oracle, Sqlite, (Cassandra))
+* Server (Nginx, Tomcat, Jetty, JBoss)
+* Build (Ant, Maven, (Gradle), Sbt)
+* Cloud (AWS, GCP, (Azure))
+* Scm (Subversion, Git)
+* Continuous Integration (Jenkins, Travis CI)
+* Operating System (Window, Linux)
+* Test Tool (JMeter, Postman, (Selenium))
+* DevOps (Docker)
+
 ##### 烏托邦
 * 漂亮的UI
 * 良好的UX
@@ -23,7 +50,10 @@
   * 持久層 數據保存
 * 資料庫
 
+##### RESTful & RPC
+
 ##### Naming Conversions
+```java
 com.${TEAM_NAME}.${PROJECT_NAME}.${LANGUAGE}.XXX
 org.${TEAM_NAME}.${PROJECT_NAME}.${LANGUAGE}.XXX
 simpleVariable
@@ -31,14 +61,15 @@ simpleVariable_Unit
 xxxController
 xxxService
 xxxRepository
-    insert(xxxDto) : int
-    select(...) : int
-    select(...) : List[xxxEntity]
-    update(xxxDto) : int
-    delete(xxxDto) : int
+  insert(xxxDto) : int
+  select(...) : int
+  select(...) : List[xxxEntity]
+  update(xxxDto) : int
+  delete(xxxDto) : int
 database-name
 table_name
 ${COLUMN_TYPE}_COLUMN_NAME
+```
 
 # Object member order
 ```

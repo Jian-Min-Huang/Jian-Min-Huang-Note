@@ -13,6 +13,7 @@ $ git reset --soft SHA
 ```
 remote
 ```sh
+$ git branch
 $ git push -f
 ```
 
@@ -24,6 +25,8 @@ $ git push -f
 $ git reset --soft SHA
 $ git commit -m "message"
 ```
+
+##### git rebase interactive
 
 ##### clean git remote branch
 ```sh
