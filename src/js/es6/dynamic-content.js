@@ -3,7 +3,9 @@ let common_auth = [
 ];
 
 let common_designPattern = [
-	{type: "iframe", href: "../content/common/designPattern/Software design pattern - Wikipedia.htm", text: "Software design pattern - Wikipedia"}
+	{type: "iframe", href: "../content/common/designPattern/MVC與Model 2的變異與結合 _ iThome.htm", text: "MVC與Model 2的變異與結合 _ iThome"},
+	{type: "iframe", href: "../content/common/designPattern/Software design pattern - Wikipedia.htm", text: "Software design pattern - Wikipedia"},
+	{type: "iframe", href: "../content/common/designPattern/凌群電子報.htm", text: "凌群電子報"}
 ];
 
 let common_http = [
@@ -99,8 +101,10 @@ let java_maven = [
 
 let java_spring = [
 	{type: "iframe", href: "../content/java/spring/Aop Concept.png", text: "Aop Concept.png"},
+	{type: "iframe", href: "../content/java/spring/Field Dependency Injection Considered Harmful • Spring.htm", text: "Field Dependency Injection Considered Harmful • Spring"},
 	{type: "iframe", href: "../content/java/spring/Inversion of Control.png", text: "Inversion of Control.png"},
 	{type: "iframe", href: "../content/java/spring/Maven & Spring.pptx", text: "Maven & Spring.pptx"},
+	{type: "iframe", href: "../content/java/spring/Oliver Gierke - Why field injection is evil.htm", text: "Oliver Gierke - Why field injection is evil"},
 	{type: "iframe", href: "../content/java/spring/Spring @Required Annotation.htm", text: "Spring @Required Annotation"},
 	{type: "iframe", href: "../content/java/spring/Spring Annotation Based Configuration.htm", text: "Spring Annotation Based Configuration"},
 	{type: "iframe", href: "../content/java/spring/Spring Bean Definition.htm", text: "Spring Bean Definition"},
@@ -136,7 +140,10 @@ let java_web = [
 ];
 
 let javascript = [
+	{type: "iframe", href: "../content/javascript/Javascript True _ False 判斷列表 _ YOSIA.htm", text: "Javascript True _ False 判斷列表 _ YOSIA"},
+	{type: "iframe", href: "../content/javascript/javascript - Moment.js set the base time from the server - Stack Overflow.htm", text: "javascript - Moment.js set the base time from the server - Stack Overflow"},
 	{type: "iframe", href: "../content/javascript/javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow.htm", text: "javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow"},
+	{type: "iframe", href: "../content/javascript/jquery ajax form submits twice - Stack Overflow.htm", text: "jquery ajax form submits twice - Stack Overflow"},
 	{type: "iframe", href: "../content/javascript/【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB.htm", text: "【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB"}
 ];
 
@@ -152,9 +159,11 @@ let notes = [
 	{type: "md", href: "../content/notes/NGINX.md", text: "NGINX"},
 	{type: "md", href: "../content/notes/NPM.md", text: "NPM"},
 	{type: "md", href: "../content/notes/Note Why.md", text: "Note Why"},
+	{type: "md", href: "../content/notes/OOAD.md", text: "OOAD"},
 	{type: "md", href: "../content/notes/Oracle.md", text: "Oracle"},
 	{type: "md", href: "../content/notes/Regular Expression.md", text: "Regular Expression"},
 	{type: "md", href: "../content/notes/SQL.md", text: "SQL"},
+	{type: "md", href: "../content/notes/Tools Note.md", text: "Tools Note"},
 	{type: "md", href: "../content/notes/Unix Like Terminal Settings.md", text: "Unix Like Terminal Settings"},
 	{type: "md", href: "../content/notes/WebStorm Settings.md", text: "WebStorm Settings"},
 	{type: "md", href: "../content/notes/bash.md", text: "bash"},

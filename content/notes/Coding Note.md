@@ -3,8 +3,11 @@
   * Html
   * Css
     * LESS
-  * Javascript
-    * Jquery
+  * JavaScript
+    * jQuery
+    * TypeScript
+    * immutable.js
+    * moment.js
 * Java & Scala
   * Java SDK (J2SE, J2EE)
   * Scala SDK

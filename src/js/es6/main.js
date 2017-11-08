@@ -59,6 +59,8 @@ let solutions_tools_frontend = [
     {type: "tab", href: "http://lesshat.madebysource.com", text: "LESS"},
     {type: "tab", href: "http://stylus-lang.com", text: "stylus"},
     {type: "tab", href: "http://getbootstrap.com/", text: "Bootstrap"},
+    {type: "tab", href: "https://foundation.zurb.com", text: "Foundation"},
+    {type: "tab", href: "https://html5boilerplate.com", text: "HTTP BOILERPLATE"},
     {type: "tab", href: "https://purecss.io", text: "PURE"},
     {type: "tab", href: "http://materializecss.com", text: "Materialize"},
     {type: "tab", href: "http://fontawesome.io", text: "Font Awesome"},

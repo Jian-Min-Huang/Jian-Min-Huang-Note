@@ -143,13 +143,21 @@ immutable
 first-class function
 higher-order function
 
+Model1
+Model2
+
 MVC
+PM
 MVVM
 MVP
 
 Single Page Application
 Client Render
 Server Render
+
+Spaghetti Code
+Ravioli Code
+Lasagna Code
 
 # Famous Person & Organization
 Apache Software Foundation

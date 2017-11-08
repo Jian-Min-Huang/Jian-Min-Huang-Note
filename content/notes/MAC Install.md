@@ -7,13 +7,14 @@
 * eclipse
   * class decompiler
 * sql developer
+* nodejs
+  * npm
+  * webpack
+  * gulp
 * sublime text 3
   * html pretty
-    * nodejs
-	  * npm
 * BTT
   * settings
-* Welly
 * Chrome
   * Remote Desktop
   * Postman 
@@ -29,6 +30,7 @@
 
 ##### homebrew
 * gawk
+* yarn
 
 ##### service
 * gitlab
