@@ -6,6 +6,7 @@ $ npm uninstall -g xxx
 $ npm uninstall xxx
 $ npm ls -g
 $ npm ls
+$ npm ls --depth=0
 $ npm update -g
 $ npm update
 $ npm init

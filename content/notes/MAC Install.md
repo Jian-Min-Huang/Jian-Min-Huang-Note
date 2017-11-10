@@ -27,10 +27,16 @@
 * docker for mac
 * Kitematic
 * Dropbox
+* TeamViewer
 
 ##### homebrew
 * gawk
 * yarn
+
+##### system
+* /etc/hosts
+* ~/.ssh/config
+* site.txt
 
 ##### service
 * gitlab

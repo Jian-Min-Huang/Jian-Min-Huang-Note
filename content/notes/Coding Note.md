@@ -151,6 +151,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 資源釋放 (try catch finally)
 * scala函數明確return
 * 浮點數進位計算
+* 函式庫版本及相依問題 (maven, npm)
 
 ##### 寫程式的演進
 ```

@@ -1,3 +1,57 @@
+##### Cloud
+* IAAS
+  * GCP
+  * AWS EC2
+* PAAS
+  * Heroku
+* SAAS
+  * Google Drive
+  * Dropbox
+* BAAS
+  * Firebase
+* FAAS
+  * AWS Lambda
+
+##### Functional
+* function side effect
+* pure function
+* referential transparent
+* immutable
+* first-class function
+* higher-order function
+
+##### Object-Oriented
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Diamond Problem
+
+# Famous Person & Organization
+* Apache Software Foundation
+* Martin Fowler
+* Kent Beck
+* Erich Gamma
+* Doug Lea
+* Martin Odersky
+
+##### Development Style
+* Scrum
+* Agile
+* Waterfall
+* Kanban
+* Extreme
+* Lean
+* (BDD) Behavior Driven Development
+* (DDD) Domain Driven Development
+* (TDD) Test Driven Development 
+
+##### Unclassified
+> Model1, Model2
+> MVC, MVP, PM, MVVM
+> Single Page Application, Client Side Render, Server Side Render
+> Spaghetti Code, Ravioli Code, Lasagna Code
+> Dependency Hell, Callback Hell
+
 # Web
 SEO
 OWASP Top 10
@@ -74,17 +128,7 @@ Centralized Control System
 Business Horizontal and Vertical Split
 Pull and Push
 
-# Cloud
-IAAS
-	GCP, AWS EC2
-PAAS
-	Heroku
-SAAS
-	Google Drive, Dropbox
-BAAS
-	Firebase
-FAAS
-	AWS Lambda
+
 
 # Software
 ORM
@@ -111,19 +155,6 @@ Proactor pattern
 
 Tail Recursion
 
-diamond problem
-
-Dependency Hell
-Callback Hell
-
-(BDD) Behavior Driven Development
-(DDD) Domain Driven Development
-(TDD) Test Driven Development
-
-Encapsulation
-Inheritance
-Polymorphism
-
 Anemic domain model
 GRASP
 Object transformation
@@ -134,35 +165,3 @@ Message Queue
 inviting code
 service discover
 keep alive
-
-
-Function side effect
-Pure function
-Referential Transparent
-immutable
-first-class function
-higher-order function
-
-Model1
-Model2
-
-MVC
-PM
-MVVM
-MVP
-
-Single Page Application
-Client Render
-Server Render
-
-Spaghetti Code
-Ravioli Code
-Lasagna Code
-
-# Famous Person & Organization
-Apache Software Foundation
-Martin Fowler
-Kent Beck
-Erich Gamma
-Doug Lea
-Martin Odersky
