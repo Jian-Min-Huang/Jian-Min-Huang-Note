@@ -165,3 +165,5 @@ Message Queue
 inviting code
 service discover
 keep alive
+
+Syntactic sugar

@@ -178,7 +178,9 @@ let solutions_tools_service = [
     {type: "tab", href: "https://aws.amazon.com/", text: "amazon web services"},
     {type: "tab", href: "https://cloud.google.com/", text: "Google Cloud Platform"},
     {type: "tab", href: "https://www.heroku.com", text: "HEROKU"},
-    {type: "tab", href: "https://www.godaddy.com", text: "GoDaddy"}
+    {type: "tab", href: "https://www.godaddy.com", text: "GoDaddy"},
+    {type: "tab", href: "https://varnish-cache.org/", text: "Varnish"},
+    {type: "tab", href: "http://www.squid-cache.org/", text: "squid"}
 ];
 
 let index_tags = [];
