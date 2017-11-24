@@ -118,7 +118,8 @@ let solutions_tools_backend = [
     {type: "tab", href: "https://www.getpostman.com/", text: "POSTMAN"},
     {type: "tab", href: "http://jmeter.apache.org/", text: "JMeter"},
     {type: "tab", href: "http://jamonapi.sourceforge.net/", text: "JAMon"},
-    {type: "tab", href: "http://springfox.github.io/springfox/", text: "Spring Fox"}
+    {type: "tab", href: "http://springfox.github.io/springfox/", text: "Spring Fox"},
+    {type: "tab", href: "https://coreos.com/etcd/", text: "etcd"}
 ];
 
 let solutions_tools_javascript = [
