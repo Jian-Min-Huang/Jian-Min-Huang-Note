@@ -54,4 +54,6 @@ Navigate Forward 				cmd + alt + right
 Recent Files 					cmd + e
 
 Search Everywhere 				double shift
+
+Insert a Live Template          cmd + j
 ```

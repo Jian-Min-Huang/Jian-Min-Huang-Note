@@ -42,16 +42,24 @@
 * 快速響應
 * 異常回復
 
-##### 系統結構
+##### N層式系統結構
 * CDN
-* 負載平衡&反向代理
+* 負載平衡 & 反向代理
   * 表現層
   * 控制層 檢查引數, 驗證權限, 派發請求, 處理回應
-    * 快取層
+    * 快取層 使用快取
   * 服務層 撰寫邏輯, 異常處理 
-    * 通訊層
+    * 通訊層 模組溝通 連結服務
   * 持久層 數據保存
 * 資料庫
+
+##### 風控系統架構
+
+##### 任務式系統架構
+
+##### 聊天系統架構
+
+##### AA系統
 
 ##### RESTful & RPC
 
@@ -128,6 +136,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 用Int則是方便數學計算，程式碼更簡潔
 * 避免子函數互相呼叫(放到主流程邏輯會比較清晰)
 * 10Mbps = 10 * 1024K bit / s = 10 * 1024 / 8 KBs = 1250 KB/s = 1.25 MB/s
+* short:2,int:4,long:8,float:4,double:8,char:2,byte:1,boolean:dependent jvm
 * POC經驗
   * 小型範例與測試
   * 寫下來

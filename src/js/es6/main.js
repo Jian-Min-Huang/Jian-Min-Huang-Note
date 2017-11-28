@@ -119,7 +119,8 @@ let solutions_tools_backend = [
     {type: "tab", href: "http://jmeter.apache.org/", text: "JMeter"},
     {type: "tab", href: "http://jamonapi.sourceforge.net/", text: "JAMon"},
     {type: "tab", href: "http://springfox.github.io/springfox/", text: "Spring Fox"},
-    {type: "tab", href: "https://coreos.com/etcd/", text: "etcd"}
+    {type: "tab", href: "https://coreos.com/etcd/", text: "etcd"},
+    {type: "tab", href: "http://vertx.io/", text: "VERT.X"}
 ];
 
 let solutions_tools_javascript = [
@@ -172,7 +173,14 @@ let solutions_tools_system = [
     {type: "tab", href: "https://travis-ci.org/", text: "Travis CI"},
     {type: "tab", href: "https://www.docker.com/", text: "docker"},
     {type: "tab", href: "https://kitematic.com", text: "KITEMATIC"},
-    {type: "tab", href: "https://kubernetes.io/", text: "kubernetes"}
+    {type: "tab", href: "https://kubernetes.io/", text: "kubernetes"},
+    {type: "tab", href: "https://zookeeper.apache.org/", text: "ZooKeeper"},
+    {type: "tab", href: "https://pivotal.io/pivotal-gemfire", text: "Gemfire"},
+    {type: "tab", href: "https://hazelcast.com/", text: "hazelcast"},
+    {type: "tab", href: "http://www.elastic.co/products/elasticsearch", text: "Elasticsearch"},
+    {type: "tab", href: "http://lucene.apache.org/solr/", text: "Solr"},
+    {type: "tab", href: "https://lucene.apache.org/core/", text: "Lucene"}
+
 ];
 
 let solutions_tools_service = [

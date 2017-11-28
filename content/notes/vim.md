@@ -1,4 +1,4 @@
-##### Q : basic operation
+##### basic operation
 ```
 i 
 u
@@ -8,29 +8,34 @@ u
 :q!
 ```
 
-##### Q : search text forward and backward
+##### search text forward and backward
 ```
 /keyward and ?keyword
 ```
 
-##### Q : move to next keyword and last keyword
+##### move to next keyword and last keyword
 ```
 n and N
 ```
 
-##### Q : jump to document head and bottom
+##### jump to document head and bottom
 ```
 gg and G
 ```
 
-##### Q : copy, cut and paste
+##### copy, cut and paste
 ```
 nyy, ndd and p
 ```
 
-##### Q : replace
+##### replace
 ```
 :s/old/new
 :10,20s/old/new/g
 :%s/old/new/g
+```
+
+##### counting keyword
+```
+:%s/pattern//gn
 ```

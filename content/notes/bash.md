@@ -55,3 +55,8 @@ $ du -a /var | sort -n -r | head -n 10
 $ find /home -iname '*.sh' -type f
 $ find /home -iname 'script' -type d
 ```
+
+##### find ps
+```sh
+$ ps aux --sort -rss
+```

@@ -43,7 +43,18 @@
 * Lean
 * (BDD) Behavior Driven Development
 * (DDD) Domain Driven Development
-* (TDD) Test Driven Development 
+* (TDD) Test Driven Development
+
+# Web
+* Security
+  * OWASP
+  * Sql Injection
+  * XSS
+  * CSRF
+  * DDOS
+* CORS
+* SEO
+* GA
 
 ##### Unclassified
 > Model1, Model2
@@ -51,20 +62,11 @@
 > Single Page Application, Client Side Render, Server Side Render
 > Spaghetti Code, Ravioli Code, Lasagna Code
 > Dependency Hell, Callback Hell
-
-# Web
-SEO
-OWASP Top 10
-XSS
-CSRF
-DDOS
-Sql Injection
-Load Balance (Round-robin DNS)
-GA
-Box Model
-Forward proxy
-Reverse proxy
-Web Service
+> Box Model
+> Load Balance (Round-robin DNS)
+> DNS
+> Forward & Reverse Proxy
+> CDN + HLS
 
 # Transaction
 Two Phase Commit Protocol
@@ -167,3 +169,9 @@ service discover
 keep alive
 
 Syntactic sugar
+
+zen coding
+
+event-driven architecture
+service-oriented architecture
+staged event-driven architecture
