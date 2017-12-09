@@ -19,6 +19,11 @@ $ tar -zcf log.tar.gz log*
 $ tar -zxf log.tar.gz
 ```
 
+##### Q : decompress gz file
+```sh
+$ gunzip log.gz
+```
+
 ##### Q : SCP remote to local and local to remote
 ```sh
 $ scp dev1:~/log.tar.gz .
@@ -59,4 +64,9 @@ $ find /home -iname 'script' -type d
 ##### find ps
 ```sh
 $ ps aux --sort -rss
+```
+
+##### ab
+```
+$ ab -n 10 -c 10 http://www.0878.com/
 ```

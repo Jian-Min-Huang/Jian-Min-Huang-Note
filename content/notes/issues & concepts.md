@@ -175,3 +175,5 @@ zen coding
 event-driven architecture
 service-oriented architecture
 staged event-driven architecture
+
+sql & nosql crud compare

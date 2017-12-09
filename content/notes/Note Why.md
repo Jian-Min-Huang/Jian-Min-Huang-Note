@@ -259,3 +259,15 @@ url帶參數
 
 
 用spring profile在啟動參數在帶進去完成解耦
+
+mac預設是ipv6 要加上
+有時候會發生 Getting `Can't assign requested address` java.net.SocketException
+解法是 加上 jvm argument -Djava.net.preferIPv4Stack=true
+
+
+億級資料查詢
+index怎麼設計
+subquery反正規 與 inner join正規
+stored procedure
+view
+       

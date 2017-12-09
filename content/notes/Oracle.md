@@ -34,6 +34,11 @@ commit;
 end
 ```
 
+##### trunc
+```sql
+sql> select trunc(sysdate, 'Y'), trunc(sysdate, 'MONTH'), trunc(sysdate, 'WW'), trunc(sysdate), trunc(sysdate, 'HH'), trunc(sysdate, 'MI') from dual;
+```
+
 ##### use sequence
 ```sql
 sql> INSERT INTO TABLE(ID, COLUMN1, COLUMN2, ...) VALUES (SEQUENCE.NEXTVAL, VALUE1, VALUE2, ...);
@@ -48,4 +53,7 @@ sql> SELECT SEQUENCE_OWNER, SEQUENCE_NAME FROM USERS_SEQUENCES;
 
 ##### function
 * CONCAT(), column1 || '' || column2
-* TRUNC(SYSDATE, 'YEAR'), TRUNC(SYSDATE, 'MONTH') 
+* TRUNC(SYSDATE, 'YEAR'), TRUNC(SYSDATE, 'MONTH')
+
+##### ORA-00911:字元無效
+; 
