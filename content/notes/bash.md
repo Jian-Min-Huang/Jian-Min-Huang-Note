@@ -57,7 +57,7 @@ $ du -a /var | sort -n -r | head -n 10
  
 ##### find file or directory with name 
 ```sh
-$ find /home -iname '*.sh' -type f
+$ find /home -iname 'showVersion.sh' -type f
 $ find /home -iname 'script' -type d
 ```
 

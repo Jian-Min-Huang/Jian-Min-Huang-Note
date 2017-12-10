@@ -24,6 +24,10 @@ let common_http = [
 	{type: "iframe", href: "../content/common/http/程式設計 - 簡明RESTful API設計要點 - Twincl.htm", text: "程式設計 - 簡明RESTful API設計要點 - Twincl"}
 ];
 
+let common_refactoring = [
+	{type: "iframe", href: "../content/common/refactoring/如何在 TDD 使用「重構九式」_ _ 點燈坊.htm", text: "如何在 TDD 使用「重構九式」_ _ 點燈坊"}
+];
+
 let common_regularExpression = [
 	{type: "iframe", href: "../content/common/regularExpression/正規表示式 Regular Expression _ 就是愛程式.htm", text: "正規表示式 Regular Expression _ 就是愛程式"}
 ];
@@ -33,6 +37,10 @@ let common_thread = [
 	{type: "iframe", href: "../content/common/thread/Operating System Study Guide - Chapter 5 Deadlock.htm", text: "Operating System Study Guide - Chapter 5 Deadlock"},
 	{type: "iframe", href: "../content/common/thread/Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET.htm", text: "Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET"},
 	{type: "iframe", href: "../content/common/thread/Thread (computing) - Wikipedia.htm", text: "Thread (computing) - Wikipedia"}
+];
+
+let database = [
+	{type: "iframe", href: "../content/database/CAP Theorem.jpeg", text: "CAP Theorem.jpeg"}
 ];
 
 let database_common = [
@@ -73,6 +81,18 @@ let devops_docker = [
 let devops_versionControl = [
 	{type: "iframe", href: "../content/devops/versionControl/淺談Subversion(SVN) Hook Script及其應用.docx", text: "淺談Subversion(SVN) Hook Script及其應用.docx"},
 	{type: "iframe", href: "../content/devops/versionControl/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例.pptx"}
+];
+
+let frontend_css = [
+	{type: "iframe", href: "../content/frontend/css/CSS-Position觀念 « Mark Lin Blog.htm", text: "CSS-Position觀念 « Mark Lin Blog"}
+];
+
+let frontend = [
+	{type: "iframe", href: "../content/frontend/load page order.png", text: "load page order.png"}
+];
+
+let infra = [
+	{type: "iframe", href: "../content/infra/Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching _ DigitalOcean.htm", text: "Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching _ DigitalOcean"}
 ];
 
 let java_common = [
@@ -141,10 +161,14 @@ let java_web = [
 
 let javascript = [
 	{type: "iframe", href: "../content/javascript/Javascript True _ False 判斷列表 _ YOSIA.htm", text: "Javascript True _ False 判斷列表 _ YOSIA"},
+	{type: "iframe", href: "../content/javascript/TypeScript新手入門 - HackMD.htm", text: "TypeScript新手入門 - HackMD"},
+	{type: "iframe", href: "../content/javascript/chart.js - How to remove square label from tooltip and make its information in one line_ - Stack Overflow.htm", text: "chart.js - How to remove square label from tooltip and make its information in one line_ - Stack Overflow"},
 	{type: "iframe", href: "../content/javascript/javascript - Moment.js set the base time from the server - Stack Overflow.htm", text: "javascript - Moment.js set the base time from the server - Stack Overflow"},
 	{type: "iframe", href: "../content/javascript/javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow.htm", text: "javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow"},
 	{type: "iframe", href: "../content/javascript/jquery ajax form submits twice - Stack Overflow.htm", text: "jquery ajax form submits twice - Stack Overflow"},
-	{type: "iframe", href: "../content/javascript/【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB.htm", text: "【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB"}
+	{type: "iframe", href: "../content/javascript/【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB.htm", text: "【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB"},
+	{type: "iframe", href: "../content/javascript/使用 Webpack 建立 React 專案開發環境 · Rhadow's Tech Note.htm", text: "使用 Webpack 建立 React 專案開發環境 · Rhadow's Tech Note"},
+	{type: "iframe", href: "../content/javascript/如何使用 Webpack 模組整合工具 · Rhadow's Tech Note.htm", text: "如何使用 Webpack 模組整合工具 · Rhadow's Tech Note"}
 ];
 
 let notes = [
@@ -174,6 +198,7 @@ let notes = [
 let scala = [
 	{type: "iframe", href: "../content/scala/Actor Dispatcher.png", text: "Actor Dispatcher.png"},
 	{type: "iframe", href: "../content/scala/Actor Lifecycle.png", text: "Actor Lifecycle.png"},
+	{type: "iframe", href: "../content/scala/Don't Ask, Tell.htm", text: "Don't Ask, Tell"},
 	{type: "iframe", href: "../content/scala/Scala vs Kotlin – Agilewombat.htm", text: "Scala vs Kotlin – Agilewombat"}
 ];
 
@@ -192,8 +217,10 @@ let tools = [
 let common_auth_tags = [];
 let common_designPattern_tags = [];
 let common_http_tags = [];
+let common_refactoring_tags = [];
 let common_regularExpression_tags = [];
 let common_thread_tags = [];
+let database_tags = [];
 let database_common_tags = [];
 let database_oracle_tags = [];
 let database_redis_tags = [];
@@ -201,6 +228,9 @@ let database_sql_tags = [];
 let devops_continuousDelivery_tags = [];
 let devops_docker_tags = [];
 let devops_versionControl_tags = [];
+let frontend_css_tags = [];
+let frontend_tags = [];
+let infra_tags = [];
 let java_common_tags = [];
 let java_concurrent_tags = [];
 let java_jvm_tags = [];

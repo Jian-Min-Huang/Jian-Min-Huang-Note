@@ -53,7 +53,6 @@ sql> SELECT SEQUENCE_OWNER, SEQUENCE_NAME FROM USERS_SEQUENCES;
 
 ##### function
 * CONCAT(), column1 || '' || column2
-* TRUNC(SYSDATE, 'YEAR'), TRUNC(SYSDATE, 'MONTH')
 
 ##### ORA-00911:字元無效
 ; 
