@@ -270,4 +270,6 @@ index怎麼設計
 subquery反正規 與 inner join正規
 stored procedure
 view
-       
+
+把用户ID=1的昵称改为王蛋蛋。它和PUT的区别就在于，PUT必须提供全量的user属性替换原有的服务器资源。而PATCH只会更新提供的字段。
+假如user中还有一个version字段用来记录版本，每次PATCH，version++。正因为这样的不可控性 ，所以PATCH被定义为可能是非幂等（idempotent ）的。
