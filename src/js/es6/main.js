@@ -120,6 +120,8 @@ let solutions_tools_backend = [
     {type: "tab", href: "http://jamonapi.sourceforge.net/", text: "JAMon"},
     {type: "tab", href: "http://springfox.github.io/springfox/", text: "Spring Fox"},
     {type: "tab", href: "https://coreos.com/etcd/", text: "etcd"},
+    {type: "tab", href: "http://mycat.io", text: "MYCAT"},
+    {type: "tab", href: "http://www.axonframework.org/", text: "Axon"},
     {type: "tab", href: "http://vertx.io/", text: "VERT.X"}
 ];
 
@@ -153,6 +155,7 @@ let solutions_tools_javascript = [
     {type: "tab", href: "http://jade-lang.com/", text: "Jade"},
     {type: "tab", href: "http://mathjs.org/index.html", text: "mathjs"},
     {type: "tab", href: "http://www.chartjs.org/", text: "Chart.js"},
+    {type: "tab", href: "https://threejs.org/", text: "three.js"},
     {type: "tab", href: "https://nodejs.org/en/", text: "Node.js"}
 ];
 

@@ -11,6 +11,9 @@
 * GA
 
 ##### Architecture Design
+* Model1, Model2
+* Model View Controller, Model View Presenter, Presentation Model, Model View View Model
+* Single Page Application, Client Side Render, Server Side Render
 * Event-Driven Architecture
 * Service-Oriented Architecture
 * Enterprise Service Bus
@@ -20,6 +23,7 @@
 * Command Query Responsibility Segregation
 * Event Sourcing
 * 3-Tier Architecture
+* Anemic Domain Model
 * High Availability
   * Active Active (Master Master)
   * Active Passive (Active Standby) (Master Slave)
@@ -35,6 +39,8 @@
 * Polling, Long Polling and Push Model
 * Business Horizontal and Vertical Split
 * Message-Oriented Middleware
+  * peer-to-peer, queue
+  * peer-to-server, topic
   * Message Delivery Reliability
     * Repeat Problem
   * Order Problem
@@ -141,9 +147,6 @@
 * Zen Coding
 
 ##### Unclassified
-> Model1, Model2
-> MVC, MVP, PM, MVVM
-> Single Page Application, Client Side Render, Server Side Render
 > Spaghetti Code, Ravioli Code, Lasagna Code
 > Dependency Hell, Callback Hell
 > Box Model
@@ -159,7 +162,6 @@
 > C10K Problem
 > Reactor pattern (netty)
 > Proactor pattern
-> Anemic domain model
 > GRASP
 > Object transformation
 > inviting code

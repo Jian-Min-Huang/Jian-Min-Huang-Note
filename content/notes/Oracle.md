@@ -53,6 +53,7 @@ sql> SELECT SEQUENCE_OWNER, SEQUENCE_NAME FROM USERS_SEQUENCES;
 
 ##### function
 * CONCAT(), column1 || '' || column2
+* NVL, NVL2, NULLIF, Coalesce
 
 ##### ORA-00911:字元無效
 ; 
