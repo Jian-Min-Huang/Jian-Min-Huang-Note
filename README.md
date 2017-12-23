@@ -43,5 +43,5 @@ Copyright (c) 2017 Jian-Min Huang
 [:arrow_up: back to top][top-page]
   
 [result-page]: <http://note.jianminhuang.cc>
-[license-page]: <https://github.com/Jian-Min-Huang/quick-map-4-jean/blob/master/LICENSE>
-[top-page]: <https://github.com/Jian-Min-Huang/quick-map-4-jean#quick-map-4-jean>
+[license-page]: <https://github.com/Jian-Min-Huang/Jian-Min-Huang-Note/blob/master/LICENSE>
+[top-page]: <https://github.com/Jian-Min-Huang/Jian-Min-Huang-Note/tree/master#notebook-jian-min-huang-note>
