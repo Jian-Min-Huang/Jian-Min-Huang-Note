@@ -23,7 +23,7 @@
 * vendors                   3rd party libraries
 ```
 
-## Setting
+## Build
 ```sh
 $ npm install
 $ npm run build
