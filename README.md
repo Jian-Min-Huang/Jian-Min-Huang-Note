@@ -1,21 +1,24 @@
 [![Build Status](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note.svg?branch=master)](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note)
 
 > It is a web page which consist of Jian-Min Huang's personal note .
-> Base on template of https://github.com/BlackrockDigital/startbootstrap-sb-admin-2 .
+Base on template of https://github.com/BlackrockDigital/startbootstrap-sb-admin-2 .
 
 ## Requirements
 * Node.js
-* npm
+* npm or yarn
 * Gulp.js
 
 ## project structure
-* build    build result
-* content  notes content
-* src
-  * css    css files
-  * html   html files
-  * js     javascript files
-* vendors  3rd party libraries
+* build/                    build
+* content/                  notes content
+* src/
+  * html/                   html files
+  * js/
+     * es6/
+       * main.js            main logic of page
+     * recursive-list.js    generate src/js/es6/dynamic-content.js from content/
+  * css                     css files
+* vendors                   3rd party libraries
 
 ## Setting
 ```sh
