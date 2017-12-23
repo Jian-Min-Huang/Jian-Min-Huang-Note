@@ -29,11 +29,6 @@ let tutorials_3rd_party = [
     {type: "tab", href: "https://blog.miniasp.com/", text: "The Will Will Web"}
 ];
 
-let tutorials_ithome = [
-    {type: "tab", href: "https://docs.oracle.com/javase/tutorial/index.html", text: "The Java&trade; Tutorials"},
-    {type: "tab", href: "https://docs.oracle.com/en/database/", text: "ORACLE Help Center"}
-];
-
 let helpers = [
     {type: "tab", href: "https://www.codecademy.com", text: "Codecademy"},
     {type: "tab", href: "https://www.codeschool.com", text: "Code School"},
@@ -123,7 +118,8 @@ let solutions_tools_backend = [
     {type: "tab", href: "http://mycat.io", text: "MYCAT"},
     {type: "tab", href: "http://www.axonframework.org/", text: "Axon"},
     {type: "tab", href: "http://vertx.io/", text: "VERT.X"},
-    {type: "tab", href: "https://projectreactor.io/", text: "PROJECT REACTOR"}
+    {type: "tab", href: "https://projectreactor.io/", text: "PROJECT REACTOR"},
+    {type: "tab", href: "https://liftweb.net/", text: "Lift"}
 ];
 
 let solutions_tools_javascript = [
@@ -199,7 +195,6 @@ let solutions_tools_service = [
 let index_tags = [];
 let tutorials_official_tags = ["oracle"];
 let tutorials_3rd_party_tags = [];
-let tutorials_ithome_tags = [];
 let helpers_tags = [];
 let solutions_tools_frontend_tags = [];
 let solutions_tools_backend_tags = [];

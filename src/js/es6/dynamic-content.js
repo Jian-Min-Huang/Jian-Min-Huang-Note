@@ -214,6 +214,13 @@ let tools = [
 	{type: "iframe", href: "../content/tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm", text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE"}
 ];
 
+let tutorials = [
+	{type: "iframe", href: "../content/tutorials/使用 Gradle 自動化建置 Java 專案（一） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "使用 Gradle 自動化建置 Java 專案（一） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"},
+	{type: "iframe", href: "../content/tutorials/使用 Gradle 自動化建置 Java 專案（七） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "使用 Gradle 自動化建置 Java 專案（七） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"},
+	{type: "iframe", href: "../content/tutorials/使用 Gradle 自動化建置 Java 專案（六） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "使用 Gradle 自動化建置 Java 專案（六） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"},
+	{type: "iframe", href: "../content/tutorials/認識 Gradle 專案建置自動化工具 - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "認識 Gradle 專案建置自動化工具 - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"}
+];
+
 let common_auth_tags = [];
 let common_designPattern_tags = [];
 let common_http_tags = [];
@@ -241,3 +248,4 @@ let javascript_tags = [];
 let notes_tags = [];
 let scala_tags = [];
 let tools_tags = [];
+let tutorials_tags = [];
