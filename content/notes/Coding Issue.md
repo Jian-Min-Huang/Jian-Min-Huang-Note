@@ -22,8 +22,10 @@
 * API Gateway and Service Discover
 * Command Query Responsibility Segregation
 * Event Sourcing
+* Stream Processing
 * 3-Tier Architecture
 * Anemic Domain Model
+* Rich Domain Model
 * High Availability
   * Active Active (Master Master)
   * Active Passive (Active Standby) (Master Slave)
@@ -42,9 +44,13 @@
   * peer-to-peer, queue
   * peer-to-server, topic
   * Message Delivery Reliability
-    * Repeat Problem
+    * At most once
+    * At least once
+      * Repeat Problem
+    * exactly once
   * Order Problem
 * Cache System
+  * just assist
 * Finite Status Machine
     * Initial
     * Processing
@@ -160,6 +166,7 @@
 > Software transactional memory
 > Actor
 > C10K Problem
+> Servlet Model (thread per connection)
 > Reactor pattern (netty)
 > Proactor pattern
 > GRASP
@@ -167,3 +174,7 @@
 > inviting code
 > keep alive
 > sql & nosql crud compare
+> get red envelop
+> RESTFul & RPC
+> http : json = rpc : protobuf 
+> insert & update fast ?

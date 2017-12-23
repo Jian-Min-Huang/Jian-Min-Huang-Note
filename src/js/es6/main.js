@@ -122,7 +122,8 @@ let solutions_tools_backend = [
     {type: "tab", href: "https://coreos.com/etcd/", text: "etcd"},
     {type: "tab", href: "http://mycat.io", text: "MYCAT"},
     {type: "tab", href: "http://www.axonframework.org/", text: "Axon"},
-    {type: "tab", href: "http://vertx.io/", text: "VERT.X"}
+    {type: "tab", href: "http://vertx.io/", text: "VERT.X"},
+    {type: "tab", href: "https://projectreactor.io/", text: "PROJECT REACTOR"}
 ];
 
 let solutions_tools_javascript = [

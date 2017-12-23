@@ -21,6 +21,7 @@
     * backup
   * Wappalyzer
   * Ptt
+  * Post Message
 * appcleaner
 * homebrew
 * nginx

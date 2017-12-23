@@ -172,6 +172,7 @@ let javascript = [
 ];
 
 let notes = [
+	{type: "md", href: "../content/notes/Coding Issue.md", text: "Coding Issue"},
 	{type: "md", href: "../content/notes/Coding Note.md", text: "Coding Note"},
 	{type: "md", href: "../content/notes/Docker.md", text: "Docker"},
 	{type: "md", href: "../content/notes/Git.md", text: "Git"},
@@ -191,7 +192,6 @@ let notes = [
 	{type: "md", href: "../content/notes/Unix Like Terminal Settings.md", text: "Unix Like Terminal Settings"},
 	{type: "md", href: "../content/notes/WebStorm Settings.md", text: "WebStorm Settings"},
 	{type: "md", href: "../content/notes/bash.md", text: "bash"},
-	{type: "md", href: "../content/notes/issues & concepts.md", text: "issues & concepts"},
 	{type: "md", href: "../content/notes/vim.md", text: "vim"}
 ];
 
