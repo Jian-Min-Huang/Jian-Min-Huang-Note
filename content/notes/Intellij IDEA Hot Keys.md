@@ -1,6 +1,16 @@
 ##### Windows
 
 ##### Mac
+* Basic
+```
+Undo Backapce                   cmd + z
+Redo                            cmd + shift + z
+Cut                             cmd + x
+Copy                            cmd + c
+Paste                           cmd + v
+Paste From History              cmd + shift + v
+```
+
 * Line
 ```
 Duplicate Line or Selection		cmd + d
@@ -14,6 +24,7 @@ Move Statement Down 			cmd + shift + down
 Comment with Line Comment 		cmd + /
 Comment with Block Comment 		ctrl + ?
 ```
+
 * Selection
 ```
 Column Selection Mode 			cmd + shift + 8
@@ -26,12 +37,14 @@ To create a large rectangular selection, create a normal selection first, with t
 Extend Selection 				cmd + w
 Shrink Selection 				cmd + shift + w
 ```
+
 * Refactor
 ```
 Optimize Imports 				cmd + alt + o
 Reformat Code 					cmd + alt + l
 Rename 							shift + F6
 ```
+
 * Generate Code
 ```
 Show Intention Actions 			alt + enter
@@ -44,6 +57,9 @@ Generate 						ctrl + n
 Find in Path 					ctrl + shift + f
 Replace in Path                 ctrl + shift + r
 
+Navigate Class                  cmd + n
+Navigate File                   cmd + shift + n
+Navigate Line/Column            cmd + g                   
 Navigate Call Hierarchy         alt + ctrl + h
 Navigate Declaraion 			cmd + button1
 Navigate Implementation 		cmd + alt + button1
@@ -52,8 +68,21 @@ Navigate Back 					cmd + alt + left
 Navigate Forward 				cmd + alt + right
 
 Recent Files 					cmd + e
+Recent Edit Files               cmd + shift + e
 
 Search Everywhere 				double shift
 
 Insert a Live Template          cmd + j
+```
+
+* Special
+```
+auto add ;                      cmd + shift + enter
+```
+
+* Inject language of reference
+```
+alt + enter, inject language of reference
+alt + enter, edit fragament
+ctrl + f4, close tab
 ```

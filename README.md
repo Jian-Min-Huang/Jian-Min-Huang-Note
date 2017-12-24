@@ -2,12 +2,12 @@
 [![Build Status](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note.svg?branch=master)](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note)
 
 > It is a web page which consist of Jian-Min Huang's personal note .
-> Base on template of https://github.com/BlackrockDigital/startbootstrap-sb-admin-2 .
+> Base on bootstrap template of https://github.com/BlackrockDigital/startbootstrap-sb-admin-2 .
 
 ## Requirements
-* Node.js
-* npm or yarn
-* Gulp.js
+* [Node.js][nodejs-page]
+* [npm][npm-page] or [yarn][yarn-page]
+* [Gulp.js][gulpjs-page]
 
 ## Project Structure
 ```
@@ -17,8 +17,11 @@
   * html/                   html files
   * js/
      * es6/
+       * dynamic-content.js generate by recursive-list.js
        * main.js            main logic of page
-     * recursive-list.js    generate src/js/es6/dynamic-content.js from content/
+     * dynamic-content.js   es 5 version, translate by gulp babel task
+     * main.js              es 5 version, translate by gulp babel task
+     * recursive-list.js    generate dynamic-content.js from content/, trigger by gulpjs
   * css                     css files
 * vendors                   3rd party libraries
 ```
@@ -41,7 +44,11 @@ Jian-Min Huang
 Copyright (c) 2017 Jian-Min Huang
 
 [:arrow_up: back to top][top-page]
-  
+
+[nodejs-page]: <https://nodejs.org>
+[npm-page]: <https://www.npmjs.com>
+[yarn-page]: <https://yarnpkg.com>
+[gulpjs-page]: <https://gulpjs.com>
 [result-page]: <http://note.jianminhuang.cc>
 [license-page]: <https://github.com/Jian-Min-Huang/Jian-Min-Huang-Note/blob/master/LICENSE>
 [top-page]: <https://github.com/Jian-Min-Huang/Jian-Min-Huang-Note/tree/master#notebook-jian-min-huang-note>
