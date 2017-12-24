@@ -11,19 +11,19 @@
 
 ## Project Structure
 ```
-* build/                    build result
-* content/                  notes content
+* build/                        build result
+* content/                      notes content
 * src/
-  * html/                   html files
+  * html/                       html files
   * js/
      * es6/
-       * dynamic-content.js generate by recursive-list.js
-       * main.js            main logic of page
-     * dynamic-content.js   es 5 version, translate by gulp babel task
-     * main.js              es 5 version, translate by gulp babel task
-     * recursive-list.js    generate dynamic-content.js from content/, trigger by gulpjs
-  * css                     css files
-* vendors                   3rd party libraries
+       * dynamic-content.js     generate by recursive-list.js
+       * main.js                main logic of page
+     * dynamic-content.js       es 5 version, translate by gulp task
+     * main.js                  es 5 version, translate by gulp task
+     * recursive-list.js        generate dynamic-content.js from content/, trigger by gulp task
+  * css                         css files
+* vendors                       3rd party libraries
 ```
 
 ## Build
