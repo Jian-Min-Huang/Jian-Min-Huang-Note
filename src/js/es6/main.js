@@ -104,7 +104,6 @@ let solutions_tools_backend = [
     {type: "tab", href: "http://www.quartz-scheduler.org/", text: "QUARTZ"},
     {type: "tab", href: "http://mapstruct.org/", text: "MapStruct"},
     {type: "tab", href: "https://www.drools.org/", text: "Drools"},
-    {type: "tab", href: "https://www.lightbend.com/", text: "Lightbend"},
     {type: "tab", href: "http://slick.lightbend.com/", text: "Slick"},
     {type: "tab", href: "https://www.playframework.com/", text: "play"},
     {type: "tab", href: "http://www.scalatest.org/", text: "ScalaTest"},
@@ -119,7 +118,10 @@ let solutions_tools_backend = [
     {type: "tab", href: "http://www.axonframework.org/", text: "Axon"},
     {type: "tab", href: "http://vertx.io/", text: "VERT.X"},
     {type: "tab", href: "https://projectreactor.io/", text: "PROJECT REACTOR"},
-    {type: "tab", href: "https://liftweb.net/", text: "Lift"}
+    {type: "tab", href: "https://liftweb.net/", text: "Lift"},
+    {type: "tab", href: "https://github.com/lightbend/config", text: "config"},
+    {type: "tab", href: "https://flink.apache.org/", text: "Flink"},
+    {type: "tab", href: "https://www.lightbend.com/lagom-framework", text: "Lagom"}
 ];
 
 let solutions_tools_javascript = [
@@ -179,7 +181,8 @@ let solutions_tools_system = [
     {type: "tab", href: "https://hazelcast.com/", text: "hazelcast"},
     {type: "tab", href: "http://www.elastic.co/products/elasticsearch", text: "Elasticsearch"},
     {type: "tab", href: "http://lucene.apache.org/solr/", text: "Solr"},
-    {type: "tab", href: "https://lucene.apache.org/core/", text: "Lucene"}
+    {type: "tab", href: "https://lucene.apache.org/core/", text: "Lucene"},
+    {type: "tab", href: "http://www.sonatype.org/nexus/category/nexus-3/", text: "Nexus 3"}
 
 ];
 

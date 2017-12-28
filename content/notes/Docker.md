@@ -109,6 +109,7 @@ docker import
 docker image prune
 docker image prune -a
 
+docker login 192.168.250.35:9528 -u admin -p admin123
 docker run -d -p 8081:8081 -p 8082:8082 -p 8083:8083 --name my-nexus sonatype/nexus3:latest
 docker tag 
 docker push 127.0.0.1:8082/sport-api

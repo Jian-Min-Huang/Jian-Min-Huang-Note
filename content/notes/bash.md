@@ -70,3 +70,19 @@ $ ps aux --sort -rss
 ```
 $ ab -n 10 -c 10 http://www.0878.com/
 ```
+
+##### proc
+```
+$ /proc/pid/status
+```
+
+##### hosts & hostname
+```
+$ vi /etc/hosts
+$ vi /etc/sysconfig/network
+```
+
+##### port
+```
+$ telnet ip port
+```

@@ -273,3 +273,21 @@ view
 
 把用户ID=1的昵称改为王蛋蛋。它和PUT的区别就在于，PUT必须提供全量的user属性替换原有的服务器资源。而PATCH只会更新提供的字段。
 假如user中还有一个version字段用来记录版本，每次PATCH，version++。正因为这样的不可控性 ，所以PATCH被定义为可能是非幂等（idempotent ）的。
+
+
+java.lang.IllegalArgumentException: Comparison method violates its general contract! 
+先说如何解决，解决方式有两种。 
+修改代码 
+上面代码写的本身就有问题，第4行没有考虑o1 == o2的情况，再者说我们不需要自己去比较，修改为如下代码即可： 
+[java] view plain copy print?在CODE上查看代码片派生到我的代码片 
+Collections.sort(list, new Comparator<Integer>() {  
+    @Override  
+    public int compare(Integer o1, Integer o2) {  
+        // return o1 > o2 ? 1 : -1;  
+        return o1.compareTo(o2);// 正确的方式  
+    }  
+});  
+不修改代码 
+那么问题来了。为什么上面代码在JDK6中运行无问题，而在JDK7中却会抛异常呢？这是因为JDK7底层的排序算法换了，如果要继续使用JDK6的排序算法，可以在JVM的启动参数中加入如下参数： 
+[plain] view plain copy print?在CODE上查看代码片派生到我的代码片 
+-Djava.util.Arrays.useLegacyMergeSort=true  

@@ -186,6 +186,7 @@ let notes = [
 	{type: "md", href: "../content/notes/Note Why.md", text: "Note Why"},
 	{type: "md", href: "../content/notes/OOAD.md", text: "OOAD"},
 	{type: "md", href: "../content/notes/Oracle.md", text: "Oracle"},
+	{type: "md", href: "../content/notes/Redis.md", text: "Redis"},
 	{type: "md", href: "../content/notes/Regular Expression.md", text: "Regular Expression"},
 	{type: "md", href: "../content/notes/SQL.md", text: "SQL"},
 	{type: "md", href: "../content/notes/Tools Note.md", text: "Tools Note"},

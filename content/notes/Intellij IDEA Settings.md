@@ -34,3 +34,16 @@ $ vim idea.vmoptions
 
 ##### clean project
 * File -> Invalidate Caches
+
+#####
+```
+If this is a Gradle module, please check the .idea project folder there is a gradle.xml
+
+  <GradleProjectSettings>
+    <option name="distributionType" value="DEFAULT_WRAPPED" />
+    <option name="externalProjectPath" value="$PROJECT_DIR$/xxx" />
+    <option name="gradleHome" value="/opt/gradle/gradle-2.13" />
+    ......
+  </GradleProjectSettings>
+you should remove this entry and try to reimport your module
+```

@@ -150,7 +150,7 @@
 * Martin Odersky
 
 ##### Skill
-* Zen Coding
+* Zen Coding & Emmet
 
 ##### Unclassified
 > Spaghetti Code, Ravioli Code, Lasagna Code
@@ -178,3 +178,4 @@
 > RESTFul & RPC
 > http : json = rpc : protobuf 
 > insert & update fast ?
+> Fast Data, Big Data

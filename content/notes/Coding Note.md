@@ -11,15 +11,15 @@
 * Java & Scala
   * Java SDK (J2SE, J2EE)
   * Scala SDK
-  * Comprehensive (Spring)
+  * Comprehensive (Spring, SAC)
   * Http (Spray)
-  * Network (Netty, Akka)
-  * Message-Oriented Middleware (Kafka)
-  * Persistence (Hibernate, MyBatis, Slick)
+  * Network (Netty, Akka, SAFE TCPLink)
+  * Message-Oriented Middleware (Kafka, SAC Queue)
+  * Persistence (Hibernate, MyBatis, Slick, Safe Cache)
   * Test (JUnit, JMH, ScalaTest)
   * Other (Quartz, (Ehcache))
 * NodeJS
-* Database [Redis, MySQL, Oracle, Sqlite, (Cassandra))
+* Database (Redis, MySQL, Oracle, Sqlite, (Cassandra))
 * Server (Nginx, Tomcat, Jetty, JBoss)
 * Build (Ant, Maven, Gradle, Sbt)
 * Cloud (AWS, GCP, (Azure))
