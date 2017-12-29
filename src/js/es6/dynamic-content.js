@@ -1,4 +1,5 @@
 let common_auth = [
+	{type: "iframe", href: "../content/common/auth/OAuth2：四种基本授权模式 · Issue #41 · pzxwhc_MineKnowContainer.htm", text: "OAuth2：四种基本授权模式 · Issue #41 · pzxwhc_MineKnowContainer"},
 	{type: "iframe", href: "../content/common/auth/解決問題的第一步_ Authentication vs. Authorization.htm", text: "解決問題的第一步_ Authentication vs. Authorization"}
 ];
 
@@ -36,14 +37,12 @@ let common_thread = [
 	{type: "iframe", href: "../content/common/thread/Dining philosophers problem - Wikipedia.htm", text: "Dining philosophers problem - Wikipedia"},
 	{type: "iframe", href: "../content/common/thread/Operating System Study Guide - Chapter 5 Deadlock.htm", text: "Operating System Study Guide - Chapter 5 Deadlock"},
 	{type: "iframe", href: "../content/common/thread/Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET.htm", text: "Program _ Process _ Thread 的差別 @ Frank's 資訊科技潮流站   痞客邦 PIXNET"},
-	{type: "iframe", href: "../content/common/thread/Thread (computing) - Wikipedia.htm", text: "Thread (computing) - Wikipedia"}
-];
-
-let database = [
-	{type: "iframe", href: "../content/database/CAP Theorem.jpeg", text: "CAP Theorem.jpeg"}
+	{type: "iframe", href: "../content/common/thread/Thread (computing) - Wikipedia.htm", text: "Thread (computing) - Wikipedia"},
+	{type: "iframe", href: "../content/common/thread/還在學_ 為什麼 thread (執行緒、線程)越少越好_.htm", text: "還在學_ 為什麼 thread (執行緒、線程)越少越好_"}
 ];
 
 let database_common = [
+	{type: "iframe", href: "../content/database/common/CAP Theorem.jpeg", text: "CAP Theorem.jpeg"},
 	{type: "iframe", href: "../content/database/common/Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan.htm", text: "Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan"},
 	{type: "iframe", href: "../content/database/common/RDBMS Normal Form.pdf", text: "RDBMS Normal Form.pdf"},
 	{type: "iframe", href: "../content/database/common/第一正規化 - 維基百科，自由的百科全書.htm", text: "第一正規化 - 維基百科，自由的百科全書"},
@@ -53,7 +52,8 @@ let database_common = [
 
 let database_oracle = [
 	{type: "iframe", href: "../content/database/oracle/Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __.htm", text: "Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __"},
-	{type: "iframe", href: "../content/database/oracle/Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落.htm", text: "Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落"}
+	{type: "iframe", href: "../content/database/oracle/Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落.htm", text: "Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落"},
+	{type: "iframe", href: "../content/database/oracle/昭佑.天翔_ Oracle Select SQL Tuning 查詢效能調整.htm", text: "昭佑.天翔_ Oracle Select SQL Tuning 查詢效能調整"}
 ];
 
 let database_redis = [
@@ -83,7 +83,12 @@ let devops_versionControl = [
 	{type: "iframe", href: "../content/devops/versionControl/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例.pptx"}
 ];
 
+let frontend_common = [
+	{type: "iframe", href: "../content/frontend/common/Presentation Patterns _ MVC, MVP, PM, MVVM _ Manoj Jaggavarapu.htm", text: "Presentation Patterns _ MVC, MVP, PM, MVVM _ Manoj Jaggavarapu"}
+];
+
 let frontend_css = [
+	{type: "iframe", href: "../content/frontend/css/CSS 教學 - 設定一個 div 水平置中和垂直置中 - 【飛肯設計學苑】教學.htm", text: "CSS 教學 - 設定一個 div 水平置中和垂直置中 - 【飛肯設計學苑】教學"},
 	{type: "iframe", href: "../content/frontend/css/CSS-Position觀念 « Mark Lin Blog.htm", text: "CSS-Position觀念 « Mark Lin Blog"}
 ];
 
@@ -98,7 +103,9 @@ let infra = [
 let java_common = [
 	{type: "iframe", href: "../content/java/common/Call by value？.htm", text: "Call by value？"},
 	{type: "iframe", href: "../content/java/common/Excelsior  [Java] 淺談 call by value 和 call by reference.htm", text: "Excelsior  [Java] 淺談 call by value 和 call by reference"},
+	{type: "iframe", href: "../content/java/common/Note...._ 【轉載】Java中“為了性能”需做的26件事.htm", text: "Note...._ 【轉載】Java中“為了性能”需做的26件事"},
 	{type: "iframe", href: "../content/java/common/java - Creating random numbers with no duplicates - Stack Overflow.htm", text: "java - Creating random numbers with no duplicates - Stack Overflow"},
+	{type: "iframe", href: "../content/java/common/java8_streams_cheat_sheet.png", text: "java8_streams_cheat_sheet.png"},
 	{type: "iframe", href: "../content/java/common/虛有其表的介面.htm", text: "虛有其表的介面"}
 ];
 
@@ -138,6 +145,7 @@ let java_spring = [
 	{type: "iframe", href: "../content/java/spring/java - @Resource vs @Autowired - Stack Overflow.htm", text: "java - @Resource vs @Autowired - Stack Overflow"},
 	{type: "iframe", href: "../content/java/spring/java - Using autowired dependency in constructor in spring - Stack Overflow.htm", text: "java - Using autowired dependency in constructor in spring - Stack Overflow"},
 	{type: "iframe", href: "../content/java/spring/java - What exactly is Field Injection and how to avoid it_ - Stack Overflow.htm", text: "java - What exactly is Field Injection and how to avoid it_ - Stack Overflow"},
+	{type: "iframe", href: "../content/java/spring/使用 Spring 5 的 WebFlux 开发反应式 Web 应用.htm", text: "使用 Spring 5 的 WebFlux 开发反应式 Web 应用"},
 	{type: "iframe", href: "../content/java/spring/第一個 Spring MVC 程式.htm", text: "第一個 Spring MVC 程式"}
 ];
 
@@ -159,16 +167,21 @@ let java_web = [
 	{type: "iframe", href: "../content/java/web/通过Spring Session实现新一代的Session管理.htm", text: "通过Spring Session实现新一代的Session管理"}
 ];
 
-let javascript = [
-	{type: "iframe", href: "../content/javascript/Javascript True _ False 判斷列表 _ YOSIA.htm", text: "Javascript True _ False 判斷列表 _ YOSIA"},
-	{type: "iframe", href: "../content/javascript/TypeScript新手入門 - HackMD.htm", text: "TypeScript新手入門 - HackMD"},
-	{type: "iframe", href: "../content/javascript/chart.js - How to remove square label from tooltip and make its information in one line_ - Stack Overflow.htm", text: "chart.js - How to remove square label from tooltip and make its information in one line_ - Stack Overflow"},
-	{type: "iframe", href: "../content/javascript/javascript - Moment.js set the base time from the server - Stack Overflow.htm", text: "javascript - Moment.js set the base time from the server - Stack Overflow"},
-	{type: "iframe", href: "../content/javascript/javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow.htm", text: "javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow"},
-	{type: "iframe", href: "../content/javascript/jquery ajax form submits twice - Stack Overflow.htm", text: "jquery ajax form submits twice - Stack Overflow"},
-	{type: "iframe", href: "../content/javascript/【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB.htm", text: "【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB"},
-	{type: "iframe", href: "../content/javascript/使用 Webpack 建立 React 專案開發環境 · Rhadow's Tech Note.htm", text: "使用 Webpack 建立 React 專案開發環境 · Rhadow's Tech Note"},
-	{type: "iframe", href: "../content/javascript/如何使用 Webpack 模組整合工具 · Rhadow's Tech Note.htm", text: "如何使用 Webpack 模組整合工具 · Rhadow's Tech Note"}
+let javascript_frontend = [
+	{type: "iframe", href: "../content/javascript/frontend/Javascript True _ False 判斷列表 _ YOSIA.htm", text: "Javascript True _ False 判斷列表 _ YOSIA"},
+	{type: "iframe", href: "../content/javascript/frontend/RxJS & redux-observable - HackMD.htm", text: "RxJS & redux-observable - HackMD"},
+	{type: "iframe", href: "../content/javascript/frontend/TypeScript新手入門 - HackMD.htm", text: "TypeScript新手入門 - HackMD"},
+	{type: "iframe", href: "../content/javascript/frontend/chart.js - How to remove square label from tooltip and make its information in one line_ - Stack Overflow.htm", text: "chart.js - How to remove square label from tooltip and make its information in one line_ - Stack Overflow"},
+	{type: "iframe", href: "../content/javascript/frontend/javascript - Moment.js set the base time from the server - Stack Overflow.htm", text: "javascript - Moment.js set the base time from the server - Stack Overflow"},
+	{type: "iframe", href: "../content/javascript/frontend/javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow.htm", text: "javascript - how to disable buttons based on a condition in jsp_ - Stack Overflow"},
+	{type: "iframe", href: "../content/javascript/frontend/jquery ajax form submits twice - Stack Overflow.htm", text: "jquery ajax form submits twice - Stack Overflow"},
+	{type: "iframe", href: "../content/javascript/frontend/【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB.htm", text: "【javascript】了解函式(function)很重要的筆記 « 和平，奮鬥，救WEB"},
+	{type: "iframe", href: "../content/javascript/frontend/使用 Webpack 建立 React 專案開發環境 · Rhadow's Tech Note.htm", text: "使用 Webpack 建立 React 專案開發環境 · Rhadow's Tech Note"},
+	{type: "iframe", href: "../content/javascript/frontend/如何使用 Webpack 模組整合工具 · Rhadow's Tech Note.htm", text: "如何使用 Webpack 模組整合工具 · Rhadow's Tech Note"}
+];
+
+let javascript_nodejs = [
+	{type: "iframe", href: "../content/javascript/nodejs/非同步程式碼之霧：Node.js 的事件迴圈與 EventEmitter - E.E.RHAPSODY.htm", text: "非同步程式碼之霧：Node.js 的事件迴圈與 EventEmitter - E.E.RHAPSODY"}
 ];
 
 let notes = [
@@ -228,7 +241,6 @@ let common_http_tags = [];
 let common_refactoring_tags = [];
 let common_regularExpression_tags = [];
 let common_thread_tags = [];
-let database_tags = [];
 let database_common_tags = [];
 let database_oracle_tags = [];
 let database_redis_tags = [];
@@ -236,6 +248,7 @@ let database_sql_tags = [];
 let devops_continuousDelivery_tags = [];
 let devops_docker_tags = [];
 let devops_versionControl_tags = [];
+let frontend_common_tags = [];
 let frontend_css_tags = [];
 let frontend_tags = [];
 let infra_tags = [];
@@ -245,7 +258,8 @@ let java_jvm_tags = [];
 let java_maven_tags = [];
 let java_spring_tags = [];
 let java_web_tags = [];
-let javascript_tags = [];
+let javascript_frontend_tags = [];
+let javascript_nodejs_tags = [];
 let notes_tags = [];
 let scala_tags = [];
 let tools_tags = [];
