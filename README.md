@@ -1,4 +1,4 @@
-# :notebook: Jian-Min Huang Note [![Build Status](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note.svg?branch=master)](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note)
+# :notebook: Jian-Min-Huang-Note [![Build Status](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note.svg?branch=master)](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note)
 > It is a web page which consist of Jian-Min Huang's personal note .
 > Base on bootstrap template of https://github.com/BlackrockDigital/startbootstrap-sb-admin-2 .
 
