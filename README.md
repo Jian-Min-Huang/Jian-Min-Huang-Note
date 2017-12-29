@@ -1,15 +1,13 @@
-# :notebook: Jian-Min Huang Note
-[![Build Status](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note.svg?branch=master)](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note)
-
+# :notebook: Jian-Min Huang Note [![Build Status](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note.svg?branch=master)](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note)
 > It is a web page which consist of Jian-Min Huang's personal note .
 > Base on bootstrap template of https://github.com/BlackrockDigital/startbootstrap-sb-admin-2 .
 
-## Requirements
+# Requirements
 * [Node.js][nodejs-page]
 * [npm][npm-page] or [yarn][yarn-page]
 * [Gulp.js][gulpjs-page]
 
-## Project Structure
+# Project Structure
 ```
 * build/                        build result
 * content/                      notes content
@@ -26,19 +24,19 @@
 * vendors                       3rd party libraries
 ```
 
-## Build
+# Build
 ```sh
 $ npm install
 $ npm run build
 ```
 
-## Result
+# Result
 please visit [http://note.jianminhuang.cc][result-page]
 
-## Author
+# Author
 Jian-Min Huang
 
-## License
+# License
 [MIT License][license-page]
 
 Copyright (c) 2017 Jian-Min Huang

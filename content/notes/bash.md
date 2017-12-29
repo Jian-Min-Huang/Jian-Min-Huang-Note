@@ -86,3 +86,8 @@ $ vi /etc/sysconfig/network
 ```
 $ telnet ip port
 ```
+
+##### thread dump
+```sh
+$ jstack -l ${PID} > ~/jstack.out
+```
