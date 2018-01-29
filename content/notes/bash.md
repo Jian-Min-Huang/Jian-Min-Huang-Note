@@ -33,6 +33,7 @@ $ scp ROOT.war dev1:~
 ##### Q : kill process in one command
 ```sh
 $ kill -9 $(ps aux | grep java | grep catch | awk {'print $2'})
+ps aux | grep zookeeper | grep -v grep | awk {'print $2'}
 ```
 
 ##### Q : while loop
@@ -90,4 +91,10 @@ $ telnet ip port
 ##### thread dump
 ```sh
 $ jstack -l ${PID} > ~/jstack.out
+```
+
+##### stop fireware
+```sh
+$ service iptables stop (temporary
+$ chkconfig iptables off (permanent
 ```

@@ -121,7 +121,8 @@ let solutions_tools_backend = [
     {type: "tab", href: "https://liftweb.net/", text: "Lift"},
     {type: "tab", href: "https://github.com/lightbend/config", text: "config"},
     {type: "tab", href: "https://flink.apache.org/", text: "Flink"},
-    {type: "tab", href: "https://www.lightbend.com/lagom-framework", text: "Lagom"}
+    {type: "tab", href: "https://www.lightbend.com/lagom-framework", text: "Lagom"},
+    {type: "tab", href: "http://sparkjava.com", text: "Spark"}
 ];
 
 let solutions_tools_javascript = [

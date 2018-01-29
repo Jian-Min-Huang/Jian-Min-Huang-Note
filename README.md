@@ -1,4 +1,4 @@
-# :notebook: Jian-Min-Huang-Note [![Build Status](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note.svg?branch=master)](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note)
+# :notebook: Jian-Min-Huang-Note [![Build Status](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note.svg?branch=master)](https://travis-ci.org/Jian-Min-Huang/Jian-Min-Huang-Note) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 > It is a web page which consist of Jian-Min Huang's personal note .
 > Base on bootstrap template of https://github.com/BlackrockDigital/startbootstrap-sb-admin-2 .
 

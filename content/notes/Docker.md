@@ -1,40 +1,101 @@
-===== image =====
+##### image
+* search
+```sh
+$ docker search $REPOSITORY
+$ docker search mysql
+```
 
-Q : search image
-A : docker search $REPOSITORY
-    docker search mysql
+* pull
+```sh
+$ docker pull $REPOSITORY:$TAG
+$ docker pull ubuntu:14.04
+$ docker pull ubuntu (default tag latest)
+```
 
-Q : pull image
-A : docker pull $REPOSITORY:$TAG
-    docker pull ubuntu:14.04
-    docker pull ubuntu (default tag latest)
+* show
+```sh
+$ docker images
+```
 
-Q : show image
-A : docker images
+* remove
+```sh
+$ docker rmi $$REPOSITORY:$TAG
+$ docker rmi $IMAGE_ID
+```
 
-Q : remove image
-A : docker rmi $$REPOSITORY:$TAG
-A : docker rmi $IMAGE_ID
+* build
+```sh
+$ docker build -t $USERNAME/$REPOSITORY:$TAG .
+$ docker build -f $FILE_NAME -t $USERNAME/$REPOSITORY:$TAG $PATH
+```
 
-Q : login docker hub
-A : docker login
-	
-Q : build image from Dockerfile
-A : docker build -t $USERNAME/$REPOSITORY:$TAG .
+* commit
+```sh
+$ docker commit -m="$COMMENT" $NAME/$CONTAINER_ID $USERNAME/$REPOSITORY:$TAG
+$ docker commit -m="add htop" ubuntu ubuntu:14.04.1
+```
 
-Q : build image from specific Dockerfile
-A : docker build -f $FILE_NAME -t $USERNAME/$REPOSITORY:$TAG $PATH
+* tag
+```sh
+$ docker tag $USERNAME/$REPOSITORY1:$TAG1 $USERNAME/$REPOSITORY2:$TAG2
+$ docker tag ubuntu:latest ubuntu:16.04
+```
 
-Q : commit image from current image
-A : docker commit -m="$COMMENT" $NAME/$CONTAINER_ID $USERNAME/$REPOSITORY:$TAG 
-    docker commit -m="add htop" ubuntu ubuntu:14.04.1
+* push
+```sh
+$ docker push $USERNAME/$REPOSITORY:$TAG
+```
 
-Q : tag image 2 from 1
-A : docker tag $USERNAME/$REPOSITORY1:$TAG1 $USERNAME/$REPOSITORY2:$TAG2
-    docker tag ubuntu:latest ubuntu:16.04
+* save & load
+```sh
+$ docker save -o xxx.tar $USERNAME/$REPOSITORY:$TAG
+$ docker load < xxx.tar
+```
 
-Q : push image
-A : docker push $USERNAME/$REPOSITORY:$TAG
+* prune
+```sh
+$ docker image prune
+$ docker image prune -a
+```
+
+##### container
+* show
+```sh
+$ docker ps -a
+$ docker ps -a -q
+```
+
+* access
+```sh
+$ docker exec -it $NAME /bin/bash
+$ docker exec -it $CONTAINER_ID /bin/bash
+```
+
+* stop
+```sh
+$ docker stop $NAME
+$ docker stop $CONTAINER_ID
+```
+
+* start
+```sh
+$ docker start $NAME
+$ docker start $CONTAINER_ID
+```
+
+* remove
+```sh
+(-f = force)
+$ docker rm $NAME
+$ docker rm $CONTAINER_ID
+```
+
+##### other
+* login
+```sh
+$ docker login
+$ docker login 192.168.250.35:9528 -u admin -p admin123
+```
 
 Q : run image (-i = stdin, 
                -t = tty, 
@@ -59,34 +120,11 @@ A : $(docker images -aq)
 	
 ===== container =====
 
-Q : show containers
-A : docker ps -a
-
-Q : show ids of container
-A : docker ps -a -q
-
-Q : interact with a running container
-A : docker exec -it $NAME /bin/bash
-A : docker exec -it $CONTAINER_ID /bin/bash
-
-Q : stop container
-A : docker stop $NAME
-A : docker stop $CONTAINER_ID
-
-Q : start a exited container
-A : docker start $NAME
-A : docker start $CONTAINER_ID
-
-Q : remove container (-f = force)
-A : docker rm $NAME
-A : docker rm $CONTAINER_ID
-
 Q : take all container id
 A : $(docker ps -a -q)
 	docker stop $(docker ps -aq)
     docker rm $(docker ps -aq)
 	docker rm -f $(docker ps -aq)
-
 
 ===== Hint =====
 how to exit teminal of container ?
@@ -100,14 +138,8 @@ please docker login first
 
 --link use /etc/hosts and environment variable to communicate each container
 =====
-docker save
-docker load
-
 docker export
 docker import
-
-docker image prune
-docker image prune -a
 
 docker login 192.168.250.35:9528 -u admin -p admin123
 docker run -d -p 8081:8081 -p 8082:8082 -p 8083:8083 --name my-nexus sonatype/nexus3:latest
