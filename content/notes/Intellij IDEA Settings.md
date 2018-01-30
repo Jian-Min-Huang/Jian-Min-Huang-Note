@@ -23,13 +23,16 @@ $ vim idea.vmoptions
   * Build 'xxx:war exploded' artifact
   
 ##### setting
+* Preferences -> Appearance & Behavior -> Appearance -> Show memory indicator
 * Preferences -> Editor -> General -> Editor Tabs -> Tab Appearance -> Placement
 * Preferences -> Editor -> Appearance -> Show right margin
 * Preferences -> Editor -> Code Style -> Right margin
 * Preferences -> Editor -> Code Style -> Line separator
 * Preferences -> Editor -> General ->  Show quick documentation on mouse move
 * Preferences -> Editor -> General ->  Limits -> Recent file limits 200
+* Preferences -> Editor -> Inspections -> Spring -> Spring Core -> Code -> Autowiring for Bean Class
 * Preferences -> Build, Execution, Deployment -> Maven -> User setting file
+* Preferences -> Build, Execution, Deployment -> Compiler -> Annotation Processors -> Enable Annotation Processing
 * editor inspections serialization issues
 
 ##### clean project

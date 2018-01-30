@@ -17,10 +17,18 @@ $ docker pull ubuntu (default tag latest)
 $ docker images
 ```
 
+* show id
+```sh
+$ docker images -aq
+```
+
 * remove
 ```sh
 $ docker rmi $$REPOSITORY:$TAG
 $ docker rmi $IMAGE_ID
+$ docker rmi $IMAGE_ID
+$ docker rmi $(docker images -aq)
+$ docker rmi -f $(docker images -aq)
 ```
 
 * build
@@ -62,7 +70,11 @@ $ docker image prune -a
 * show
 ```sh
 $ docker ps -a
-$ docker ps -a -q
+```
+
+* show id
+```sh
+$ docker ps -aq
 ```
 
 * access
@@ -75,6 +87,7 @@ $ docker exec -it $CONTAINER_ID /bin/bash
 ```sh
 $ docker stop $NAME
 $ docker stop $CONTAINER_ID
+$ docker stop $(docker ps -aq)
 ```
 
 * start
@@ -88,6 +101,15 @@ $ docker start $CONTAINER_ID
 (-f = force)
 $ docker rm $NAME
 $ docker rm $CONTAINER_ID
+$ docker rm $(docker ps -aq)
+$ docker rm -f $(docker ps -aq)
+```
+
+* remove all
+```sh
+(-f = force)
+$ docker rm $NAME
+$ docker rm $CONTAINER_ID
 ```
 
 ##### other
@@ -96,6 +118,26 @@ $ docker rm $CONTAINER_ID
 $ docker login
 $ docker login 192.168.250.35:9528 -u admin -p admin123
 ```
+
+* setting private registry
+
+* exit terminal of container
+```sh
+$ exit or Ctrl + D
+```
+
+* exit tty of container
+```sh
+$ Ctrl + P and then Ctrl + Q
+```
+
+##### debug
+* ERROR : denied: requested access to the resource is denied
+> login docker
+
+##### hint
+* --link use /etc/hosts and environment variable to communicate each container
+
 
 Q : run image (-i = stdin, 
                -t = tty, 
@@ -113,31 +155,7 @@ A : docker run $REPOSITORY:$TAG $COMMAND
 	docker run -d -p 3306:3306 -v /opt/data1:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root --name=mysql mysql:5.7.16
 	docker run -d -p 8080:8080 -v ~/Desktop/log:/opt/ibeengo-chat/log --name=chat --link mysql ibeengo-chat:1.4.0
 
-Q : take all image id
-A : $(docker images -aq)
-    docker rmi $(docker images -aq)
-	docker rmi -f $(docker images -aq)
-	
-===== container =====
 
-Q : take all container id
-A : $(docker ps -a -q)
-	docker stop $(docker ps -aq)
-    docker rm $(docker ps -aq)
-	docker rm -f $(docker ps -aq)
-
-===== Hint =====
-how to exit teminal of container ?
-input exit or Ctrl + D, and container will close
-
-exit tty of container ?
-Ctrl + P and then Ctrl + Q
-
-ERROR : denied: requested access to the resource is denied
-please docker login first
-
---link use /etc/hosts and environment variable to communicate each container
-=====
 docker export
 docker import
 
