@@ -1,5 +1,5 @@
 ##### software
-* telegram download
+* telegram desktop
 * idea download
 * jdk download
 * git
@@ -29,6 +29,11 @@
 * Kitematic
 * Dropbox
 * TeamViewer
+* Dbevar
+* iTerm2
+* Intellij IDEA
+* Web Storm
+* Kindle
 
 ##### homebrew
 * gawk
@@ -36,11 +41,5 @@
 
 ##### system
 * /etc/hosts
-* ~/.ssh/config
+* ~/.ssh
 * site.txt
-
-##### service
-* gitlab
-  * setting ssh
-* jenkins
-* jira

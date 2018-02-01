@@ -66,6 +66,25 @@ $ docker image prune
 $ docker image prune -a
 ```
 
+* run
+```sh
+(-i = stdin) 
+(-t = tty) 
+(--rm = remove when stop) 
+(-d = daemon, can't not use --rm together) 
+(-p = port)
+(-v = volume) 
+(-e = environment variable) 
+(--name = specific container name)
+(--link = linked container name)
+$ docker run $REPOSITORY:$TAG $COMMAND
+$ docker run --rm ubuntu:14.04 /bin/date
+$ docker run -it ubuntu:14.04 /bin/bash
+$ docker run -it --rm ubuntu:14.04 /bin/bash
+$ docker run -d -p 3306:3306 -v /opt/data1:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root --name=mysql mysql:5.7.16
+$ docker run -d -p 8080:8080 -v ~/Desktop/log:/opt/ibeengo-chat/log --name=chat --link mysql ibeengo-chat:1.4.0
+```
+
 ##### container
 * show
 ```sh
@@ -112,6 +131,12 @@ $ docker rm $NAME
 $ docker rm $CONTAINER_ID
 ```
 
+* export & import
+```sh
+$ docker export $CONTAINER_ID > export.tar
+$ cat export.tar | docker import - $USERNAME/$REPOSITORY:$TAG
+```
+
 ##### other
 * login
 ```sh
@@ -136,30 +161,15 @@ $ Ctrl + P and then Ctrl + Q
 > login docker
 
 ##### hint
+* different with save and export
+> save will keep change history if you have commit image, export 
+
 * --link use /etc/hosts and environment variable to communicate each container
 
-
-Q : run image (-i = stdin, 
-               -t = tty, 
-			   --rm = remove when stop, 
-			   -d = daemon, 
-			   -p = port, 
-			   -v = volume, 
-			   -e = environment variable, 
-			   --name = specific container name
-			   --link = linked container name)(--rm and -d can't use same time)
-A : docker run $REPOSITORY:$TAG $COMMAND
-    docker run --rm ubuntu:14.04 /bin/date
-    docker run -it ubuntu:14.04 /bin/bash
-    docker run -it --rm ubuntu:14.04 /bin/bash
-	docker run -d -p 3306:3306 -v /opt/data1:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root --name=mysql mysql:5.7.16
-	docker run -d -p 8080:8080 -v ~/Desktop/log:/opt/ibeengo-chat/log --name=chat --link mysql ibeengo-chat:1.4.0
-
-
-docker export
-docker import
-
-docker login 192.168.250.35:9528 -u admin -p admin123
-docker run -d -p 8081:8081 -p 8082:8082 -p 8083:8083 --name my-nexus sonatype/nexus3:latest
-docker tag 
-docker push 127.0.0.1:8082/sport-api
+* login private registry
+```sh
+$ docker login 192.168.250.35:9528 -u admin -p admin123
+$ docker run -d -p 8081:8081 -p 8082:8082 -p 8083:8083 --name my-nexus sonatype/nexus3:latest
+$ docker tag 
+$ docker push 127.0.0.1:8082/sport-api
+```

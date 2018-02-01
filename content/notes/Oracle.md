@@ -56,4 +56,12 @@ sql> SELECT SEQUENCE_OWNER, SEQUENCE_NAME FROM USERS_SEQUENCES;
 * NVL, NVL2, NULLIF, Coalesce
 
 ##### ORA-00911:字元無效
-; 
+;
+
+##### oracle reset sequence
+```sql
+sql> select seq_name.nextval from dual; // 5656
+sql> alter sequence seq_name increment by -5655; // -(n-1)
+sql> select seq_name.nextval from dual; // 1
+sql> alter sequence seq_name increment by 1;
+``` 

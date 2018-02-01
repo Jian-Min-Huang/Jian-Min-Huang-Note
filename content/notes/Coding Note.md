@@ -203,6 +203,8 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * scala函數明確return
 * 浮點數進位計算
 * 函式庫版本及相依問題 (maven, npm)
+* 貿然修正 錯錯得對 放出妖怪
+* 合併導致語法正確但語意錯誤
 
 ##### 寫程式的演進
 ```
