@@ -57,6 +57,7 @@ let database_oracle = [
 ];
 
 let database_redis = [
+	{type: "iframe", href: "../content/database/redis/How to install Redis 3.2 on CentOS 6 and 7.htm", text: "How to install Redis 3.2 on CentOS 6 and 7"},
 	{type: "iframe", href: "../content/database/redis/資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格.htm", text: "資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格"}
 ];
 

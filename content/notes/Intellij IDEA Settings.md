@@ -12,6 +12,7 @@ $ vim idea.vmoptions
 * Live Edit Tool
 * NodeJS
 * Lombok
+* Background Image Plus
 
 ##### run tomcat
 * Server

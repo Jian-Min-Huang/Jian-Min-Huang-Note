@@ -20,6 +20,7 @@
 * Staged Event-Driven Architecture
 * Micro Service
 * API Gateway and Service Discover
+* Nginx Routing
 * Command Query Responsibility Segregation
 * Event Sourcing
 * Stream Processing

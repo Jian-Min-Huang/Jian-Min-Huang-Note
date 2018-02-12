@@ -98,3 +98,13 @@ $ jstack -l ${PID} > ~/jstack.out
 $ service iptables stop (temporary
 $ chkconfig iptables off (permanent
 ```
+
+# check linux distribution type
+```sh
+$ cat /etc/issue
+```
+
+# install java
+```sh
+$ rpm -ivh jdk-8u162-linux-x64.rpm 
+```
