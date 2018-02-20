@@ -247,4 +247,5 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (伯牙) 學習當主管 Build Team (member, jira, trello, wiki, issue for meeting, 跨部門合作, 每季的檢討)
 (自學) 語言特性的本質 (例如純函數 FP method invoke chain 其實也能透過java+dp完成 是看寫的人的態度)
 (自學) 問問題 What Why How 這個東西用在什麼情境? 一個情境通常怎麼解? Pros & Cons ? 如何導入它
+(伯牙) Lottery & Sport Project
 ```

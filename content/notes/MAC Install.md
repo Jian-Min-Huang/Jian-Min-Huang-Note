@@ -34,6 +34,8 @@
 * Intellij IDEA
 * Web Storm
 * Kindle
+* zsh
+* atom
 
 ##### homebrew
 * gawk
@@ -42,4 +44,8 @@
 ##### system
 * /etc/hosts
 * ~/.ssh
+* ~/.zsh
 * site.txt
+
+##### project
+* workspace setting

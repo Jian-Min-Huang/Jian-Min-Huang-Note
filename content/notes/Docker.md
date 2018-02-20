@@ -29,6 +29,7 @@ $ docker rmi $IMAGE_ID
 $ docker rmi $IMAGE_ID
 $ docker rmi $(docker images -aq)
 $ docker rmi -f $(docker images -aq)
+$ docker rmi $(docker images -f "dangling=true" -q)
 ```
 
 * build
@@ -137,15 +138,6 @@ $ docker export $CONTAINER_ID > export.tar
 $ cat export.tar | docker import - $USERNAME/$REPOSITORY:$TAG
 ```
 
-##### other
-* login
-```sh
-$ docker login
-$ docker login 192.168.250.35:9528 -u admin -p admin123
-```
-
-* setting private registry
-
 * exit terminal of container
 ```sh
 $ exit or Ctrl + D
@@ -156,6 +148,22 @@ $ exit or Ctrl + D
 $ Ctrl + P and then Ctrl + Q
 ```
 
+##### other
+* login
+```sh
+$ docker login
+$ docker login 192.168.250.35:9528 -u admin -p admin123
+```
+* login private registry
+```sh
+$ docker login 192.168.250.35:9528 -u admin -p admin123
+$ docker run -d -p 8081:8081 -p 8082:8082 -p 8083:8083 --name my-nexus sonatype/nexus3:latest
+$ docker tag 
+$ docker push 127.0.0.1:8082/sport-api
+```
+
+* setting private registry
+
 ##### debug
 * ERROR : denied: requested access to the resource is denied
 > login docker
@@ -165,11 +173,3 @@ $ Ctrl + P and then Ctrl + Q
 > save will keep change history if you have commit image, export 
 
 * --link use /etc/hosts and environment variable to communicate each container
-
-* login private registry
-```sh
-$ docker login 192.168.250.35:9528 -u admin -p admin123
-$ docker run -d -p 8081:8081 -p 8082:8082 -p 8083:8083 --name my-nexus sonatype/nexus3:latest
-$ docker tag 
-$ docker push 127.0.0.1:8082/sport-api
-```

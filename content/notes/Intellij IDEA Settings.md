@@ -35,6 +35,7 @@ $ vim idea.vmoptions
 * Preferences -> Build, Execution, Deployment -> Maven -> User setting file
 * Preferences -> Build, Execution, Deployment -> Compiler -> Annotation Processors -> Enable Annotation Processing
 * editor inspections serialization issues
+* Tools -> Terminal -> Application settings -> Shell path -> /bin/zsh
 
 ##### clean project
 * File -> Invalidate Caches

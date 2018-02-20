@@ -19,7 +19,21 @@
 * Enterprise Service Bus
 * Staged Event-Driven Architecture
 * Micro Service
-* API Gateway and Service Discover
+  * API Gateway
+    * Service Invocation
+    * Service Discover
+    * Health Check
+    * Routing
+    * Filter
+    * Listener
+    * Service Downgrade
+    * Circuit Breaker
+    * Auth
+    * Monitor
+    * Load Balance
+    * Cache
+    * Service Sharding
+    * Static Resource Management and Processing
 * Nginx Routing
 * Command Query Responsibility Segregation
 * Event Sourcing

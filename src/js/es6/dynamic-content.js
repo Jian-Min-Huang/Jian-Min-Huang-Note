@@ -74,11 +74,6 @@ let devops_continuousDelivery = [
 	{type: "iframe", href: "../content/devops/continuousDelivery/持續整合 (Continuous Integration) 簡介與應用.docx", text: "持續整合 (Continuous Integration) 簡介與應用.docx"}
 ];
 
-let devops_docker = [
-	{type: "iframe", href: "../content/devops/docker/[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記.htm", text: "[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記"},
-	{type: "iframe", href: "../content/devops/docker/docker-note-book.pdf", text: "docker-note-book.pdf"}
-];
-
 let devops_versionControl = [
 	{type: "iframe", href: "../content/devops/versionControl/淺談Subversion(SVN) Hook Script及其應用.docx", text: "淺談Subversion(SVN) Hook Script及其應用.docx"},
 	{type: "iframe", href: "../content/devops/versionControl/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例.pptx"}
@@ -97,8 +92,15 @@ let frontend = [
 	{type: "iframe", href: "../content/frontend/load page order.png", text: "load page order.png"}
 ];
 
-let infra = [
-	{type: "iframe", href: "../content/infra/Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching _ DigitalOcean.htm", text: "Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching _ DigitalOcean"}
+let infra_docker = [
+	{type: "iframe", href: "../content/infra/docker/Docker Private Repository.png", text: "Docker Private Repository.png"},
+	{type: "iframe", href: "../content/infra/docker/Docker for Mac Setting.png", text: "Docker for Mac Setting.png"},
+	{type: "iframe", href: "../content/infra/docker/[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記.htm", text: "[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記"},
+	{type: "iframe", href: "../content/infra/docker/docker-note-book.pdf", text: "docker-note-book.pdf"}
+];
+
+let infra_nginx = [
+	{type: "iframe", href: "../content/infra/nginx/Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching _ DigitalOcean.htm", text: "Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching _ DigitalOcean"}
 ];
 
 let java_common = [
@@ -221,12 +223,28 @@ let tools = [
 	{type: "iframe", href: "../content/tools/Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘.htm", text: "Apache JMeter™   負載測試與效能測量的好工具 « Cloudの丘"},
 	{type: "iframe", href: "../content/tools/Bit Twiddling Hacks.htm", text: "Bit Twiddling Hacks"},
 	{type: "iframe", href: "../content/tools/HTML-CSS-JS Prettify - Packages - Package Control.htm", text: "HTML-CSS-JS Prettify - Packages - Package Control"},
-	{type: "iframe", href: "../content/tools/Intellij IDEA – Auto reload a web application (hot deploy).htm", text: "Intellij IDEA – Auto reload a web application (hot deploy)"},
 	{type: "iframe", href: "../content/tools/The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學.htm", text: "The Will Will Web _ Sublime Text 3 新手上路：必要的安裝、設定與基本使用教學"},
 	{type: "iframe", href: "../content/tools/Travis CI build status badge on GitHub « Pymaster.htm", text: "Travis CI build status badge on GitHub « Pymaster"},
 	{type: "iframe", href: "../content/tools/dev-notes.pdf", text: "dev-notes.pdf"},
 	{type: "iframe", href: "../content/tools/一看就懂的前端開發環境建置入門教學 - Startup Engineering 新創工程師的筆記.htm", text: "一看就懂的前端開發環境建置入門教學 - Startup Engineering 新創工程師的筆記"},
 	{type: "iframe", href: "../content/tools/啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE.htm", text: "啃蘋果日記_ [心得] Better Touch Tool 搭配 Safari_Chrome_Firefox_IE"}
+];
+
+let tools_intellij = [
+	{type: "iframe", href: "../content/tools/intellij/Intellij IDEA – Auto reload a web application (hot deploy).htm", text: "Intellij IDEA – Auto reload a web application (hot deploy)"}
+];
+
+let tools_intellij_images = [
+	{type: "iframe", href: "../content/tools/intellij/images/init setting.png", text: "init setting.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/plugins.png", text: "plugins.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/spring boot project img 1.png", text: "spring boot project img 1.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/spring boot project img 2.png", text: "spring boot project img 2.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/spring boot project img 3.png", text: "spring boot project img 3.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/spring boot project img 4.png", text: "spring boot project img 4.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/spring boot project img 5.png", text: "spring boot project img 5.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/spring boot project img 6.png", text: "spring boot project img 6.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/spring boot project img 7.png", text: "spring boot project img 7.png"},
+	{type: "iframe", href: "../content/tools/intellij/images/spring boot project img 8.png", text: "spring boot project img 8.png"}
 ];
 
 let tutorials = [
@@ -247,12 +265,12 @@ let database_oracle_tags = [];
 let database_redis_tags = [];
 let database_sql_tags = [];
 let devops_continuousDelivery_tags = [];
-let devops_docker_tags = [];
 let devops_versionControl_tags = [];
 let frontend_common_tags = [];
 let frontend_css_tags = [];
 let frontend_tags = [];
-let infra_tags = [];
+let infra_docker_tags = [];
+let infra_nginx_tags = [];
 let java_common_tags = [];
 let java_concurrent_tags = [];
 let java_jvm_tags = [];
@@ -264,4 +282,6 @@ let javascript_nodejs_tags = [];
 let notes_tags = [];
 let scala_tags = [];
 let tools_tags = [];
+let tools_intellij_tags = [];
+let tools_intellij_images_tags = [];
 let tutorials_tags = [];
