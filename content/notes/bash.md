@@ -108,3 +108,8 @@ $ cat /etc/issue
 ```sh
 $ rpm -ivh jdk-8u162-linux-x64.rpm 
 ```
+
+* find file size
+```sh
+$ du -sh * | sort -n -r -k 1
+```

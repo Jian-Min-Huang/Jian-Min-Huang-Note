@@ -33,6 +33,11 @@ $ git commit -m "message"
 $ git remote update origin --prune
 ```
 
+##### abort git rebase
+```sh
+$ rm -r .git/<some rebase dir>
+```
+
 ##### SourceTree Setting on MAC
 * General -> x Check default remotes for updates every 10 minutes
 * SourceTree -> Preferences -> Git -> Use System Git

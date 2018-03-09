@@ -173,3 +173,19 @@ $ docker push 127.0.0.1:8082/sport-api
 > save will keep change history if you have commit image, export 
 
 * --link use /etc/hosts and environment variable to communicate each container
+
+/etc/docker/daemon.json
+{
+  "insecure-registries" : ["myregistrydomain.com:5000"]
+}
+restart
+
+docker 1.7 insercure-registries cannot use
+
+
+/Users/yfr/Library/Containers/com.docker.docker
+
+docker run --name redis -d -p 6379:6379 -e "TZ=Asia/Taipei" redis:3.2.11
+docker run --name oracle -d -p 8888:8080 -p 1521:1521 -e "TZ=Asia/Taipei" sath89/oracle-xe-11g
+
+EXPOSE 差別是容器可直連
