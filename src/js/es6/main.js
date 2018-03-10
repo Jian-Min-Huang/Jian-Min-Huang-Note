@@ -20,6 +20,7 @@ let tutorials_3rd_party = [
     {type: "tab", href: "http://www.java2s.com", text: "java2s"},
     {type: "tab", href: "http://www.studytrails.com", text: "StudyTrails"},
     {type: "tab", href: "https://www.javatpoint.com", text: "JavaTpoint"},
+    {type: "tab", href: "http://www.baeldung.com/", text: "Baeldung"},
     {type: "tab", href: "http://www.codedata.com.tw", text: "CodeData"},
     {type: "tab", href: "https://ihower.tw/blog/", text: "ihower {blogging}"},
     {type: "tab", href: "http://highscalability.squarespace.com/", text: "High Scalability"},
