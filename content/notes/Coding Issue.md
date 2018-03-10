@@ -108,6 +108,9 @@
 * Hot and Cold Deployment
 * Continuous Integration
 * Continuous Delivery
+* Blue/Green Deployment
+* Rolling Deployment
+* Canary Deployment (A/B Test)
 
 ##### Cloud
 * IAAS
