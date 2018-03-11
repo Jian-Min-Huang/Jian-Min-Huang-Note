@@ -34,6 +34,7 @@
     * Cache
     * Service Sharding
     * Static Resource Management and Processing
+* Service Mesh
 * Nginx Routing
 * Command Query Responsibility Segregation
 * Event Sourcing
@@ -50,6 +51,7 @@
   * Three Phase Commit Protocol
   * Paxos
   * Message Topic
+  * Pagination and Isolation
 * Publish and Subscribe (Producer and Consumer)
 * Synchronous and Asynchronous
 * Centralized and Decentralized

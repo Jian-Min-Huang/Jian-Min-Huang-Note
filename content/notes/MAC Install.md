@@ -1,51 +1,50 @@
 ##### software
-* telegram desktop
-* idea download
-* jdk download
-* git
-* sourcetree
-* eclipse
-  * class decompiler
-* sql developer
-* nodejs
+* .dmg
+  * Intellij IDEA 2017
+  * WebStorm 2017
+  * Docker
+  * Kitematic
+  * Oracle JDK
+  * TeamViewer
+  * Dbevar
+  * Dropbox
+  * FortiClient
+  * Chrome
+    * Remote Desktop
+    * Postman 
+      * backup
+    * Wappalyzer
+    * Ptt
+    * Post Message
+  * JDK
+  * git
+  * Kindle
+  
+* .zip
+  * AppCleaner
+  * SqlDeveloper
+  * Sourcetree
+  * Atom
+  * BetterTouchTool
+  * iTerm2
+
+* command
+  * homebrew
+  * zsh
+
+* app store
+  * telegram desktop
+
+* .tar.gz
   * npm
   * webpack
   * gulp
-* sublime text 3
-  * html pretty
-* BTT
-  * settings
-* Chrome
-  * Remote Desktop
-  * Postman 
-    * backup
-  * Wappalyzer
-  * Ptt
-  * Post Message
-* appcleaner
-* homebrew
-* nginx
-* docker for mac
-* Kitematic
-* Dropbox
-* TeamViewer
-* Dbevar
-* iTerm2
-* Intellij IDEA
-* Web Storm
-* Kindle
-* zsh
-* atom
+  
+* Manual Backup
+  * Postman
+  * BTT
 
-##### homebrew
-* gawk
-* yarn
-
-##### system
-* /etc/hosts
-* ~/.ssh
-* ~/.zsh
-* site.txt
-
-##### project
-* workspace setting
+##### crontab backup
+```
+* * 0/30 12 * * sh ~/Dropbox/yFr/BOYA/Backup/cron-backup.sh > ~/cron.log
+```
