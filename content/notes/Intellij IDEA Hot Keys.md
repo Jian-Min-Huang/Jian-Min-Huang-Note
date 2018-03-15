@@ -73,6 +73,8 @@ Recent Edit Files               cmd + shift + e
 Search Everywhere 				double shift
 
 Insert a Live Template          cmd + j
+
+Find Usage                      alt + f7
 ```
 
 * Special
