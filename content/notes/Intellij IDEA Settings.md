@@ -34,7 +34,8 @@ $ vim idea.vmoptions
 * Preferences -> Editor -> Inspections -> Spring -> Spring Core -> Code -> Autowiring for Bean Class
 * Preferences -> Build, Execution, Deployment -> Maven -> User setting file
 * Preferences -> Build, Execution, Deployment -> Compiler -> Annotation Processors -> Enable Annotation Processing
-* editor inspections serialization issues
+* Editor -> Inspections -> Serialization Issues
+* Editor -> Inspections -> Spring -> Srping Core -> Code -> Autowiring for Bean Class
 * Tools -> Terminal -> Application settings -> Shell path -> /bin/zsh
 
 ##### clean project

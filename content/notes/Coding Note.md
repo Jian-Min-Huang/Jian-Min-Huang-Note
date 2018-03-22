@@ -1,33 +1,187 @@
-##### 外功
+##### 外功與解決方案
 * Frontend
-  * Html
-  * Css
-    * LESS
-  * JavaScript
-    * jQuery
-    * (TypeScript)
-    * immutable.js
-    * moment.js
+  * HTML
+  
+  * CSS
+    - [x] LESS
+    - [ ] SASS
+    - [ ] ...
+* JavaScript
+    - [x] jQuery
+    - [x] moment.js
+    - [x] geolib.js
+    - [ ] Immutable.js
+    - [x] Google Maps API
+    - [x] node-telegram-bot-api
+    - [x] npm
+    - [x] Yarn
+    - [x] Gulp.js
+    - [ ] ...
+  * TypeScript 
 * Java & Scala
-  * Java SDK (J2SE, J2EE)
-  * Scala SDK
-  * Comprehensive (Spring, SAC)
-  * Http (Spray)
-  * Network (Netty, Akka, SAFE TCPLink)
-  * Message-Oriented Middleware (Kafka, SAC Queue)
-  * Persistence (Hibernate, MyBatis, Slick, Safe Cache)
-  * Test (JUnit, JMH, ScalaTest)
-  * Other (Quartz, (Ehcache))
-* NodeJS
-* Database (Redis, MySQL, Oracle, Sqlite, (Cassandra))
-* Server (Nginx, Tomcat, Jetty, JBoss)
-* Build (Ant, Maven, Gradle, Sbt)
-* Cloud (AWS, GCP, (Azure))
-* Scm (Subversion, Git)
-* Operating System (Window, Linux, Mac)
-* Test Tool (JMH, JMeter, Postman, (Selenium))
-* DevOps (Docker, Jenkins, Travis CI)
-* Project Management (Jira, Trello)
+  * Web
+    - [x] J2EE Servlet
+    - [x] Spring MVC
+    - [x] Netty
+    - [x] Spray(Akka HTTP)
+    - [ ] Play
+    - [ ] Spark
+  * JSON
+    - [x] Jackson
+    - [x] Gson
+  * TCP & UDP
+    - [x] J2SE Socket & DatagramSocket
+    - [x] Netty
+    - [x] MINA
+    - [x] SAFE TCPLink
+  * Message Queue
+    - [x] Kafka
+    - [x] SAFE Queue
+    - [ ] RabbitMQ
+    - [ ] Redis Queue
+  * Stream Processing
+    - [x] Kafka Stream
+    - [ ] Spark
+    - [ ] Storm
+  * Schedule
+    - [x] J2SE Timer
+    - [x] Quartz
+    - [x] Spring Framework
+  * Data Structure
+    - [x] J2SE Collections
+    - [x] Guava
+  * Bean Mapping
+    - [ ] MapStruct
+  * Code Generate
+    - [x] Lombok
+  * Configuration
+    - [x] J2SE
+    - [x] Spring Framework
+    - [x] Typesafe Config
+  * Competition Lock
+    - [x] ZooKeeper
+    - [x] SQL & NOSQL
+    - [x] Cache
+    - [x] ShedLock
+  * Cache
+    - [x] Spring Cache
+    - [x] Spring Data Redis
+    - [x] Redis
+    - [x] SAFE Cache
+    - [ ] Ehcache
+  * Persistence
+    - [x] J2SE JDBC
+    - [x] Spring Data JPA
+    - [x] Hibernate
+    - [x] MyBatis
+    - [x] SAFE Cache
+    - [x] Slick
+  * Servlet Container
+    - [x] Tomcat
+    - [x] Jetty
+    - [x] JBoss
+    - [x] WebLogic
+    - [ ] GlassFish
+  * Test
+    - [x] JUnit
+    - [x] mockito
+    - [x] JMH
+    - [x] ScalaTest
+    - [ ] Selenium
+  * Build
+    - [x] Ant
+    - [x] Maven
+    - [x] Gradle
+    - [x] Sbt
+  * Code Analysis
+* Database
+  * SQL
+    - [x] Oracle
+    - [x] MySQL
+    - [x] SQLite
+    - [x] H2
+    - [x] HSQLDB
+    - [x] SQL Server
+    - [ ] PostgreSQL
+    - [ ] ...
+  * NOSQL
+    - [x] Redis
+    - [ ] Cassandra
+    - [ ] MongoDB
+    - [ ] Solr
+    - [ ] Elasticsearch
+    - [ ] ...
+  * Management Tool
+    - [x] DataGrip
+    - [x] SQL Developer
+    - [x] MySQL Workbench
+    - [x] Dbevar
+    - [x] DbVisualizer
+    - [x] Navicat
+* Service Server
+  * [x] ZooKeeper
+  * [ ] Zuul
+* DevOps
+  * Visualization
+    - [x] Docker
+    - [ ] Vagrant
+  * Continuous Integration
+    - [x] Jenkins
+    - [x] Travis CI
+    - [ ] Circle CI
+    - [ ] ... 
+  * Configuration Management
+    - [ ] Chef
+    - [ ] Ansible
+    - [ ] ... 
+* Version Control
+  - [x] Subversion
+  - [x] Git
+* Project Management
+  - [x] Jira
+  - [x] Trello
+  - [ ] Redmine
+* Cloud Service
+  * IAAS
+    - [x] AWS EC2
+    - [x] Google Compute Engine
+    - [ ] Microsoft Azure 
+  * PAAS
+    - [ ] AWS Elastic Beanstalk
+    - [ ] Google App Engine
+    - [ ] Heroku
+    - [ ] Microsoft Azure 
+  * BAAS
+    - [ ] Firebase 
+  * FAAS
+    - [ ] AWS Lambda
+* HTTP Server
+  - [x] NGINX
+  - [ ] Apache HTTP Server
+* Tool
+  - [x] Postman
+  - [x] JMeter
+* Operating System
+  - [x] Window
+  - [x] Ubuntu
+  - [x] CentOS
+  - [x] MAC
+* Document
+  - [x] draw.io
+  - [ ] coggle.it
+  - [x] Markdown
+  - [x] Swagger
+  - [ ] Zeplin
+* IDE
+  - [x] Eclipse
+  - [x] Intellj IDEA
+  - [x] WebStorm
+  - [ ] VS Code
+* Text Editor
+  - [x] Sublime Text
+  - [x] Atom
+  - [x] Notepad++
+  - [x] UltraEdit
 
 ##### 烏托邦
 * 漂亮的UI
@@ -43,17 +197,6 @@
 * 快速響應
 * 異常回復
 
-##### N層式系統結構
-* CDN
-* 負載平衡 & 反向代理
-  * 表現層
-  * 控制層 檢查引數, 驗證權限, 派發請求, 處理回應
-    * 快取層 使用快取
-  * 服務層 撰寫邏輯, 異常處理 
-    * 通訊層 模組溝通 連結服務
-  * 持久層 數據保存
-* 資料庫
-
 ##### Safe Application Container
 * Http Handler
 * Bean Management
@@ -63,14 +206,31 @@
   * Safe Tcp Link
   * Safe Cache
 
-##### 風控系統架構
+##### N層式系統結構
+* CDN
+* Gateway (反向代理, 負載平衡, 靜態資源管理, 路由管理, 服務發現 降級 熔斷, 監聽及過濾, 健康檢查, 權限, 監控, 限流, 快取, 轉換, 日誌)
+  * 表現層
+  * 控制層 檢查引數, 驗證權限, 派發請求, 處理回應
+    * 快取層 使用快取
+  * 服務層 撰寫邏輯, 異常處理 
+    * 通訊層 模組溝通 連結服務
+  * 持久層 數據保存
+* 資料庫
+
+##### 風控多模組系統架構
 ##### 任務式系統架構
 ##### 單體基本三層式架構
 ##### 網頁後台基本三層式架構
-##### 聊天系統架構
+##### 即時通訊系統架構
+* 推觸發再過來拉
+* 一致性哈希應用於 akka actor 連線分群 & redis
+* redis broadcast or message queue
 ##### 推播系統
 ##### 策略演算法
 ##### AA系統
+##### 開獎中心
+##### 彩票系統
+##### 運彩系統
 
 ##### 大型系統
 * api 純函數無內部狀態, 可水平擴展 (avoid servlet thread per request)
@@ -191,11 +351,17 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
   * 不能讀寫全域變數、IO(否則便是非純函數)
   * 不能更改argument的內容(否則便是非純函數)
   * 再透過回傳新物件傳遞給外部
+* 推 拉 叫你來拉
+* task trigger cache update
+* 不要直線思考往前衝往前解 退一步棄一步海闊天空
+* telnet 不到, 關掉防火牆 重開服務(docker or iptables)
+* 用 sql join 代替 for loop
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
 * 執行緒安全
 * 轉型及相等性
+* get 的型別問題, Object Key
 * 非同步
 * 變數生命週期
 * Dead Lock
@@ -205,6 +371,9 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 函式庫版本及相依問題 (maven, npm)
 * 貿然修正 錯錯得對 放出妖怪
 * 合併導致語法正確但語意錯誤
+* 框架版本不要用太新
+* localhost vs 0.0.0.0 vs fix ip
+* transaction isolation
 
 ##### 寫程式的演進
 ```
@@ -248,4 +417,5 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (自學) 語言特性的本質 (例如純函數 FP method invoke chain 其實也能透過java+dp完成 是看寫的人的態度)
 (自學) 問問題 What Why How 這個東西用在什麼情境? 一個情境通常怎麼解? Pros & Cons ? 如何導入它
 (伯牙) Lottery & Sport Project
+自己解答
 ```
