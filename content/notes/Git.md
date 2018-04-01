@@ -38,6 +38,13 @@ $ git remote update origin --prune
 $ rm -r .git/<some rebase dir>
 ```
 
+##### git fetch & merge
+```sh
+$ git checkout master
+$ git fetch origin master
+$ git rebase origin/master
+```
+
 ##### SourceTree Setting on MAC
 * General -> x Check default remotes for updates every 10 minutes
 * SourceTree -> Preferences -> Git -> Use System Git

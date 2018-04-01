@@ -39,6 +39,7 @@
     - [x] SAFE Queue
     - [ ] RabbitMQ
     - [ ] Redis Queue
+    - [ ] Celery
   * Stream Processing
     - [x] Kafka Stream
     - [ ] Spark
@@ -169,6 +170,7 @@
 * Document
   - [x] draw.io
   - [ ] coggle.it
+  - [ ] cacoo 
   - [x] Markdown
   - [x] Swagger
   - [ ] Zeplin
@@ -182,6 +184,10 @@
   - [x] Atom
   - [x] Notepad++
   - [x] UltraEdit
+* Infrastructure
+  * DNS
+   - [x] GoDaddy
+   
 
 ##### 烏托邦
 * 漂亮的UI
@@ -232,6 +238,10 @@
 ##### 彩票系統
 ##### 運彩系統
 
+##### 前端加速
+* DNS prefetching
+* GZIP
+
 ##### 大型系統
 * api 純函數無內部狀態, 可水平擴展 (avoid servlet thread per request)
 * nginx for load balancing, 散掉大量query跟insert的壓力
@@ -243,7 +253,7 @@
   * 引入mq, 走生產及消費者模式 (監控議題)
   * 引入akka, 走akka cluster, router & routee, persistence (監控議題)
 
-大量query
+* 大量query
 	* sql 優化 (index, 範圍太大, 欄位太多, 比數太多, 關聯太多table, 用錯函數)
 	* code 優化 (減少request db次數, call stored procedure)
 	* 引入cache
@@ -252,7 +262,7 @@
 		* 分庫
 		* 讀寫分離
 
-大量insert
+* 大量insert
     * 業務面 (Redis Lock)
 	* 引入cache, 批次執行節省開銷 (2秒 or 500筆)
 		* 異步, server放進去cache回傳一個中間狀態(待確認)給client, 當後續worker流程執行完成之後, 再依靠client pull or server push方式通知
@@ -264,6 +274,23 @@
 		* 分庫
 		* 讀寫分離
 	* 換nosql
+	
+##### docker deploy vs jar deploy
+* docker deploy
+  * -v /SP/logs:logs
+  * -v /SP/config/api/:/config
+  * --add-host=host.kafka:192.168.250.38 
+  * --add-host=api.fund:192.168.250.37
+  * -e activeProfiles=docker
+  * -e serverPort=8901
+  * -e "TZ=Asia/Taipei"
+  * entryPoint(['java', '-Dspring.profiles.active=${activeProfiles}', '-jar', 'app.jar'])
+* jar deploy
+  * /SP/api/sport-api-0.0.1.jar
+  *        /config
+  *        /logs
+  * java -jar -Dspring.profiles.active=${activeProfiles} sport-api-0.0.1.jar
+
 
 ##### Naming Conversions
 ```java
@@ -417,5 +444,5 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (自學) 語言特性的本質 (例如純函數 FP method invoke chain 其實也能透過java+dp完成 是看寫的人的態度)
 (自學) 問問題 What Why How 這個東西用在什麼情境? 一個情境通常怎麼解? Pros & Cons ? 如何導入它
 (伯牙) Lottery & Sport Project
-自己解答
+(伯牙) 自己解答
 ```

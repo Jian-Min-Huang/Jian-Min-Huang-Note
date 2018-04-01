@@ -3,8 +3,8 @@
 $ cd /Applications/IntelliJ IDEA.app/Contents/bin
 $ vim idea.vmoptions
 
--Xms 2g
--Xmx 2g
+-Xms2g
+-Xmx2g
 ```
 
 ##### installed plugins
@@ -37,6 +37,9 @@ $ vim idea.vmoptions
 * Editor -> Inspections -> Serialization Issues
 * Editor -> Inspections -> Spring -> Srping Core -> Code -> Autowiring for Bean Class
 * Tools -> Terminal -> Application settings -> Shell path -> /bin/zsh
+
+##### template
+* Editor -> File and Code Templates -> Includes -> File Header -> @author Vincent Huang
 
 ##### clean project
 * File -> Invalidate Caches
