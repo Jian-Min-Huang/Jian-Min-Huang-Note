@@ -1,3 +1,7 @@
+let common_algorithm = [
+	{type: "iframe", href: "../content/common/algorithm/[演算法] 合併排序法（Merge Sort） _ PJCHENder_br_那些沒告訴你的小細節.htm", text: "[演算法] 合併排序法（Merge Sort） _ PJCHENder_br_那些沒告訴你的小細節"}
+];
+
 let common_auth = [
 	{type: "iframe", href: "../content/common/auth/OAuth2：四种基本授权模式 · Issue #41 · pzxwhc_MineKnowContainer.htm", text: "OAuth2：四种基本授权模式 · Issue #41 · pzxwhc_MineKnowContainer"},
 	{type: "iframe", href: "../content/common/auth/解決問題的第一步_ Authentication vs. Authorization.htm", text: "解決問題的第一步_ Authentication vs. Authorization"}
@@ -250,12 +254,22 @@ let tools_intellij_images = [
 ];
 
 let tutorials = [
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（10）進行函數式程式設計.htm", text: "【Guava 教學】（10）進行函數式程式設計"},
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（2）命名明確的條件檢查.htm", text: "【Guava 教學】（2）命名明確的條件檢查"},
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（3）高階排序概念的實現.htm", text: "【Guava 教學】（3）高階排序概念的實現"},
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（4）實作 toString、equals 與 hashCode 的幫手.htm", text: "【Guava 教學】（4）實作 toString、equals 與 hashCode 的幫手"},
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（5）程式 90% 比率在管理與處理錯誤.htm", text: "【Guava 教學】（5）程式 90% 比率在管理與處理錯誤"},
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（6）不可變群集.htm", text: "【Guava 教學】（6）不可變群集"},
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（7）Multiset、Multimap 與 BiMap.htm", text: "【Guava 教學】（7）Multiset、Multimap 與 BiMap"},
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（8）你需要的其實是範圍（Range）？.htm", text: "【Guava 教學】（8）你需要的其實是範圍（Range）？"},
+	{type: "iframe", href: "../content/tutorials/【Guava 教學】（9）ListenableFuture 聽取未來需求.htm", text: "【Guava 教學】（9）ListenableFuture 聽取未來需求"},
 	{type: "iframe", href: "../content/tutorials/使用 Gradle 自動化建置 Java 專案（一） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "使用 Gradle 自動化建置 Java 專案（一） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"},
 	{type: "iframe", href: "../content/tutorials/使用 Gradle 自動化建置 Java 專案（七） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "使用 Gradle 自動化建置 Java 專案（七） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"},
 	{type: "iframe", href: "../content/tutorials/使用 Gradle 自動化建置 Java 專案（六） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "使用 Gradle 自動化建置 Java 專案（六） - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"},
 	{type: "iframe", href: "../content/tutorials/認識 Gradle 專案建置自動化工具 - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "認識 Gradle 專案建置自動化工具 - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"}
 ];
 
+let common_algorithm_tags = [];
 let common_auth_tags = [];
 let common_designPattern_tags = [];
 let common_http_tags = [];

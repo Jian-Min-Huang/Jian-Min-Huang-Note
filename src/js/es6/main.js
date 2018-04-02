@@ -28,6 +28,7 @@ let tutorials_3rd_party = [
     {type: "tab", href: "https://blog.gtwang.org", text: "G. T. Wang"},
     {type: "tab", href: "https://backlogtool.com/git-tutorial/tw/contents/", text: "連猴子都能懂的Git入門指南"},
     {type: "tab", href: "https://www.tutorialspoint.com/design_pattern/index.htm", text: "turoialspoint.com design pattern"},
+    {type: "tab", href: "http://jcip.net/", text: "Java Concurrency in Practice"},
     {type: "tab", href: "https://blog.miniasp.com/", text: "The Will Will Web"}
 ];
 

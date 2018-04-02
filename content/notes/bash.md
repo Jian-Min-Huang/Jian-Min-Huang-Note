@@ -113,3 +113,11 @@ $ rpm -ivh jdk-8u162-linux-x64.rpm
 ```sh
 $ du -sh * | sort -n -r -k 1
 ```
+
+# CentOS 7
+```sh
+systemctl disable firewalld
+systemctl stop firewalld
+systemctl status firewalld
+```
+
