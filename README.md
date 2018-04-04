@@ -39,7 +39,7 @@ Jian-Min Huang
 # License
 [MIT License][license-page]
 
-Copyright (c) 2017 Jian-Min Huang
+Copyright (c) 2018 Jian-Min Huang
 
 [:arrow_up: back to top][top-page]
 
