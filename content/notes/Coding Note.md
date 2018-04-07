@@ -1,7 +1,7 @@
 ##### 外功與解決方案
 * Frontend
   * HTML
-  
+    - [ ] ...
   * CSS
     - [x] LESS
     - [ ] SASS
@@ -53,8 +53,21 @@
     - [x] Guava
   * Bean Mapping
     - [ ] MapStruct
+    - [ ] ...
   * Code Generate
     - [x] Lombok
+    - [ ] Joda-Beans
+  * Bytecode Manipulation
+    - [ ] ASM
+    - [ ] Javassist
+    - [ ] cglib
+  * Command-line Argument Parsers
+    - [ ] args4j
+    - [ ] JCommander
+  * CSV & Office
+    - [ ] jackson-dataformat-text
+    - [ ] Apache POI
+    - [ ] PDF related ...  
   * Configuration
     - [x] J2SE
     - [x] Spring Framework
@@ -77,6 +90,7 @@
     - [x] MyBatis
     - [x] SAFE Cache
     - [x] Slick
+    - [ ] jOOQ
   * Servlet Container
     - [x] Tomcat
     - [x] Jetty
@@ -94,7 +108,15 @@
     - [x] Maven
     - [x] Gradle
     - [x] Sbt
-  * Code Analysis
+  * Static Code Analysis
+    - [x] PMD
+    - [x] checkstyle
+    - [x] FindBugs
+    - [ ] Jtest
+    - [ ] SonarQube & SonarLint
+  * Code Coverage
+    - [x] Cobertura
+    - [ ] JaCoCo
 * Database
   * SQL
     - [x] Oracle
@@ -130,6 +152,11 @@
     - [x] Jenkins
     - [x] Travis CI
     - [ ] Circle CI
+    - [ ] TeamCity
+    - [ ] drone
+    - [ ] GitLab CI
+    - [ ] Bamboo
+    - [ ] CODESHIP
     - [ ] ... 
   * Configuration Management
     - [ ] Chef
@@ -144,9 +171,10 @@
   - [ ] Redmine
 * Cloud Service
   * IAAS
-    - [x] AWS EC2
+    - [x] Amazon Elastic Compute Cloud
     - [x] Google Compute Engine
-    - [ ] Microsoft Azure 
+    - [ ] Microsoft Azure
+    - [ ] DigitalOcean
   * PAAS
     - [ ] AWS Elastic Beanstalk
     - [ ] Google App Engine
@@ -156,6 +184,14 @@
     - [ ] Firebase 
   * FAAS
     - [ ] AWS Lambda
+  * CAAS
+    - [ ] Amazon Elastic Container Service
+    - [ ] Google Compute Engine
+    - [ ] Microsoft Azure
+    - [ ] DigitalOcean
+    - [ ] Heroku
+    - [ ] OPENSHIFT
+    - [ ] ...
 * HTTP Server
   - [x] NGINX
   - [ ] Apache HTTP Server
@@ -187,7 +223,6 @@
 * Infrastructure
   * DNS
    - [x] GoDaddy
-   
 
 ##### 烏托邦
 * 漂亮的UI

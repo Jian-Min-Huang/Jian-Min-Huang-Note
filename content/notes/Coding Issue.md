@@ -199,3 +199,4 @@
 > http : json = rpc : protobuf 
 > insert & update fast ?
 > Fast Data, Big Data
+> Git Flow & GitHub Flow & Git LFS
