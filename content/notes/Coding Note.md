@@ -83,6 +83,10 @@
     - [x] Redis
     - [x] SAFE Cache
     - [ ] Ehcache
+  * Logging
+    - [x] Log4j
+    - [x] Logback
+    - [ ]
   * Persistence
     - [x] J2SE JDBC
     - [x] Spring Data JPA
@@ -117,6 +121,10 @@
   * Code Coverage
     - [x] Cobertura
     - [ ] JaCoCo
+* JDK
+  * Oracle JDK
+  * OpenJDK
+  * Zulu JDK
 * Database
   * SQL
     - [x] Oracle
@@ -129,10 +137,18 @@
     - [ ] ...
   * NOSQL
     - [x] Redis
+    - [ ] DynamoDB
     - [ ] Cassandra
+    - [ ] BigTable
+    - [ ] SimpleDB
     - [ ] MongoDB
+    - [ ] CouchDB
     - [ ] Solr
+    - [ ] Lucene
     - [ ] Elasticsearch
+    - [ ] Neo4j
+    - [ ] OrientDB
+    - [ ] Titan
     - [ ] ...
   * Management Tool
     - [x] DataGrip
@@ -215,6 +231,7 @@
   - [x] Intellj IDEA
   - [x] WebStorm
   - [ ] VS Code
+  - [ ] NetBeans
 * Text Editor
   - [x] Sublime Text
   - [x] Atom
@@ -223,6 +240,16 @@
 * Infrastructure
   * DNS
    - [x] GoDaddy
+   - [ ] Google Domains
+   - [ ] NameCheap
+   - [ ] CloudFlare
+  * CDN
+   - [ ] Amazon CloudFront
+   - [ ] Google Cloud CDN
+   - [ ] CloudFlare
+  * SSL
+   - [ ] GoDaddy
+   - [ ] PositiveSSL
 
 ##### 烏托邦
 * 漂亮的UI
@@ -309,7 +336,16 @@
 		* 分庫
 		* 讀寫分離
 	* 換nosql
-	
+
+##### 深度問題
+* CPU Bound
+  * 切割問題 平行處理
+  * 到達極限 限制 線上遊戲
+  * 瞬間爆量 走勢圖運算 cache
+* Memory Bound
+  * 到達極限 限制 線上遊戲
+* IO Bound
+
 ##### docker deploy vs jar deploy
 * docker deploy
   * -v /SP/logs:logs
@@ -325,6 +361,7 @@
   *        /config
   *        /logs
   * java -jar -Dspring.profiles.active=${activeProfiles} sport-api-0.0.1.jar
+* if you want auto scaling, docker will be good choice
 
 
 ##### Naming Conversions
