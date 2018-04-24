@@ -26,9 +26,6 @@
     - [x] Spray(Akka HTTP)
     - [ ] Play
     - [ ] Spark
-  * JSON
-    - [x] Jackson
-    - [x] Gson
   * TCP & UDP
     - [x] J2SE Socket & DatagramSocket
     - [x] Netty
@@ -44,6 +41,10 @@
     - [x] Kafka Stream
     - [ ] Spark
     - [ ] Storm
+  * Http Client
+    - [x] Spring Web RestTemplate
+    - [x] Apache Http Client
+    - [ ] ...
   * Schedule
     - [x] J2SE Timer
     - [x] Quartz
@@ -54,6 +55,9 @@
   * Bean Mapping
     - [ ] MapStruct
     - [ ] ...
+  * Dependency Injection
+    * [x] Spring Core
+    * [ ] Guice
   * Code Generate
     - [x] Lombok
     - [ ] Joda-Beans
@@ -64,14 +68,27 @@
   * Command-line Argument Parsers
     - [ ] args4j
     - [ ] JCommander
+  * Data Structures
+    - [x] Jackson
+    - [x] Gson
+    - [ ] Apache Avro
+    - [ ] Apache Thrift
+    - [ ] Protobuf
+  * Date and Time
+    - [x] J2SE Time
+    - [x] Joda Time
   * CSV & Office
     - [ ] jackson-dataformat-text
     - [ ] Apache POI
-    - [ ] PDF related ...  
+    - [ ] iText
+    - [ ] Apache PDFBox
+    - [ ] ...
   * Configuration
     - [x] J2SE
     - [x] Spring Framework
     - [x] Typesafe Config
+    - [ ] KAConf
+    - [ ] cfg4j
   * Competition Lock
     - [x] ZooKeeper
     - [x] SQL & NOSQL
@@ -83,10 +100,19 @@
     - [x] Redis
     - [x] SAFE Cache
     - [ ] Ehcache
+    - [ ] JCache
+    - [ ] Guava
+    - [ ] Hazelcast
+  * GUI
+    - [x] SWT
+    - [x] Swing
+    - [x] JavaFX
   * Logging
     - [x] Log4j
     - [x] Logback
-    - [ ]
+    - [x] Apache Common Logging
+    - [x] Slf4j
+    - [ ] ...
   * Persistence
     - [x] J2SE JDBC
     - [x] Spring Data JPA
@@ -94,7 +120,16 @@
     - [x] MyBatis
     - [x] SAFE Cache
     - [x] Slick
-    - [ ] jOOQ
+    - [x] jOOQ
+    - [ ] JDBI
+    - [ ] Jinq
+    - [ ] Querydsl
+  * DB Related
+    - [x] Jedis
+    - [ ] HikariCP
+    - [ ] Jest
+    - [ ] c3p0
+    - [ ] Apache DBCP
   * Servlet Container
     - [x] Tomcat
     - [x] Jetty
@@ -148,6 +183,7 @@
     - [ ] Elasticsearch
     - [ ] Neo4j
     - [ ] OrientDB
+    - [ ] RethinkDB
     - [ ] Titan
     - [ ] ...
   * Management Tool
@@ -177,7 +213,9 @@
   * Configuration Management
     - [ ] Chef
     - [ ] Ansible
-    - [ ] ... 
+    - [ ] ...
+  * Registry
+    - [x] Nexus Oss Repository
 * Version Control
   - [x] Subversion
   - [x] Git
@@ -517,4 +555,5 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (自學) 問問題 What Why How 這個東西用在什麼情境? 一個情境通常怎麼解? Pros & Cons ? 如何導入它
 (伯牙) Lottery & Sport Project
 (伯牙) 自己解答
+(伯牙) 好好寫Google Doc
 ```

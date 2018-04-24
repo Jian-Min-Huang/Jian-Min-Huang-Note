@@ -65,3 +65,4 @@ sql> alter sequence seq_name increment by -5655; // -(n-1)
 sql> select seq_name.nextval from dual; // 1
 sql> alter sequence seq_name increment by 1;
 ``` 
+CREATE SEQUENCE SEQ_LOTTERY_OPERATION_LOG_ID INCREMENT BY 1 START WITH 1 MAXVALUE 9999999999999999999999999999 MINVALUE 1 NOCYCLE NOORDER CACHE 20; 
