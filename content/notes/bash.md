@@ -41,11 +41,6 @@ ps aux | grep zookeeper | grep -v grep | awk {'print $2'}
 $ while true; do date; sleep 1s; done;
 ```
 
-##### Q : service location
-```
-$ /etc/init.d/xxx
-```
-
 ##### other
 ```
 sed, top
@@ -72,17 +67,6 @@ $ ps aux --sort -rss
 $ ab -n 10 -c 10 http://www.0878.com/
 ```
 
-##### proc
-```
-$ /proc/pid/status
-```
-
-##### hosts & hostname
-```
-$ vi /etc/hosts
-$ vi /etc/sysconfig/network
-```
-
 ##### port
 ```
 $ telnet ip port
@@ -93,31 +77,7 @@ $ telnet ip port
 $ jstack -l ${PID} > ~/jstack.out
 ```
 
-##### stop fireware
-```sh
-$ service iptables stop (temporary
-$ chkconfig iptables off (permanent
-```
-
-# check linux distribution type
-```sh
-$ cat /etc/issue
-```
-
-# install java
-```sh
-$ rpm -ivh jdk-8u162-linux-x64.rpm 
-```
-
-* find file size
+# find file size
 ```sh
 $ du -sh * | sort -n -r -k 1
 ```
-
-# CentOS 7
-```sh
-systemctl disable firewalld
-systemctl stop firewalld
-systemctl status firewalld
-```
-
