@@ -199,12 +199,14 @@
 * DevOps
   * Visualization
     - [x] Docker
+      - [x] Docker Compose
+      - [ ] Docker Swarm
     - [ ] Vagrant
   * Continuous Integration
     - [x] Jenkins
     - [x] Travis CI
     - [ ] Circle CI
-    - [ ] TeamCity
+    - [x] TeamCity
     - [ ] drone
     - [ ] GitLab CI
     - [ ] Bamboo
@@ -223,6 +225,7 @@
   - [x] Jira
   - [x] Trello
   - [ ] Redmine
+  - [ ] YouTrack
 * Cloud Service
   * IAAS
     - [x] Amazon Elastic Compute Cloud
@@ -288,6 +291,22 @@
   * SSL
    - [ ] GoDaddy
    - [ ] PositiveSSL
+   
+awesome java cluster management
+compiler compiler
+Constraint Satisfaction Problem Solver
+Development
+Distributed Applications
+Distributed Transactions
+Formal Verification
+Functional Programming
+Game Development
+Geospatial
+High Performance
+Hypermedia Types
+Imagery
+Machine Learning
+==== to Messaging
 
 ##### 烏托邦
 * 漂亮的UI
@@ -337,6 +356,14 @@
 ##### 開獎中心
 ##### 彩票系統
 ##### 運彩系統
+##### 鎖機制
+* ZooKeeper
+* Redis
+* Database
+##### 主從
+* ZooKeeper
+##### 水平擴展
+* OAuth Token無狀態負載平衡
 
 ##### 前端加速
 * DNS prefetching
@@ -493,6 +520,12 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 不要直線思考往前衝往前解 退一步棄一步海闊天空
 * telnet 不到, 關掉防火牆 重開服務(docker or iptables)
 * 用 sql join 代替 for loop
+* 基礎型別會比Wrapper快 (double -> BigDecimal)
+* 正規化過頭時會導致修改相依度過高 直接壓死數值在該紀錄 odds not oddsId
+* 注意一個操作的原子性 (不是整批退款 是給錢之前退款)
+* 另外紀錄或是加表來檢核一個重要結果
+* Table 必要欄位 id, status, createTime, updateTime
+* 行程 線程 協程
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -511,6 +544,9 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 框架版本不要用太新
 * localhost vs 0.0.0.0 vs fix ip
 * transaction isolation
+* Nginx Header
+* 注意Docker每次都是新的, 忘記掛kafka-streamt出來
+* save, saveAndFlush & async
 
 ##### 寫程式的演進
 ```

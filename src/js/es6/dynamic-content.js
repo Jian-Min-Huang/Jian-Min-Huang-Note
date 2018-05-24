@@ -167,6 +167,7 @@ let java_web = [
 	{type: "iframe", href: "../content/java/web/java - How to pass parameters from servlet to JavaScript - Stack Overflow.htm", text: "java - How to pass parameters from servlet to JavaScript - Stack Overflow"},
 	{type: "iframe", href: "../content/java/web/java - Is HttpSession thread safe, are set_get Attribute thread safe operations_ - Stack Overflow.htm", text: "java - Is HttpSession thread safe, are set_get Attribute thread safe operations_ - Stack Overflow"},
 	{type: "iframe", href: "../content/java/web/java - What is the difference between thread per connection vs thread per request  - Stack Overflow.htm", text: "java - What is the difference between thread per connection vs thread per request  - Stack Overflow"},
+	{type: "iframe", href: "../content/java/web/json - Java 8 LocalDate Jackson format - Stack Overflow.htm", text: "json - Java 8 LocalDate Jackson format - Stack Overflow"},
 	{type: "iframe", href: "../content/java/web/jsp - Access map value in EL using a variable as key - Stack Overflow.htm", text: "jsp - Access map value in EL using a variable as key - Stack Overflow"},
 	{type: "iframe", href: "../content/java/web/servlets - Difference between JSP forward and redirect - Stack Overflow.htm", text: "servlets - Difference between JSP forward and redirect - Stack Overflow"},
 	{type: "iframe", href: "../content/java/web/tomcat - Eclipse  Difference between clean, build and publish - Stack Overflow.htm", text: "tomcat - Eclipse  Difference between clean, build and publish - Stack Overflow"},

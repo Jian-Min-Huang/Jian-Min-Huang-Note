@@ -70,6 +70,8 @@ $ ab -n 10 -c 10 http://www.0878.com/
 ##### port
 ```
 $ telnet ip port
+$ nc -zv ip port
+$ nc -zv ip port~port
 ```
 
 ##### thread dump
@@ -80,4 +82,12 @@ $ jstack -l ${PID} > ~/jstack.out
 # find file size
 ```sh
 $ du -sh * | sort -n -r -k 1
+```
+
+# kill process
+```sh
+pid=$(ssh root@$DEPLOY_TO "ps aux | grep java | grep $project | grep -v 'ps' | awk '{print \$2}' | head -1")
+if [[ ! -z "$pid" ]]; then
+	ssh root@$DEPLOY_TO "kill -9 $pid" 
+fi
 ```

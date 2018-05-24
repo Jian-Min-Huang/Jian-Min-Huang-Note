@@ -62,7 +62,13 @@ $ cat /etc/issue
 
 # install java
 ```sh
-$ rpm -ivh jdk-8u162-linux-x64.rpm 
+$ rpm -ivh jdk-8u162-linux-x64.rpm
+
+$ sudo apt-get install openjdk-8-jre
+$ sudo apt-get install openjdk-8-jdk
+
+$ sudo yum install java-1.8.0-openjdk.x86_64
+$ sudo yum install java-1.8.0-openjdk-devel.x86_64
 ```
 
 # proc
