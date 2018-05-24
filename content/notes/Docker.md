@@ -189,3 +189,12 @@ docker run --name redis -d -p 6379:6379 -e "TZ=Asia/Taipei" redis:3.2.11
 docker run --name oracle -d -p 8888:8080 -p 1521:1521 -e "TZ=Asia/Taipei" sath89/oracle-xe-11g
 
 EXPOSE 差別是容器可直連
+
+##### images
+docker run --name redis -d -p 6379:6379 -e "TZ=Asia/Taipei" redis:3.2.11
+docker run --name oracle -d -p 8888:8080 -p 1521:1521 -e "TZ=Asia/Taipei" sath89/oracle-xe-11g
+
+docker run -d --name tc-server -e "TZ=Asia/Taipei" -v /tmp/tc/datadir:/data/teamcity_server/datadir -v /tmp/tc/logs:/opt/teamcity/logs -p 8111:8111 jetbrains/teamcity-server
+docker run -d --name tc-agent1 -e "TZ=Asia/Taipei" -e SERVER_URL=192.168.0.164:8111 -v /tmp/tc/conf:/data/teamcity_agent/conf -v /var/run/docker.sock:/var/run/docker.sock jetbrains/teamcity-agent
+docker run -it --name tc-server -e "TZ=Asia/Taipei" -v /tmp/tc/datadir:/data/teamcity_server/datadir -v /tmp/tc/logs:/opt/teamcity/logs -p 8111:8111 jetbrains/teamcity-server
+docker run -it --name tc-agent1 -e "TZ=Asia/Taipei" -e SERVER_URL=192.168.250.37:8111 -v /tmp/tc/conf:/data/teamcity_agent/conf -v /var/run/docker.sock:/var/run/docker.sock jetbrains/teamcity-agent
