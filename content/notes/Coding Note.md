@@ -1,11 +1,10 @@
 ##### 外功與解決方案
 * Frontend
   * HTML
-    - [ ] ...
+    - [ ] 
   * CSS
     - [x] LESS
     - [ ] SASS
-    - [ ] ...
 * JavaScript
     - [x] jQuery
     - [x] moment.js
@@ -16,9 +15,12 @@
     - [x] npm
     - [x] Yarn
     - [x] Gulp.js
-    - [ ] ...
   * TypeScript 
 * Java & Scala
+  * Crawing
+    - [x] HTTP GET & String Parsing
+    - [x] Jsonp
+    - [ ] Selenium
   * Web
     - [x] J2EE Servlet
     - [x] Spring MVC
@@ -41,10 +43,10 @@
     - [x] Kafka Stream
     - [ ] Spark
     - [ ] Storm
+    - [ ] Flink
   * Http Client
     - [x] Spring Web RestTemplate
     - [x] Apache Http Client
-    - [ ] ...
   * Schedule
     - [x] J2SE Timer
     - [x] Quartz
@@ -54,7 +56,6 @@
     - [x] Guava
   * Bean Mapping
     - [ ] MapStruct
-    - [ ] ...
   * Dependency Injection
     * [x] Spring Core
     * [ ] Guice
@@ -82,7 +83,6 @@
     - [ ] Apache POI
     - [ ] iText
     - [ ] Apache PDFBox
-    - [ ] ...
   * Configuration
     - [x] J2SE
     - [x] Spring Framework
@@ -112,7 +112,6 @@
     - [x] Logback
     - [x] Apache Common Logging
     - [x] Slf4j
-    - [ ] ...
   * Persistence
     - [x] J2SE JDBC
     - [x] Spring Data JPA
@@ -169,7 +168,6 @@
     - [x] HSQLDB
     - [x] SQL Server
     - [ ] PostgreSQL
-    - [ ] ...
   * NOSQL
     - [x] Redis
     - [ ] DynamoDB
@@ -185,7 +183,6 @@
     - [ ] OrientDB
     - [ ] RethinkDB
     - [ ] Titan
-    - [ ] ...
   * Management Tool
     - [x] DataGrip
     - [x] SQL Developer
@@ -211,11 +208,9 @@
     - [ ] GitLab CI
     - [ ] Bamboo
     - [ ] CODESHIP
-    - [ ] ... 
   * Configuration Management
     - [ ] Chef
     - [ ] Ansible
-    - [ ] ...
   * Registry
     - [x] Nexus Oss Repository
 * Version Control
@@ -248,7 +243,6 @@
     - [ ] DigitalOcean
     - [ ] Heroku
     - [ ] OPENSHIFT
-    - [ ] ...
 * HTTP Server
   - [x] NGINX
   - [ ] Apache HTTP Server
@@ -364,7 +358,8 @@ Machine Learning
 * ZooKeeper
 ##### 水平擴展
 * OAuth Token無狀態負載平衡
-
+##### 分散式應用程序
+* Akka messaging, RESTFul, RPC, RMI, SOAP
 ##### 前端加速
 * DNS prefetching
 * GZIP
