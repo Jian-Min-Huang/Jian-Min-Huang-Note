@@ -16,15 +16,20 @@
     - [x] Yarn
     - [x] Gulp.js
   * TypeScript 
-* Java & Scala
+* Java & Scala & Kotlin
+  * Concurrency
+    - [ ] coroutines
+    - [ ] akka
   * Crawing
     - [x] HTTP GET & String Parsing
     - [x] Jsonp
     - [ ] Selenium
+  * Hot Swap
+    - [ ] JRebel
+    - [ ] Spring Boot Devtools
   * Web
     - [x] J2EE Servlet
     - [x] Spring MVC
-    - [x] Netty
     - [x] Spray(Akka HTTP)
     - [ ] Play
     - [ ] Spark
@@ -117,6 +122,7 @@
     - [x] Spring Data JPA
     - [x] Hibernate
     - [x] MyBatis
+      - [ ] Generator
     - [x] SAFE Cache
     - [x] Slick
     - [x] jOOQ
@@ -155,6 +161,11 @@
   * Code Coverage
     - [x] Cobertura
     - [ ] JaCoCo
+  * Spring Framework
+    - [x] Spring Data Redis
+* Go
+ * goroutine
+ * channel
 * JDK
   * Oracle JDK
   * OpenJDK
@@ -170,6 +181,7 @@
     - [ ] PostgreSQL
   * NOSQL
     - [x] Redis
+      - [ ] Lua
     - [ ] DynamoDB
     - [ ] Cassandra
     - [ ] BigTable
@@ -190,12 +202,10 @@
     - [x] Dbevar
     - [x] DbVisualizer
     - [x] Navicat
-* Service Server
-  * [x] ZooKeeper
-  * [ ] Zuul
 * DevOps
   * Visualization
     - [x] Docker
+      - [x] Docker Hub
       - [x] Docker Compose
       - [ ] Docker Swarm
     - [ ] Vagrant
@@ -216,6 +226,9 @@
 * Version Control
   - [x] Subversion
   - [x] Git
+    - [x] GitHub
+    - [x] GitLab
+    - [x] BitBucket
 * Project Management
   - [x] Jira
   - [x] Trello
@@ -245,6 +258,8 @@
     - [ ] OPENSHIFT
 * HTTP Server
   - [x] NGINX
+    - [ ] Lua
+  - [ ] Caddy
   - [ ] Apache HTTP Server
 * Tool
   - [x] Postman
@@ -285,6 +300,19 @@
   * SSL
    - [ ] GoDaddy
    - [ ] PositiveSSL
+   - [ ] Let’s Encrypt
+* Instant Message
+  - [x] Slack
+  - [x] Telegram 
+* Unclassified
+  - [ ] Openresty
+  - [ ] ZooKeeper
+  - [ ] Zuul
+  - [ ] Virtual Host
+  - [ ] ELK (Elasticsearch + Logstash + Kibana)
+  - [ ] etcd
+  - [ ] consul
+  - [ ] Apache Ignite
    
 awesome java cluster management
 compiler compiler
@@ -581,7 +609,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 (瑞豪) 正視物件導向，使用class(OOP、資料跟行為在一起、封裝資料、善用委派)
 (瑞豪) 設計分散式系統
 (伯牙) 更多的DB操作(SEQ 階層 JOIN VIEW STORED PROCEDURE) 前端操作(JQUERY REACT) 效能調教(HTTP POOL) AA模組 MyBatis(Paging) 後端操作(Nginx Redis) 架構 Infra(CDN) 前後端合作技巧(static domain thymeleaf api init setting QA(順序 速度 步驟)
-(伯牙) 學習當主管 Build Team (member, jira, trello, wiki, issue for meeting, 跨部門合作, 每季的檢討)
+(伯牙) 學習當主管 Build Team (member, jira, trello, wiki, issue for meeting, 跨部門合作PM RD QA CS INFRA OP BOSS, 每季的檢討)
 (自學) 語言特性的本質 (例如純函數 FP method invoke chain 其實也能透過java+dp完成 是看寫的人的態度)
 (自學) 問問題 What Why How 這個東西用在什麼情境? 一個情境通常怎麼解? Pros & Cons ? 如何導入它
 (伯牙) Lottery & Sport Project
