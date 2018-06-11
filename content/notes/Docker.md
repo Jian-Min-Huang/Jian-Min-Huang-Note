@@ -186,6 +186,8 @@ docker 1.7 insercure-registries cannot use
 
 EXPOSE 差別是容器可直連
 
+docker network inspect zkkafka_inner
+
 ##### images
 docker run -it --rm -p 8080:80 dorowu/ubuntu-desktop-lxde-vnc
 

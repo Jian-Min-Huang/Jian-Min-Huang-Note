@@ -20,6 +20,7 @@ sed -i "s/broker.id=0/broker.id=${SERVER_ID}/g" ${KAFKA_CFG}
 # Add Kafka listeners
 echo "\n" >> ${KAFKA_CFG}
 echo "listeners=PLAINTEXT://${HOST}:9092" >> ${KAFKA_CFG}
+echo "advertised.listeners=PLAINTEXT://${HOST}:9092" >> ${KAFKA_CFG}
 
 # Add ZooKeeper connect
 sed -i "s/zookeeper.connect/#zookeeper.connect/g" ${KAFKA_CFG}
