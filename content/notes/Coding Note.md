@@ -10,6 +10,7 @@
     - [x] moment.js
     - [x] geolib.js
     - [ ] Immutable.js
+    - [x] Chart.js
     - [x] Google Maps API
     - [x] node-telegram-bot-api
     - [x] npm
@@ -264,6 +265,7 @@
 * Tool
   - [x] Postman
   - [x] JMeter
+  - [ ] Fiddler
 * Operating System
   - [x] Window
   - [x] Ubuntu
@@ -289,18 +291,18 @@
   - [x] UltraEdit
 * Infrastructure
   * DNS
-   - [x] GoDaddy
-   - [ ] Google Domains
-   - [ ] NameCheap
-   - [ ] CloudFlare
+    - [x] GoDaddy
+    - [ ] Google Domains
+    - [ ] NameCheap
+    - [ ] CloudFlare
   * CDN
-   - [ ] Amazon CloudFront
-   - [ ] Google Cloud CDN
-   - [ ] CloudFlare
+    - [ ] Amazon CloudFront
+    - [ ] Google Cloud CDN
+    - [ ] CloudFlare
   * SSL
-   - [ ] GoDaddy
-   - [ ] PositiveSSL
-   - [ ] Let’s Encrypt
+    - [ ] GoDaddy
+    - [ ] PositiveSSL
+    - [ ] Let’s Encrypt
 * Instant Message
   - [x] Slack
   - [x] Telegram 
@@ -313,6 +315,9 @@
   - [ ] etcd
   - [ ] consul
   - [ ] Apache Ignite
+  - [ ] Sourcetree
+  - [ ] Dubbo
+  - [ ] Apollo
    
 awesome java cluster management
 compiler compiler
@@ -329,6 +334,9 @@ Hypermedia Types
 Imagery
 Machine Learning
 ==== to Messaging
+
+##### Solution Compare
+* Akka vs MQ
 
 ##### 烏托邦
 * 漂亮的UI
@@ -549,6 +557,8 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 另外紀錄或是加表來檢核一個重要結果
 * Table 必要欄位 id, status, createTime, updateTime
 * 行程 線程 協程
+* otp 避免多重觸發
+
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -568,8 +578,9 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * localhost vs 0.0.0.0 vs fix ip
 * transaction isolation
 * Nginx Header
-* 注意Docker每次都是新的, 忘記掛kafka-streamt出來
+* 注意Docker每次都是新的, 忘記掛kafka-stream出來
 * save, saveAndFlush & async
+* Nginx 自動重試
 
 ##### 寫程式的演進
 ```
@@ -608,11 +619,33 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 				 資料庫備份
 (瑞豪) 正視物件導向，使用class(OOP、資料跟行為在一起、封裝資料、善用委派)
 (瑞豪) 設計分散式系統
-(伯牙) 更多的DB操作(SEQ 階層 JOIN VIEW STORED PROCEDURE) 前端操作(JQUERY REACT) 效能調教(HTTP POOL) AA模組 MyBatis(Paging) 後端操作(Nginx Redis) 架構 Infra(CDN) 前後端合作技巧(static domain thymeleaf api init setting QA(順序 速度 步驟)
-(伯牙) 學習當主管 Build Team (member, jira, trello, wiki, issue for meeting, 跨部門合作PM RD QA CS INFRA OP BOSS, 每季的檢討)
+(伯牙) 更多的DB操作(SEQ 階層 JOIN VIEW STORED PROCEDURE) 
+       前端操作(JQUERY REACT) 效能調教(HTTP POOL) 
+       AA模組 MyBatis(Paging) 
+       後端操作(Nginx Redis) 
+       架構(橫向擴展)
+       Infra(CDN, 線路) 
+       前後端合作技巧(static domain thymeleaf api init setting)
+       QA(順序 速度 步驟)
+(伯牙) 學習當主管 Build Team
+       member 有強有弱, 
+       jira, 
+       trello, 
+       wiki, 
+       issue for meeting, 
+       跨部門合作DS PM RD QA CS INFRA OP BOSS, 
+       每季的檢討
 (自學) 語言特性的本質 (例如純函數 FP method invoke chain 其實也能透過java+dp完成 是看寫的人的態度)
-(自學) 問問題 What Why How 這個東西用在什麼情境? 一個情境通常怎麼解? Pros & Cons ? 如何導入它
+(自學) 問問題 
+       What Why How 
+       這個東西用在什麼情境? 
+       一個情境通常怎麼解? 
+       Pros & Cons ? 
+       如何導入它 ? 
+       問自己能不能更好 ? 
+       效能瓶頸在哪 ? 
+       自己替自己解答 ?
 (伯牙) Lottery & Sport Project
-(伯牙) 自己解答
 (伯牙) 好好寫Google Doc
+(伯牙) 同一個東西能不能用不同架構完成 (開獎用mq 改成 actor)
 ```

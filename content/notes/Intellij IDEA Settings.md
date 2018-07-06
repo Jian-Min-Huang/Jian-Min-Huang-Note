@@ -56,3 +56,10 @@ If this is a Gradle module, please check the .idea project folder there is a gra
   </GradleProjectSettings>
 you should remove this entry and try to reimport your module
 ```
+
+In my case, I wanted to move project level data sources from phpStorm to DataGrip and this worked: mv my-project/.idea/dataSources dataSources.* ~/Library/Preferences/DataGrip2017.2/projects/default/.idea/
+
+File based project, local configuration: .iws file
+Directory based project, local configuration: workspace.xml file under .idea directory
+File based project, shared configuration: .ipr file
+Directory based project, shared configuration: .xml file under runConfigurations subdirectory of .idea directory

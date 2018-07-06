@@ -57,7 +57,8 @@ $ chkconfig iptables off (permanent
 
 # check linux distribution type
 ```sh
-$ cat /etc/issue
+$ cat /etc/redhat-release
+$ cat /proc/version
 ```
 
 # install java
@@ -75,3 +76,10 @@ $ sudo yum install java-1.8.0-openjdk-devel.x86_64
 ```
 $ /proc/pid/status
 ```
+
+apt-get install iputils-ping
+
+du -sh
+df -h
+
+> /dev/null
