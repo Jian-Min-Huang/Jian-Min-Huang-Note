@@ -1,9 +1,106 @@
+let Database_Common = [
+	{type: "iframe", href: "../content/Database/Common/CAP Theorem.jpeg", text: "CAP Theorem.jpeg"},
+	{type: "iframe", href: "../content/Database/Common/Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan.htm", text: "Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan"},
+	{type: "iframe", href: "../content/Database/Common/RDBMS Normal Form.pdf", text: "RDBMS Normal Form.pdf"},
+	{type: "iframe", href: "../content/Database/Common/select 語法中的 IN 與 EXISTS 有何不同_ _ Oracle _ 程式設計俱樂部.htm", text: "select 語法中的 IN 與 EXISTS 有何不同_ _ Oracle _ 程式設計俱樂部"},
+	{type: "iframe", href: "../content/Database/Common/第一正規化 - 維基百科，自由的百科全書.htm", text: "第一正規化 - 維基百科，自由的百科全書"},
+	{type: "iframe", href: "../content/Database/Common/第三正規化 - 維基百科，自由的百科全書.htm", text: "第三正規化 - 維基百科，自由的百科全書"},
+	{type: "iframe", href: "../content/Database/Common/第二正規化 - 維基百科，自由的百科全書.htm", text: "第二正規化 - 維基百科，自由的百科全書"}
+];
+
+let Database_Oracle = [
+	{type: "iframe", href: "../content/Database/Oracle/Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __.htm", text: "Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __"},
+	{type: "iframe", href: "../content/Database/Oracle/Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落.htm", text: "Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落"},
+	{type: "iframe", href: "../content/Database/Oracle/昭佑.天翔_ Oracle Select SQL Tuning 查詢效能調整.htm", text: "昭佑.天翔_ Oracle Select SQL Tuning 查詢效能調整"}
+];
+
+let Database_Redis = [
+	{type: "iframe", href: "../content/Database/Redis/How to install Redis 3.2 on CentOS 6 and 7.htm", text: "How to install Redis 3.2 on CentOS 6 and 7"},
+	{type: "iframe", href: "../content/Database/Redis/資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格.htm", text: "資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格"}
+];
+
+let Database_Sql = [
+	{type: "iframe", href: "../content/Database/Sql/SQL 找出欄位值重覆的記錄及刪除重複記錄.htm", text: "SQL 找出欄位值重覆的記錄及刪除重複記錄"},
+	{type: "iframe", href: "../content/Database/Sql/[SQL] 5 types of SQL JOIN _ Programming blog.htm", text: "[SQL] 5 types of SQL JOIN _ Programming blog"},
+	{type: "iframe", href: "../content/Database/Sql/[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落.htm", text: "[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落"},
+	{type: "iframe", href: "../content/Database/Sql/sql - Full Outer Join in MySQL - Stack Overflow.htm", text: "sql - Full Outer Join in MySQL - Stack Overflow"},
+	{type: "iframe", href: "../content/Database/Sql/sql - Retrieving the last record in each group - Stack Overflow.htm", text: "sql - Retrieving the last record in each group - Stack Overflow"}
+];
+
+let Java_Common = [
+	{type: "iframe", href: "../content/Java/Common/Call by value？.htm", text: "Call by value？"},
+	{type: "iframe", href: "../content/Java/Common/Excelsior  [Java] 淺談 call by value 和 call by reference.htm", text: "Excelsior  [Java] 淺談 call by value 和 call by reference"},
+	{type: "iframe", href: "../content/Java/Common/Note...._ 【轉載】Java中“為了性能”需做的26件事.htm", text: "Note...._ 【轉載】Java中“為了性能”需做的26件事"},
+	{type: "iframe", href: "../content/Java/Common/java - Creating random numbers with no duplicates - Stack Overflow.htm", text: "java - Creating random numbers with no duplicates - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/Common/java8_streams_cheat_sheet.png", text: "java8_streams_cheat_sheet.png"},
+	{type: "iframe", href: "../content/Java/Common/虛有其表的介面.htm", text: "虛有其表的介面"}
+];
+
+let Java_Concurrent = [
+	{type: "iframe", href: "../content/Java/Concurrent/Executors.htm", text: "Executors"},
+	{type: "iframe", href: "../content/Java/Concurrent/ForkJoinPool · Java多執行緒的基本知識.htm", text: "ForkJoinPool · Java多執行緒的基本知識"},
+	{type: "iframe", href: "../content/Java/Concurrent/Thread Life Cycle.jpg", text: "Thread Life Cycle.jpg"},
+	{type: "iframe", href: "../content/Java/Concurrent/ThreadPoolExecutor.htm", text: "ThreadPoolExecutor"},
+	{type: "iframe", href: "../content/Java/Concurrent/我是010_ volatile(揮發性) 在Java裡的概念與使用時機.htm", text: "我是010_ volatile(揮發性) 在Java裡的概念與使用時機"}
+];
+
+let Java_JVM = [
+	{type: "iframe", href: "../content/Java/JVM/【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特.htm", text: "【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特"}
+];
+
+let Java_Spring = [
+	{type: "iframe", href: "../content/Java/Spring/Aop Concept.png", text: "Aop Concept.png"},
+	{type: "iframe", href: "../content/Java/Spring/Autowire by Constructor .zip", text: "Autowire by Constructor .zip"},
+	{type: "iframe", href: "../content/Java/Spring/Field Dependency Injection Considered Harmful • Spring.htm", text: "Field Dependency Injection Considered Harmful • Spring"},
+	{type: "iframe", href: "../content/Java/Spring/Inversion of Control.png", text: "Inversion of Control.png"},
+	{type: "iframe", href: "../content/Java/Spring/Maven & Spring.pptx", text: "Maven & Spring.pptx"},
+	{type: "iframe", href: "../content/Java/Spring/Oliver Gierke - Why field injection is evil.htm", text: "Oliver Gierke - Why field injection is evil"},
+	{type: "iframe", href: "../content/Java/Spring/Spring @Required Annotation.htm", text: "Spring @Required Annotation"},
+	{type: "iframe", href: "../content/Java/Spring/Spring Annotation Based Configuration.htm", text: "Spring Annotation Based Configuration"},
+	{type: "iframe", href: "../content/Java/Spring/Spring Bean Definition.htm", text: "Spring Bean Definition"},
+	{type: "iframe", href: "../content/Java/Spring/Spring Bean Life Cycle.htm", text: "Spring Bean Life Cycle"},
+	{type: "iframe", href: "../content/Java/Spring/Spring Bean Scopes.htm", text: "Spring Bean Scopes"},
+	{type: "iframe", href: "../content/Java/Spring/Spring Beans Auto-Wiring.htm", text: "Spring Beans Auto-Wiring"},
+	{type: "iframe", href: "../content/Java/Spring/Spring Java Based Configuration.htm", text: "Spring Java Based Configuration"},
+	{type: "iframe", href: "../content/Java/Spring/Spring PropertyPlaceholderConfigurer example.htm", text: "Spring PropertyPlaceholderConfigurer example"},
+	{type: "iframe", href: "../content/Java/Spring/Spring bean scopes example.htm", text: "Spring bean scopes example"},
+	{type: "iframe", href: "../content/Java/Spring/java - @RequestParam vs @PathVariable - Stack Overflow.htm", text: "java - @RequestParam vs @PathVariable - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/Spring/java - @Resource vs @Autowired - Stack Overflow.htm", text: "java - @Resource vs @Autowired - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/Spring/java - Using autowired dependency in constructor in spring - Stack Overflow.htm", text: "java - Using autowired dependency in constructor in spring - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/Spring/java - What exactly is Field Injection and how to avoid it_ - Stack Overflow.htm", text: "java - What exactly is Field Injection and how to avoid it_ - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/Spring/使用 Spring 5 的 WebFlux 开发反应式 Web 应用.htm", text: "使用 Spring 5 的 WebFlux 开发反应式 Web 应用"},
+	{type: "iframe", href: "../content/Java/Spring/第一個 Spring MVC 程式.htm", text: "第一個 Spring MVC 程式"}
+];
+
+let Java_maven = [
+	{type: "iframe", href: "../content/Java/maven/Maven & Spring.pptx", text: "Maven & Spring.pptx"},
+	{type: "iframe", href: "../content/Java/maven/Maven Profiles and Tomcat in Eclipse - Stack Overflow.htm", text: "Maven Profiles and Tomcat in Eclipse - Stack Overflow"}
+];
+
+let Java_web = [
+	{type: "iframe", href: "../content/Java/web/Asynchronous processing support in Servlet 3.0 _ JavaWorld.htm", text: "Asynchronous processing support in Servlet 3.0 _ JavaWorld"},
+	{type: "iframe", href: "../content/Java/web/Servlet Filter.png", text: "Servlet Filter.png"},
+	{type: "iframe", href: "../content/Java/web/Servlet Life Cycle.jpg", text: "Servlet Life Cycle.jpg"},
+	{type: "iframe", href: "../content/Java/web/[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET.htm", text: "[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET"},
+	{type: "iframe", href: "../content/Java/web/[程式] Session運作的基礎概念。 @ 四處流浪的阿基。I am Vagrant Walker __ 痞客邦 PIXNET __.htm", text: "[程式] Session運作的基礎概念。 @ 四處流浪的阿基。I am Vagrant Walker __ 痞客邦 PIXNET __"},
+	{type: "iframe", href: "../content/Java/web/java - How to check a boolean condition in EL_ - Stack Overflow.htm", text: "java - How to check a boolean condition in EL_ - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/java - How to get parameters from the URL with JSP - Stack Overflow.htm", text: "java - How to get parameters from the URL with JSP - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/java - How to pass parameters from servlet to JavaScript - Stack Overflow.htm", text: "java - How to pass parameters from servlet to JavaScript - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/java - Is HttpSession thread safe, are set_get Attribute thread safe operations_ - Stack Overflow.htm", text: "java - Is HttpSession thread safe, are set_get Attribute thread safe operations_ - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/java - What is the difference between thread per connection vs thread per request  - Stack Overflow.htm", text: "java - What is the difference between thread per connection vs thread per request  - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/json - Java 8 LocalDate Jackson format - Stack Overflow.htm", text: "json - Java 8 LocalDate Jackson format - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/jsp - Access map value in EL using a variable as key - Stack Overflow.htm", text: "jsp - Access map value in EL using a variable as key - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/servlets - Difference between JSP forward and redirect - Stack Overflow.htm", text: "servlets - Difference between JSP forward and redirect - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/tomcat - Eclipse  Difference between clean, build and publish - Stack Overflow.htm", text: "tomcat - Eclipse  Difference between clean, build and publish - Stack Overflow"},
+	{type: "iframe", href: "../content/Java/web/使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang.htm", text: "使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang"},
+	{type: "iframe", href: "../content/Java/web/通过Spring Session实现新一代的Session管理.htm", text: "通过Spring Session实现新一代的Session管理"}
+];
+
 let common_algorithm = [
 	{type: "iframe", href: "../content/common/algorithm/[演算法] 合併排序法（Merge Sort） _ PJCHENder_br_那些沒告訴你的小細節.htm", text: "[演算法] 合併排序法（Merge Sort） _ PJCHENder_br_那些沒告訴你的小細節"}
 ];
 
 let common_auth = [
-	{type: "iframe", href: "../content/common/auth/OAuth2：四种基本授权模式 · Issue #41 · pzxwhc_MineKnowContainer.htm", text: "OAuth2：四种基本授权模式 · Issue #41 · pzxwhc_MineKnowContainer"},
 	{type: "iframe", href: "../content/common/auth/解決問題的第一步_ Authentication vs. Authorization.htm", text: "解決問題的第一步_ Authentication vs. Authorization"}
 ];
 
@@ -29,6 +126,11 @@ let common_http = [
 	{type: "iframe", href: "../content/common/http/程式設計 - 簡明RESTful API設計要點 - Twincl.htm", text: "程式設計 - 簡明RESTful API設計要點 - Twincl"}
 ];
 
+let common_img = [
+	{type: "iframe", href: "../content/common/img/if_else_if_else_if_else.JPG", text: "if_else_if_else_if_else.JPG"},
+	{type: "iframe", href: "../content/common/img/thank_you_js.png", text: "thank_you_js.png"}
+];
+
 let common_refactoring = [
 	{type: "iframe", href: "../content/common/refactoring/如何在 TDD 使用「重構九式」_ _ 點燈坊.htm", text: "如何在 TDD 使用「重構九式」_ _ 點燈坊"}
 ];
@@ -45,42 +147,18 @@ let common_thread = [
 	{type: "iframe", href: "../content/common/thread/還在學_ 為什麼 thread (執行緒、線程)越少越好_.htm", text: "還在學_ 為什麼 thread (執行緒、線程)越少越好_"}
 ];
 
-let database_common = [
-	{type: "iframe", href: "../content/database/common/CAP Theorem.jpeg", text: "CAP Theorem.jpeg"},
-	{type: "iframe", href: "../content/database/common/Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan.htm", text: "Primary、Unique、Index各代表什麼意義_ _ MySQL Taiwan"},
-	{type: "iframe", href: "../content/database/common/RDBMS Normal Form.pdf", text: "RDBMS Normal Form.pdf"},
-	{type: "iframe", href: "../content/database/common/第一正規化 - 維基百科，自由的百科全書.htm", text: "第一正規化 - 維基百科，自由的百科全書"},
-	{type: "iframe", href: "../content/database/common/第三正規化 - 維基百科，自由的百科全書.htm", text: "第三正規化 - 維基百科，自由的百科全書"},
-	{type: "iframe", href: "../content/database/common/第二正規化 - 維基百科，自由的百科全書.htm", text: "第二正規化 - 維基百科，自由的百科全書"}
+let devops_continuous;-integration_common = [
+	{type: "iframe", href: "../content/devops/continuous-integration/common/Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊.htm", text: "Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊"},
+	{type: "iframe", href: "../content/devops/continuous-integration/common/持續整合 (Continuous Integration) 簡介與應用.docx", text: "持續整合 (Continuous Integration) 簡介與應用.docx"}
 ];
 
-let database_oracle = [
-	{type: "iframe", href: "../content/database/oracle/Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __.htm", text: "Oracle與日期有關的常用函數 @ 狐的窩 __ 痞客邦 PIXNET __"},
-	{type: "iframe", href: "../content/database/oracle/Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落.htm", text: "Start with connect by prior 階層式查詢用法 _ Jeff 隨手記 - 點部落"},
-	{type: "iframe", href: "../content/database/oracle/昭佑.天翔_ Oracle Select SQL Tuning 查詢效能調整.htm", text: "昭佑.天翔_ Oracle Select SQL Tuning 查詢效能調整"}
+let devops_continuous;-integration_teamcity = [
+	{type: "iframe", href: "../content/devops/continuous-integration/teamcity/Teamcity.md", text: "Teamcity.md"}
 ];
 
-let database_redis = [
-	{type: "iframe", href: "../content/database/redis/How to install Redis 3.2 on CentOS 6 and 7.htm", text: "How to install Redis 3.2 on CentOS 6 and 7"},
-	{type: "iframe", href: "../content/database/redis/資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格.htm", text: "資料庫的好夥伴：Redis _ TechBridge 技術共筆部落格"}
-];
-
-let database_sql = [
-	{type: "iframe", href: "../content/database/sql/SQL 找出欄位值重覆的記錄及刪除重複記錄.htm", text: "SQL 找出欄位值重覆的記錄及刪除重複記錄"},
-	{type: "iframe", href: "../content/database/sql/[SQL] 5 types of SQL JOIN _ Programming blog.htm", text: "[SQL] 5 types of SQL JOIN _ Programming blog"},
-	{type: "iframe", href: "../content/database/sql/[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落.htm", text: "[SQL] WHERE 1=1 做什麼用的  _ CHF's note - 點部落"},
-	{type: "iframe", href: "../content/database/sql/sql - Full Outer Join in MySQL - Stack Overflow.htm", text: "sql - Full Outer Join in MySQL - Stack Overflow"},
-	{type: "iframe", href: "../content/database/sql/sql - Retrieving the last record in each group - Stack Overflow.htm", text: "sql - Retrieving the last record in each group - Stack Overflow"}
-];
-
-let devops_continuousDelivery = [
-	{type: "iframe", href: "../content/devops/continuousDelivery/Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊.htm", text: "Re  [請益] 這些軟體工程的方法在台灣的普及度  - 看板 Soft_Job - 批踢踢實業坊"},
-	{type: "iframe", href: "../content/devops/continuousDelivery/持續整合 (Continuous Integration) 簡介與應用.docx", text: "持續整合 (Continuous Integration) 簡介與應用.docx"}
-];
-
-let devops_versionControl = [
-	{type: "iframe", href: "../content/devops/versionControl/淺談Subversion(SVN) Hook Script及其應用.docx", text: "淺談Subversion(SVN) Hook Script及其應用.docx"},
-	{type: "iframe", href: "../content/devops/versionControl/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例.pptx"}
+let devops_version;-control = [
+	{type: "iframe", href: "../content/devops/version-control/淺談Subversion(SVN) Hook Script及其應用.docx", text: "淺談Subversion(SVN) Hook Script及其應用.docx"},
+	{type: "iframe", href: "../content/devops/version-control/版本控管(Version Control)概念 以國票證券SVN版控為例.pptx", text: "版本控管(Version Control)概念 以國票證券SVN版控為例.pptx"}
 ];
 
 let frontend_common = [
@@ -96,83 +174,47 @@ let frontend = [
 	{type: "iframe", href: "../content/frontend/load page order.png", text: "load page order.png"}
 ];
 
-let infra_docker = [
-	{type: "iframe", href: "../content/infra/docker/Docker Private Repository.png", text: "Docker Private Repository.png"},
-	{type: "iframe", href: "../content/infra/docker/Docker for Mac Setting.png", text: "Docker for Mac Setting.png"},
-	{type: "iframe", href: "../content/infra/docker/[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記.htm", text: "[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記"},
-	{type: "iframe", href: "../content/infra/docker/docker-note-book.pdf", text: "docker-note-book.pdf"}
+let infra_docker_common = [
+	{type: "iframe", href: "../content/infra/docker/common/[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記.htm", text: "[Docker] 在 Mac 上使用原生的 Docker for Mac 操作 container _ EPHRAIN 亂打一通的心情日記"},
+	{type: "iframe", href: "../content/infra/docker/common/docker-note-book.pdf", text: "docker-note-book.pdf"}
+];
+
+let infra_docker_docker;-compose_teamcity = [
+	{type: "iframe", href: "../content/infra/docker/docker-compose/teamcity/docker-compose.yml", text: "docker-compose.yml"}
+];
+
+let infra_docker_docker;-compose_zk-kafka = [
+	{type: "iframe", href: "../content/infra/docker/docker-compose/zk-kafka/docker-compose.yml", text: "docker-compose.yml"}
+];
+
+let infra_docker_dockerfile_nginx = [
+	{type: "iframe", href: "../content/infra/docker/dockerfile/nginx/Dockerfile", text: "Dockerfile"},
+	{type: "iframe", href: "../content/infra/docker/dockerfile/nginx/README.md", text: "README.md"}
+];
+
+let infra_docker_dockerfile_teamcity;-agent = [
+	{type: "iframe", href: "../content/infra/docker/dockerfile/teamcity-agent/Dockerfile", text: "Dockerfile"},
+	{type: "iframe", href: "../content/infra/docker/dockerfile/teamcity-agent/README.md", text: "README.md"}
+];
+
+let infra_docker_dockerfile_zk;-kafka = [
+	{type: "iframe", href: "../content/infra/docker/dockerfile/zk-kafka/Dockerfile", text: "Dockerfile"},
+	{type: "iframe", href: "../content/infra/docker/dockerfile/zk-kafka/README.md", text: "README.md"},
+	{type: "iframe", href: "../content/infra/docker/dockerfile/zk-kafka/run.sh", text: "run.sh"}
+];
+
+let infra_docker_nexus = [
+	{type: "iframe", href: "../content/infra/docker/nexus/14 nexus private repository · Wiki · LTALL _ Hall · GitLab.htm", text: "14 nexus private repository · Wiki · LTALL _ Hall · GitLab"},
+	{type: "iframe", href: "../content/infra/docker/nexus/Docker Private Repository.png", text: "Docker Private Repository.png"},
+	{type: "iframe", href: "../content/infra/docker/nexus/Production nexus install procedure · Wiki · LTALL _ Hall · GitLab.htm", text: "Production nexus install procedure · Wiki · LTALL _ Hall · GitLab"}
+];
+
+let infra_linux = [
+	{type: "iframe", href: "../content/infra/linux/[Linux] 用 ln 建立檔案或目錄連結 _ Calos's Blog.htm", text: "[Linux] 用 ln 建立檔案或目錄連結 _ Calos's Blog"}
 ];
 
 let infra_nginx = [
 	{type: "iframe", href: "../content/infra/nginx/Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching _ DigitalOcean.htm", text: "Understanding Nginx HTTP Proxying, Load Balancing, Buffering, and Caching _ DigitalOcean"}
-];
-
-let java_common = [
-	{type: "iframe", href: "../content/java/common/Call by value？.htm", text: "Call by value？"},
-	{type: "iframe", href: "../content/java/common/Excelsior  [Java] 淺談 call by value 和 call by reference.htm", text: "Excelsior  [Java] 淺談 call by value 和 call by reference"},
-	{type: "iframe", href: "../content/java/common/Note...._ 【轉載】Java中“為了性能”需做的26件事.htm", text: "Note...._ 【轉載】Java中“為了性能”需做的26件事"},
-	{type: "iframe", href: "../content/java/common/java - Creating random numbers with no duplicates - Stack Overflow.htm", text: "java - Creating random numbers with no duplicates - Stack Overflow"},
-	{type: "iframe", href: "../content/java/common/java8_streams_cheat_sheet.png", text: "java8_streams_cheat_sheet.png"},
-	{type: "iframe", href: "../content/java/common/虛有其表的介面.htm", text: "虛有其表的介面"}
-];
-
-let java_concurrent = [
-	{type: "iframe", href: "../content/java/concurrent/Executors.htm", text: "Executors"},
-	{type: "iframe", href: "../content/java/concurrent/ForkJoinPool · Java多執行緒的基本知識.htm", text: "ForkJoinPool · Java多執行緒的基本知識"},
-	{type: "iframe", href: "../content/java/concurrent/Thread Life Cycle.jpg", text: "Thread Life Cycle.jpg"},
-	{type: "iframe", href: "../content/java/concurrent/ThreadPoolExecutor.htm", text: "ThreadPoolExecutor"},
-	{type: "iframe", href: "../content/java/concurrent/我是010_ volatile(揮發性) 在Java裡的概念與使用時機.htm", text: "我是010_ volatile(揮發性) 在Java裡的概念與使用時機"}
-];
-
-let java_jvm = [
-	{type: "iframe", href: "../content/java/jvm/【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特.htm", text: "【心得】打造極致伺服器 @Minecraft 我的世界（當個創世神） 哈啦板 - 巴哈姆特"}
-];
-
-let java_maven = [
-	{type: "iframe", href: "../content/java/maven/Maven & Spring.pptx", text: "Maven & Spring.pptx"},
-	{type: "iframe", href: "../content/java/maven/Maven Profiles and Tomcat in Eclipse - Stack Overflow.htm", text: "Maven Profiles and Tomcat in Eclipse - Stack Overflow"}
-];
-
-let java_spring = [
-	{type: "iframe", href: "../content/java/spring/Aop Concept.png", text: "Aop Concept.png"},
-	{type: "iframe", href: "../content/java/spring/Field Dependency Injection Considered Harmful • Spring.htm", text: "Field Dependency Injection Considered Harmful • Spring"},
-	{type: "iframe", href: "../content/java/spring/Inversion of Control.png", text: "Inversion of Control.png"},
-	{type: "iframe", href: "../content/java/spring/Maven & Spring.pptx", text: "Maven & Spring.pptx"},
-	{type: "iframe", href: "../content/java/spring/Oliver Gierke - Why field injection is evil.htm", text: "Oliver Gierke - Why field injection is evil"},
-	{type: "iframe", href: "../content/java/spring/Spring @Required Annotation.htm", text: "Spring @Required Annotation"},
-	{type: "iframe", href: "../content/java/spring/Spring Annotation Based Configuration.htm", text: "Spring Annotation Based Configuration"},
-	{type: "iframe", href: "../content/java/spring/Spring Bean Definition.htm", text: "Spring Bean Definition"},
-	{type: "iframe", href: "../content/java/spring/Spring Bean Life Cycle.htm", text: "Spring Bean Life Cycle"},
-	{type: "iframe", href: "../content/java/spring/Spring Bean Scopes.htm", text: "Spring Bean Scopes"},
-	{type: "iframe", href: "../content/java/spring/Spring Beans Auto-Wiring.htm", text: "Spring Beans Auto-Wiring"},
-	{type: "iframe", href: "../content/java/spring/Spring Java Based Configuration.htm", text: "Spring Java Based Configuration"},
-	{type: "iframe", href: "../content/java/spring/Spring PropertyPlaceholderConfigurer example.htm", text: "Spring PropertyPlaceholderConfigurer example"},
-	{type: "iframe", href: "../content/java/spring/Spring bean scopes example.htm", text: "Spring bean scopes example"},
-	{type: "iframe", href: "../content/java/spring/java - @RequestParam vs @PathVariable - Stack Overflow.htm", text: "java - @RequestParam vs @PathVariable - Stack Overflow"},
-	{type: "iframe", href: "../content/java/spring/java - @Resource vs @Autowired - Stack Overflow.htm", text: "java - @Resource vs @Autowired - Stack Overflow"},
-	{type: "iframe", href: "../content/java/spring/java - Using autowired dependency in constructor in spring - Stack Overflow.htm", text: "java - Using autowired dependency in constructor in spring - Stack Overflow"},
-	{type: "iframe", href: "../content/java/spring/java - What exactly is Field Injection and how to avoid it_ - Stack Overflow.htm", text: "java - What exactly is Field Injection and how to avoid it_ - Stack Overflow"},
-	{type: "iframe", href: "../content/java/spring/使用 Spring 5 的 WebFlux 开发反应式 Web 应用.htm", text: "使用 Spring 5 的 WebFlux 开发反应式 Web 应用"},
-	{type: "iframe", href: "../content/java/spring/第一個 Spring MVC 程式.htm", text: "第一個 Spring MVC 程式"}
-];
-
-let java_web = [
-	{type: "iframe", href: "../content/java/web/Asynchronous processing support in Servlet 3.0 _ JavaWorld.htm", text: "Asynchronous processing support in Servlet 3.0 _ JavaWorld"},
-	{type: "iframe", href: "../content/java/web/Servlet Filter.png", text: "Servlet Filter.png"},
-	{type: "iframe", href: "../content/java/web/Servlet Life Cycle.jpg", text: "Servlet Life Cycle.jpg"},
-	{type: "iframe", href: "../content/java/web/[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET.htm", text: "[JSP] Servlet的幾種頁面跳轉方式 @ 資訊園   痞客邦 PIXNET"},
-	{type: "iframe", href: "../content/java/web/[程式] Session運作的基礎概念。 @ 四處流浪的阿基。I am Vagrant Walker __ 痞客邦 PIXNET __.htm", text: "[程式] Session運作的基礎概念。 @ 四處流浪的阿基。I am Vagrant Walker __ 痞客邦 PIXNET __"},
-	{type: "iframe", href: "../content/java/web/java - How to check a boolean condition in EL_ - Stack Overflow.htm", text: "java - How to check a boolean condition in EL_ - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/java - How to get parameters from the URL with JSP - Stack Overflow.htm", text: "java - How to get parameters from the URL with JSP - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/java - How to pass parameters from servlet to JavaScript - Stack Overflow.htm", text: "java - How to pass parameters from servlet to JavaScript - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/java - Is HttpSession thread safe, are set_get Attribute thread safe operations_ - Stack Overflow.htm", text: "java - Is HttpSession thread safe, are set_get Attribute thread safe operations_ - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/java - What is the difference between thread per connection vs thread per request  - Stack Overflow.htm", text: "java - What is the difference between thread per connection vs thread per request  - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/json - Java 8 LocalDate Jackson format - Stack Overflow.htm", text: "json - Java 8 LocalDate Jackson format - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/jsp - Access map value in EL using a variable as key - Stack Overflow.htm", text: "jsp - Access map value in EL using a variable as key - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/servlets - Difference between JSP forward and redirect - Stack Overflow.htm", text: "servlets - Difference between JSP forward and redirect - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/tomcat - Eclipse  Difference between clean, build and publish - Stack Overflow.htm", text: "tomcat - Eclipse  Difference between clean, build and publish - Stack Overflow"},
-	{type: "iframe", href: "../content/java/web/使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang.htm", text: "使用 Tomcat 7 與 Java Servlet 3.0 API 實作 Asynchronous Servlets：提升伺服器效率的方案 - G. T. Wang"},
-	{type: "iframe", href: "../content/java/web/通过Spring Session实现新一代的Session管理.htm", text: "通过Spring Session实现新一代的Session管理"}
 ];
 
 let javascript_frontend = [
@@ -270,30 +312,39 @@ let tutorials = [
 	{type: "iframe", href: "../content/tutorials/認識 Gradle 專案建置自動化工具 - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天.htm", text: "認識 Gradle 專案建置自動化工具 - iT 邦幫忙__一起幫忙解決難題，拯救 IT 人的一天"}
 ];
 
+let Database_Common_tags = [];
+let Database_Oracle_tags = [];
+let Database_Redis_tags = [];
+let Database_Sql_tags = [];
+let Java_Common_tags = [];
+let Java_Concurrent_tags = [];
+let Java_JVM_tags = [];
+let Java_Spring_tags = [];
+let Java_maven_tags = [];
+let Java_web_tags = [];
 let common_algorithm_tags = [];
 let common_auth_tags = [];
 let common_designPattern_tags = [];
 let common_http_tags = [];
+let common_img_tags = [];
 let common_refactoring_tags = [];
 let common_regularExpression_tags = [];
 let common_thread_tags = [];
-let database_common_tags = [];
-let database_oracle_tags = [];
-let database_redis_tags = [];
-let database_sql_tags = [];
-let devops_continuousDelivery_tags = [];
-let devops_versionControl_tags = [];
+let devops_continuous;-integration_common_tags = [];
+let devops_continuous;-integration_teamcity_tags = [];
+let devops_version;-control_tags = [];
 let frontend_common_tags = [];
 let frontend_css_tags = [];
 let frontend_tags = [];
-let infra_docker_tags = [];
+let infra_docker_common_tags = [];
+let infra_docker_docker;-compose_teamcity_tags = [];
+let infra_docker_docker;-compose_zk-kafka_tags = [];
+let infra_docker_dockerfile_nginx_tags = [];
+let infra_docker_dockerfile_teamcity;-agent_tags = [];
+let infra_docker_dockerfile_zk;-kafka_tags = [];
+let infra_docker_nexus_tags = [];
+let infra_linux_tags = [];
 let infra_nginx_tags = [];
-let java_common_tags = [];
-let java_concurrent_tags = [];
-let java_jvm_tags = [];
-let java_maven_tags = [];
-let java_spring_tags = [];
-let java_web_tags = [];
 let javascript_frontend_tags = [];
 let javascript_nodejs_tags = [];
 let notes_tags = [];

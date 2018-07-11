@@ -198,3 +198,7 @@ docker run -d --name tc-server -e "TZ=Asia/Taipei" -v /tmp/tc/datadir:/data/team
 docker run -d --name tc-agent1 -e "TZ=Asia/Taipei" -e SERVER_URL=192.168.0.164:8111 -v /tmp/tc/conf:/data/teamcity_agent/conf -v /var/run/docker.sock:/var/run/docker.sock jetbrains/teamcity-agent
 docker run -it --name tc-server -e "TZ=Asia/Taipei" -v /tmp/tc/datadir:/data/teamcity_server/datadir -v /tmp/tc/logs:/opt/teamcity/logs -p 8111:8111 jetbrains/teamcity-server
 docker run -it --name tc-agent1 -e "TZ=Asia/Taipei" -e SERVER_URL=192.168.250.37:8111 -v /tmp/tc/conf:/data/teamcity_agent/conf -v /var/run/docker.sock:/var/run/docker.sock jetbrains/teamcity-agent
+
+docker run --restart always -d --name idea-license-server -p 1027:1027 bingozb/idea-license-server
+
+https://docs.docker.com/install/linux/docker-ce/centos/https://docs.docker.com/install/linux/docker-ce/centos/
