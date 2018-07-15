@@ -202,3 +202,5 @@ docker run -it --name tc-agent1 -e "TZ=Asia/Taipei" -e SERVER_URL=192.168.250.37
 docker run --restart always -d --name idea-license-server -p 1027:1027 bingozb/idea-license-server
 
 https://docs.docker.com/install/linux/docker-ce/centos/https://docs.docker.com/install/linux/docker-ce/centos/
+
+window 8 docker ip $(docker-machine ip default)
