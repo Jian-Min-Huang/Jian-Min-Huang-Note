@@ -2,6 +2,7 @@
 * .dmg
   * Intellij IDEA 2017
   * WebStorm 2017
+  * Goland
   * Docker
   * Kitematic
   * Oracle JDK
@@ -17,6 +18,7 @@
     * Ptt
     * Post Message
   * JDK
+  * GoLang
   * git
   * Kindle
   
@@ -34,6 +36,8 @@
 
 * app store
   * telegram desktop
+  * Line
+  * the unarchiver
 
 * .tar.gz
   * npm

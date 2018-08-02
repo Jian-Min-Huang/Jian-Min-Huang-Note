@@ -13,6 +13,7 @@ $ vim idea.vmoptions
 * NodeJS
 * Lombok
 * Background Image Plus
+* CSV
 
 ##### run tomcat
 * Server
@@ -37,6 +38,7 @@ $ vim idea.vmoptions
 * Editor -> Inspections -> Serialization Issues
 * Editor -> Inspections -> Spring -> Srping Core -> Code -> Autowiring for Bean Class
 * Tools -> Terminal -> Application settings -> Shell path -> /bin/zsh
+* Keymap -> Select Line at Caret (Cmd + Ctrl + a)
 
 ##### template
 * Editor -> File and Code Templates -> Includes -> File Header -> @author Vincent Huang
