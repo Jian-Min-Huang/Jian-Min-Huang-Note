@@ -561,7 +561,11 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * Table 必要欄位 id, status, createTime, updateTime
 * 行程 線程 協程
 * otp 避免多重觸發
-
+* 編碼時使用36進位省空間
+* mono 取代 try catch
+* 適當的使用redis打散結構化物件達到快取的效果(不該存一個json而是打散成key value)
+* 做每一步都要慢下來看效能設計有沒有更好的地方 lottery-api (100*1 100*1, 300*1 100*1)
+* 分散式交易大概有四種做法 (two phase, Q, 一個thread監督, 寫紀錄事後監督)
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -584,6 +588,10 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 注意Docker每次都是新的, 忘記掛kafka-stream出來
 * save, saveAndFlush & async
 * Nginx 自動重試
+* 找不到問題的時候就還懷疑是環境問題
+* @Transaction 坑 互咬
+* @Bean 不需要 直接new
+* Kafka 有兩個錯誤議題 一個是NoSuchFile, 一個是index不同步
 
 ##### 寫程式的演進
 ```

@@ -3,6 +3,7 @@
   * Intellij IDEA 2017
   * WebStorm 2017
   * Goland
+  * ToolBox
   * Docker
   * Kitematic
   * Oracle JDK
