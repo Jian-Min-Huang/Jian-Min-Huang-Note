@@ -88,3 +88,5 @@ alt + enter, inject language of reference
 alt + enter, edit fragament
 ctrl + f4, close tab
 ```
+
+cmd + shift + v
