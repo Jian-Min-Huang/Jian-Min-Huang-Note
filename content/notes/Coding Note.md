@@ -566,6 +566,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 適當的使用redis打散結構化物件達到快取的效果(不該存一個json而是打散成key value)
 * 做每一步都要慢下來看效能設計有沒有更好的地方 lottery-api (100*1 100*1, 300*1 100*1)
 * 分散式交易大概有四種做法 (two phase, Q, 一個thread監督, 寫紀錄事後監督)
+* left join 可以做到傳統join寫法做不到的事
 
 ##### 坑
 * 編碼(HTTP, JAVA COMPILE, LOG, DB)
@@ -591,7 +592,7 @@ o xxxDto is for different client and xxxVo is for server, so it need to transfor
 * 找不到問題的時候就還懷疑是環境問題
 * @Transaction 坑 互咬
 * @Bean 不需要 直接new
-* Kafka 有兩個錯誤議題 一個是NoSuchFile, 一個是index不同步
+* Kafka 有兩個錯誤議題 一個是NoSuchFile, 一個是index不同步, producerfencedexception
 
 ##### 寫程式的演進
 ```
