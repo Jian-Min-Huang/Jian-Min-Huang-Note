@@ -65,3 +65,7 @@ File based project, local configuration: .iws file
 Directory based project, local configuration: workspace.xml file under .idea directory
 File based project, shared configuration: .ipr file
 Directory based project, shared configuration: .xml file under runConfigurations subdirectory of .idea directory
+
+Intellij IDEA找回Run Dashboard
+
+add framework support
